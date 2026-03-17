@@ -95,3 +95,43 @@ def test_overview_platform_breakdown():
     assert "iOS" in platforms
     assert "Windows" in platforms
     assert platforms["iOS"]["streams"] == 2
+
+from sessions import detect_sessions, compute_sessions, is_skipped
+
+def test_is_skipped_by_reason():
+    assert is_skipped(reason_end="fwdbtn", ms_played=180000, skipped=False) is True
+
+def test_is_skipped_by_ms_played():
+    assert is_skipped(reason_end="trackdone", ms_played=15000, skipped=False) is True
+
+def test_is_skipped_by_field():
+    assert is_skipped(reason_end="trackdone", ms_played=180000, skipped=True) is True
+
+def test_not_skipped():
+    assert is_skipped(reason_end="trackdone", ms_played=180000, skipped=False) is False
+
+def test_detect_sessions_gap():
+    """Two plays 2 hours apart should be 2 sessions."""
+    records = [
+        {"ts": pd.Timestamp("2024-01-15T10:00:00Z"), "ms_played": 180000, "shuffle": False,
+         "reason_end": "trackdone", "skipped": False, "platform": "iOS"},
+        {"ts": pd.Timestamp("2024-01-15T12:00:00Z"), "ms_played": 180000, "shuffle": False,
+         "reason_end": "trackdone", "skipped": False, "platform": "iOS"},
+    ]
+    df = pd.DataFrame(records)
+    sessions = detect_sessions(df)
+    assert len(sessions) == 2
+
+def test_detect_sessions_continuous():
+    """Two plays 3 minutes apart should be 1 session."""
+    records = [
+        {"ts": pd.Timestamp("2024-01-15T10:00:00Z"), "ms_played": 180000, "shuffle": False,
+         "reason_end": "trackdone", "skipped": False, "platform": "iOS"},
+        {"ts": pd.Timestamp("2024-01-15T10:03:00Z"), "ms_played": 180000, "shuffle": True,
+         "reason_end": "fwdbtn", "skipped": False, "platform": "iOS"},
+    ]
+    df = pd.DataFrame(records)
+    sessions = detect_sessions(df)
+    assert len(sessions) == 1
+    assert sessions[0]["track_count"] == 2
+    assert sessions[0]["skip_count"] == 1
