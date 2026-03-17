@@ -135,3 +135,47 @@ def test_detect_sessions_continuous():
     assert len(sessions) == 1
     assert sessions[0]["track_count"] == 2
     assert sessions[0]["skip_count"] == 1
+
+from habits import compute_habits
+
+def test_heatmap_shape():
+    records = [
+        {"ts": pd.Timestamp("2024-01-15T10:00:00Z"), "ms_played": 180000},
+        {"ts": pd.Timestamp("2024-01-16T14:00:00Z"), "ms_played": 180000},
+    ]
+    df = pd.DataFrame(records)
+    result = compute_habits(df)
+    assert len(result["heatmap"]) == 7
+    assert len(result["heatmap"][0]) == 24
+
+def test_heatmap_values():
+    records = [
+        {"ts": pd.Timestamp("2024-01-15T10:00:00Z"), "ms_played": 180000},
+    ]
+    df = pd.DataFrame(records)
+    result = compute_habits(df)
+    assert result["heatmap"][0][10] == 1
+
+def test_hourly_distribution():
+    records = [
+        {"ts": pd.Timestamp("2024-01-15T10:00:00Z"), "ms_played": 180000},
+        {"ts": pd.Timestamp("2024-01-16T10:00:00Z"), "ms_played": 180000},
+        {"ts": pd.Timestamp("2024-01-16T14:00:00Z"), "ms_played": 180000},
+    ]
+    df = pd.DataFrame(records)
+    result = compute_habits(df)
+    hourly = {h["hour"]: h["streams"] for h in result["hourly_distribution"]}
+    assert hourly[10] == 2
+    assert hourly[14] == 1
+
+def test_seasonal_overlay():
+    records = [
+        {"ts": pd.Timestamp("2024-01-15T10:00:00Z"), "ms_played": 3600000},
+        {"ts": pd.Timestamp("2023-01-10T10:00:00Z"), "ms_played": 7200000},
+    ]
+    df = pd.DataFrame(records)
+    result = compute_habits(df)
+    entries = result["seasonal_overlay"]
+    jan_2024 = [e for e in entries if e["month_of_year"] == 1 and e["year"] == 2024]
+    assert len(jan_2024) == 1
+    assert jan_2024[0]["hours"] == 1.0
