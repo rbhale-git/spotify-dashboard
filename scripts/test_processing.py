@@ -249,3 +249,56 @@ def test_diversity_index_excludes_low_months():
     months = [d["month"] for d in result["diversity_index"]]
     assert "2024-01" not in months
     assert "2024-02" in months
+
+from recommendations import compute_recommendations
+
+def make_recommendations_df():
+    """Create test data with clear artist clusters."""
+    records = []
+    for day in range(1, 31):
+        for artist, track in [("Artist A", "Track A"), ("Artist B", "Track B"), ("Artist C", "Track C")]:
+            records.append({
+                "ts": pd.Timestamp(f"2024-01-{day:02d}T10:{len(records)%60:02d}:00Z"),
+                "ms_played": 180000,
+                "master_metadata_album_artist_name": artist,
+                "master_metadata_track_name": track,
+                "spotify_track_uri": f"uri:{artist}:{track}",
+                "reason_end": "trackdone", "skipped": False, "shuffle": False, "platform": "iOS",
+            })
+    for day in range(1, 29):
+        for artist, track in [("Artist D", "Track D"), ("Artist E", "Track E")]:
+            records.append({
+                "ts": pd.Timestamp(f"2024-02-{day:02d}T20:{len(records)%60:02d}:00Z"),
+                "ms_played": 180000,
+                "master_metadata_album_artist_name": artist,
+                "master_metadata_track_name": track,
+                "spotify_track_uri": f"uri:{artist}:{track}",
+                "reason_end": "trackdone", "skipped": False, "shuffle": False, "platform": "iOS",
+            })
+    records.append({
+        "ts": pd.Timestamp("2024-01-15T10:05:00Z"), "ms_played": 180000,
+        "master_metadata_album_artist_name": "Rare Artist",
+        "master_metadata_track_name": "Rare Track", "spotify_track_uri": "uri:rare",
+        "reason_end": "trackdone", "skipped": False, "shuffle": False, "platform": "iOS",
+    })
+
+    df = pd.DataFrame(records)
+    df["ts"] = pd.to_datetime(df["ts"])
+    return df
+
+def test_recommendations_has_clusters():
+    df = make_recommendations_df()
+    result = compute_recommendations(df)
+    assert len(result["genre_clusters"]) > 0
+    assert len(result["radar_data"]) > 0
+
+def test_recommendations_suggests_artists():
+    df = make_recommendations_df()
+    result = compute_recommendations(df)
+    assert isinstance(result["suggested_artists"], list)
+
+def test_genre_timeline_has_data():
+    df = make_recommendations_df()
+    result = compute_recommendations(df)
+    assert len(result["genre_timeline"]) > 0
+    assert "month" in result["genre_timeline"][0]
