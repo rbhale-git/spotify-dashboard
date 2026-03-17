@@ -1,0 +1,1360 @@
+{
+  "loyalty_scores": [
+    {
+      "artist": "Post Malone",
+      "score": 11.0,
+      "years_active": 9,
+      "total_plays": 2042
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "score": 10.5,
+      "years_active": 9,
+      "total_plays": 1449
+    },
+    {
+      "artist": "The Weeknd",
+      "score": 10.31,
+      "years_active": 8,
+      "total_plays": 3097
+    },
+    {
+      "artist": "Travis Scott",
+      "score": 10.19,
+      "years_active": 9,
+      "total_plays": 1167
+    },
+    {
+      "artist": "Khalid",
+      "score": 9.88,
+      "years_active": 9,
+      "total_plays": 943
+    },
+    {
+      "artist": "Drake",
+      "score": 9.45,
+      "years_active": 9,
+      "total_plays": 696
+    },
+    {
+      "artist": "Future",
+      "score": 8.42,
+      "years_active": 7,
+      "total_plays": 1810
+    },
+    {
+      "artist": "Offset",
+      "score": 8.33,
+      "years_active": 8,
+      "total_plays": 662
+    },
+    {
+      "artist": "Kodak Black",
+      "score": 8.31,
+      "years_active": 8,
+      "total_plays": 649
+    },
+    {
+      "artist": "Isaiah Rashad",
+      "score": 8.29,
+      "years_active": 7,
+      "total_plays": 1617
+    },
+    {
+      "artist": "88GLAM",
+      "score": 8.23,
+      "years_active": 7,
+      "total_plays": 1535
+    },
+    {
+      "artist": "Apashe",
+      "score": 7.99,
+      "years_active": 7,
+      "total_plays": 1235
+    },
+    {
+      "artist": "Eminem",
+      "score": 7.98,
+      "years_active": 8,
+      "total_plays": 503
+    },
+    {
+      "artist": "Tory Lanez",
+      "score": 7.93,
+      "years_active": 7,
+      "total_plays": 1175
+    },
+    {
+      "artist": "Kanye West",
+      "score": 7.93,
+      "years_active": 7,
+      "total_plays": 1175
+    },
+    {
+      "artist": "A$AP Rocky",
+      "score": 7.84,
+      "years_active": 7,
+      "total_plays": 1081
+    },
+    {
+      "artist": "Masego",
+      "score": 7.81,
+      "years_active": 7,
+      "total_plays": 1049
+    },
+    {
+      "artist": "Russ",
+      "score": 7.68,
+      "years_active": 7,
+      "total_plays": 938
+    },
+    {
+      "artist": "J. Cole",
+      "score": 7.62,
+      "years_active": 8,
+      "total_plays": 381
+    },
+    {
+      "artist": "Darci",
+      "score": 7.58,
+      "years_active": 6,
+      "total_plays": 2642
+    }
+  ],
+  "one_hit_wonders": [
+    {
+      "track": "leavemealone",
+      "artist": "Fred again..",
+      "date": "2026-03-14"
+    },
+    {
+      "track": "When a Man Loves a Woman",
+      "artist": "Bassti",
+      "date": "2026-03-10"
+    },
+    {
+      "track": "T mimi",
+      "artist": "Shay",
+      "date": "2026-03-10"
+    },
+    {
+      "track": "you're a star",
+      "artist": "Fred again..",
+      "date": "2026-03-09"
+    },
+    {
+      "track": "Prone",
+      "artist": "Masego",
+      "date": "2026-03-09"
+    },
+    {
+      "track": "Breach",
+      "artist": "dublon",
+      "date": "2026-03-08"
+    },
+    {
+      "track": "As If",
+      "artist": "dublon",
+      "date": "2026-03-08"
+    },
+    {
+      "track": "1 for you. (spring in new york) [bonus track]",
+      "artist": "Brent Faiyaz",
+      "date": "2026-03-06"
+    },
+    {
+      "track": "Moonlight",
+      "artist": "Kali Uchis",
+      "date": "2026-03-04"
+    },
+    {
+      "track": "Space Ohm",
+      "artist": "Mèraque",
+      "date": "2026-03-04"
+    },
+    {
+      "track": "I'm Good Luv, Enjoy.",
+      "artist": "Aaron May",
+      "date": "2026-03-04"
+    },
+    {
+      "track": "Falling",
+      "artist": "Daniel Allan",
+      "date": "2026-02-28"
+    },
+    {
+      "track": "Me (heavy)",
+      "artist": "Fred again..",
+      "date": "2026-02-28"
+    },
+    {
+      "track": "The Days - NOTION Remix",
+      "artist": "Chrystal",
+      "date": "2026-02-28"
+    },
+    {
+      "track": "Reasons",
+      "artist": "COTIS",
+      "date": "2026-02-25"
+    },
+    {
+      "track": "Drift",
+      "artist": "Mall Grab",
+      "date": "2026-02-23"
+    },
+    {
+      "track": "Steppin’",
+      "artist": "tecadence",
+      "date": "2026-02-23"
+    },
+    {
+      "track": "I'm Not Alone - MPH Remix",
+      "artist": "Calvin Harris",
+      "date": "2026-02-23"
+    },
+    {
+      "track": "Fast Life",
+      "artist": "GEE LEE",
+      "date": "2026-02-23"
+    },
+    {
+      "track": "Raas Leela",
+      "artist": "Vic Vision",
+      "date": "2026-02-23"
+    },
+    {
+      "track": "Frozen",
+      "artist": "Soundshine",
+      "date": "2026-02-22"
+    },
+    {
+      "track": "Mirage",
+      "artist": "Adrià Falcó",
+      "date": "2026-02-22"
+    },
+    {
+      "track": "Yandı",
+      "artist": "Mikaji",
+      "date": "2026-02-22"
+    },
+    {
+      "track": "Polar Lights",
+      "artist": "Ardisia",
+      "date": "2026-02-22"
+    },
+    {
+      "track": "Lost Resonance",
+      "artist": "Eddy Tango",
+      "date": "2026-02-22"
+    },
+    {
+      "track": "Tus Ojitos",
+      "artist": "Javi Torres",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Droob",
+      "artist": "Saraabb",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Lost in No",
+      "artist": "VS Prjct",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Great Pages (edit)",
+      "artist": "Harry Charles",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Amirana - Radio Edit",
+      "artist": "Tomas Zolan",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Trip to Olma - Shorter Version",
+      "artist": "Hanna Haïs",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Leadmotive",
+      "artist": "hakan",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Full Speed",
+      "artist": "Bella Who",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Everywhere",
+      "artist": "Feathervane",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "You Got Me",
+      "artist": "Goldy",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Lorena",
+      "artist": "LA LOM",
+      "date": "2026-02-20"
+    },
+    {
+      "track": "Teardrops",
+      "artist": "NEIL FRANCES",
+      "date": "2026-02-16"
+    },
+    {
+      "track": "Ça fait du bien - Voilaaa Remix",
+      "artist": "Antonin",
+      "date": "2026-02-16"
+    },
+    {
+      "track": "Tema di Andrea",
+      "artist": "Alberto Baldan Bembo",
+      "date": "2026-02-16"
+    },
+    {
+      "track": "Marcia turca",
+      "artist": "DR",
+      "date": "2026-02-14"
+    },
+    {
+      "track": "Troppo tardi",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-14"
+    },
+    {
+      "track": "When You're Smiling",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-14"
+    },
+    {
+      "track": "Non illuderti",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-14"
+    },
+    {
+      "track": "Musetto",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-14"
+    },
+    {
+      "track": "Noia",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-14"
+    },
+    {
+      "track": "Come Prima",
+      "artist": "Jula De Palma",
+      "date": "2026-02-11"
+    },
+    {
+      "track": "Pigrizia",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-11"
+    },
+    {
+      "track": "Ma lamore no",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-11"
+    },
+    {
+      "track": "Star Dust",
+      "artist": "Lelio Luttazzi",
+      "date": "2026-02-11"
+    },
+    {
+      "track": "Plush",
+      "artist": "DJ Seinfeld",
+      "date": "2026-01-22"
+    },
+    {
+      "track": "Hunny",
+      "artist": "Meron T",
+      "date": "2026-01-12"
+    },
+    {
+      "track": "Interludio De Medicamento",
+      "artist": "Suff Daddy",
+      "date": "2026-01-12"
+    },
+    {
+      "track": "Gypsy Woman",
+      "artist": "Levi.Sct",
+      "date": "2026-01-09"
+    },
+    {
+      "track": "Are You Gonna Be My Girl",
+      "artist": "Jet",
+      "date": "2025-12-21"
+    },
+    {
+      "track": "Somebody Told Me",
+      "artist": "The Killers",
+      "date": "2025-12-21"
+    },
+    {
+      "track": "TEKA",
+      "artist": "Peso Pluma",
+      "date": "2025-12-21"
+    },
+    {
+      "track": "Can't Stop",
+      "artist": "Red Hot Chili Peppers",
+      "date": "2025-12-21"
+    },
+    {
+      "track": "Last Nite",
+      "artist": "The Strokes",
+      "date": "2025-12-21"
+    },
+    {
+      "track": "Take Me Out",
+      "artist": "Franz Ferdinand",
+      "date": "2025-12-21"
+    },
+    {
+      "track": "Rivolta",
+      "artist": "Polo & Pan",
+      "date": "2025-12-05"
+    },
+    {
+      "track": "Have Yourself A Merry Little Christmas",
+      "artist": "George Tidwell",
+      "date": "2025-12-04"
+    },
+    {
+      "track": "Unhinged",
+      "artist": "Masego",
+      "date": "2025-11-07"
+    },
+    {
+      "track": "Rebel",
+      "artist": "FindMyName",
+      "date": "2025-11-04"
+    },
+    {
+      "track": "The Cat's Meow",
+      "artist": "The Gaslamp Killer",
+      "date": "2025-11-04"
+    },
+    {
+      "track": "Giving It In",
+      "artist": "Faye Meana",
+      "date": "2025-11-04"
+    },
+    {
+      "track": "Water Baby",
+      "artist": "Tom Misch",
+      "date": "2025-11-02"
+    },
+    {
+      "track": "Insecure",
+      "artist": "Tom Misch",
+      "date": "2025-11-02"
+    },
+    {
+      "track": "Cranes in the Sky - Quarantine Sessions",
+      "artist": "Tom Misch",
+      "date": "2025-11-02"
+    },
+    {
+      "track": "Colourblind",
+      "artist": "Tom Misch",
+      "date": "2025-11-02"
+    },
+    {
+      "track": "Jusqu'ici tout va bien",
+      "artist": "Okvsho",
+      "date": "2025-11-02"
+    },
+    {
+      "track": "Rasheed",
+      "artist": "Okvsho",
+      "date": "2025-11-02"
+    },
+    {
+      "track": "Soulful",
+      "artist": "L'Indécis",
+      "date": "2025-10-29"
+    },
+    {
+      "track": "Strawberry Dream",
+      "artist": "Gotts Street Park",
+      "date": "2025-10-27"
+    },
+    {
+      "track": "Gloria",
+      "artist": "DAWSON",
+      "date": "2025-10-27"
+    },
+    {
+      "track": "The Eternal Flowers",
+      "artist": "Nahokimama",
+      "date": "2025-10-27"
+    },
+    {
+      "track": "Moments (Part 1)",
+      "artist": "FKJ",
+      "date": "2025-10-27"
+    },
+    {
+      "track": "Purple Night",
+      "artist": "Cezaire",
+      "date": "2025-10-24"
+    },
+    {
+      "track": "The Journey",
+      "artist": "Tom Misch",
+      "date": "2025-10-24"
+    },
+    {
+      "track": "Seventeen",
+      "artist": "Joyner Lucas",
+      "date": "2025-10-21"
+    },
+    {
+      "track": "On & On",
+      "artist": "Crayon",
+      "date": "2025-10-20"
+    },
+    {
+      "track": "Believe in Me",
+      "artist": "Flamingosis",
+      "date": "2025-10-20"
+    },
+    {
+      "track": "what you do to me",
+      "artist": "53 Thieves",
+      "date": "2025-10-20"
+    },
+    {
+      "track": "Satranga (From \"ANIMAL\")",
+      "artist": "Arijit Singh",
+      "date": "2025-10-20"
+    },
+    {
+      "track": "Mast Magan (From \"2 States)",
+      "artist": "Arijit Singh",
+      "date": "2025-10-20"
+    },
+    {
+      "track": "Tum Hi Ho",
+      "artist": "Mithoon",
+      "date": "2025-10-20"
+    },
+    {
+      "track": "Agar Tum Saath Ho (From \"Tamasha\")",
+      "artist": "Alka Yagnik",
+      "date": "2025-10-20"
+    },
+    {
+      "track": "Good God, Hot Damn",
+      "artist": "Hayden Blount",
+      "date": "2025-10-18"
+    },
+    {
+      "track": "2AM To Málaga",
+      "artist": "Painted Dunes",
+      "date": "2025-10-09"
+    },
+    {
+      "track": "Brown Noise Hibernation",
+      "artist": "Alex Slumber",
+      "date": "2025-10-08"
+    },
+    {
+      "track": "Brown Noise Haven: Relaxation Retreat",
+      "artist": "HQ-10",
+      "date": "2025-10-08"
+    },
+    {
+      "track": "So Young",
+      "artist": "Portugal. The Man",
+      "date": "2025-10-04"
+    },
+    {
+      "track": "Dos Uvas",
+      "artist": "Pale Jay",
+      "date": "2025-10-01"
+    },
+    {
+      "track": "Movie",
+      "artist": "Tom Misch",
+      "date": "2025-09-25"
+    },
+    {
+      "track": "Everything",
+      "artist": "Mall Grab",
+      "date": "2025-09-15"
+    },
+    {
+      "track": "Stupid Questions",
+      "artist": "The Band CAMINO",
+      "date": "2025-09-14"
+    },
+    {
+      "track": "People",
+      "artist": "half•alive",
+      "date": "2025-09-14"
+    },
+    {
+      "track": "Love Me",
+      "artist": "Braxe + Falcon",
+      "date": "2025-09-14"
+    },
+    {
+      "track": "Creative Source - A-Trak Remix",
+      "artist": "Braxe + Falcon",
+      "date": "2025-09-14"
+    },
+    {
+      "track": "I Made It - Picard Brothers version",
+      "artist": "Picard Brothers",
+      "date": "2025-09-13"
+    },
+    {
+      "track": "Intro - Remastered 2023",
+      "artist": "Alan Braxe",
+      "date": "2025-09-13"
+    }
+  ],
+  "most_replayed": [
+    {
+      "track": "Reckless",
+      "artist": "Arin Ray",
+      "plays": 564
+    },
+    {
+      "track": "Break from Toronto",
+      "artist": "PARTYNEXTDOOR",
+      "plays": 540
+    },
+    {
+      "track": "Play Your Roll",
+      "artist": "Norman Perry",
+      "plays": 539
+    },
+    {
+      "track": "ARCADIA",
+      "artist": "MDMA",
+      "plays": 535
+    },
+    {
+      "track": "Dirty",
+      "artist": "AQVOL",
+      "plays": 534
+    },
+    {
+      "track": "Save Me",
+      "artist": "BIGBABYGUCCI",
+      "plays": 524
+    },
+    {
+      "track": "The Color Violet",
+      "artist": "Tory Lanez",
+      "plays": 517
+    },
+    {
+      "track": "Like That",
+      "artist": "Future",
+      "plays": 510
+    },
+    {
+      "track": "Wat U Sed (feat. Doechii & Kal Banx)",
+      "artist": "Isaiah Rashad",
+      "plays": 499
+    },
+    {
+      "track": "Kawasaki",
+      "artist": "88GLAM",
+      "plays": 498
+    },
+    {
+      "track": "Rush",
+      "artist": "MIKNNA",
+      "plays": 479
+    },
+    {
+      "track": "One I Want (feat. PARTYNEXTDOOR)",
+      "artist": "Majid Jordan",
+      "plays": 473
+    },
+    {
+      "track": "Galaxy",
+      "artist": "Kid Travis",
+      "plays": 472
+    },
+    {
+      "track": "Starboy",
+      "artist": "The Weeknd",
+      "plays": 470
+    },
+    {
+      "track": "Got U On",
+      "artist": "Darci",
+      "plays": 458
+    },
+    {
+      "track": "24 (feat. Lil Baby)",
+      "artist": "Money Man",
+      "plays": 455
+    },
+    {
+      "track": "Work",
+      "artist": "Apashe",
+      "plays": 451
+    },
+    {
+      "track": "Stay",
+      "artist": "Vory",
+      "plays": 441
+    },
+    {
+      "track": "Ric Flair Drip (with Metro Boomin)",
+      "artist": "Offset",
+      "plays": 430
+    },
+    {
+      "track": "12",
+      "artist": "88GLAM",
+      "plays": 423
+    }
+  ],
+  "hidden_gems": [
+    {
+      "track": "One Right Now (with The Weeknd)",
+      "artist": "Post Malone",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Sábado Rebelde",
+      "artist": "Daddy Yankee",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Survivin'",
+      "artist": "Samsonyte",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Traveling Alone",
+      "artist": "Tom The Mail Man",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Low Down",
+      "artist": "Lil Baby",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Buy The World",
+      "artist": "Mike WiLL Made-It",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "School Rooftop",
+      "artist": "Hisohkah",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Putri Cening Ayu ( Balinese Folks Song )",
+      "artist": "Gus Teja",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "ADDICTIONS (FEAT. Tre' Amani)",
+      "artist": "Brent Faiyaz",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Lively Bluebottle",
+      "artist": "Mari Cafferty",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Cambrure",
+      "artist": "Jok'air",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Go on Your Own Way",
+      "artist": "Otis McDonald",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Time On My Mind",
+      "artist": "Yvng Tavo",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "The Git Up",
+      "artist": "Blanco Brown",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "You Were Wrong",
+      "artist": "Kyle Beats",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Morph",
+      "artist": "Twenty One Pilots",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "giving",
+      "artist": "GIOVANNA",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "I Celesti",
+      "artist": "upper class",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Ransom (feat. 6LACK & Kehlani)",
+      "artist": "SAINt JHN",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "sundown",
+      "artist": "mt. fujitive",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Page",
+      "artist": "Hideyuki Hashimoto",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Pictures",
+      "artist": "The Backseat Lovers",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "EXCEPTIONAL",
+      "artist": "veggi",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Camille 2000 (Titles)",
+      "artist": "Piero Piccioni",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "ENERGY (feat. Beam)",
+      "artist": "Beyoncé",
+      "plays": 2,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Poison",
+      "artist": "Tamera",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "WIT IT",
+      "artist": "Cape Lions",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Ahmedabad, January, 1999",
+      "artist": "Zakir Hussain",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "entertnmnt",
+      "artist": "Oklou",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "No Brainer (feat. Justin Bieber, Chance the Rapper & Quavo)",
+      "artist": "DJ Khaled",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Lucy",
+      "artist": "Samsonyte",
+      "plays": 3,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Matria",
+      "artist": "Lara Di Umbra",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Blinding Lights",
+      "artist": "The Weeknd",
+      "plays": 2,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Born With It",
+      "artist": "Jay Critch",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "alyssa",
+      "artist": "Astroblk",
+      "plays": 2,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Lonely At The Top - Remix",
+      "artist": "Asake",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Bucatini Freestyle",
+      "artist": "451",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Something About You",
+      "artist": "Subjoi",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Freak It",
+      "artist": "Canabliss",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Wildside",
+      "artist": "Justice Skolnik",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "The Voice Says",
+      "artist": "Kasbo",
+      "plays": 3,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Winds Of The Night",
+      "artist": "Julian Nema",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "End Of The World (Prod.by Adrian)",
+      "artist": "IAMDDB",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Myself",
+      "artist": "NAV",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "SAY LESS",
+      "artist": "MAX",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Amirana - Radio Edit",
+      "artist": "Tomas Zolan",
+      "plays": 1,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "School Rooftop",
+      "artist": "Hisohkah",
+      "plays": 2,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Casiopea",
+      "artist": "Cheap Monk",
+      "plays": 2,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Eugnot",
+      "artist": "Grailz Beni",
+      "plays": 2,
+      "completion_rate": 1.0
+    },
+    {
+      "track": "Ether",
+      "artist": "Nas",
+      "plays": 1,
+      "completion_rate": 1.0
+    }
+  ],
+  "diversity_index": [
+    {
+      "month": "2018-09",
+      "index": 3.8
+    },
+    {
+      "month": "2018-10",
+      "index": 4.25
+    },
+    {
+      "month": "2018-12",
+      "index": 3.54
+    },
+    {
+      "month": "2019-03",
+      "index": 3.33
+    },
+    {
+      "month": "2019-04",
+      "index": 2.91
+    },
+    {
+      "month": "2019-10",
+      "index": 3.33
+    },
+    {
+      "month": "2019-11",
+      "index": 4.02
+    },
+    {
+      "month": "2020-01",
+      "index": 3.84
+    },
+    {
+      "month": "2020-02",
+      "index": 4.51
+    },
+    {
+      "month": "2020-03",
+      "index": 5.06
+    },
+    {
+      "month": "2020-04",
+      "index": 7.0
+    },
+    {
+      "month": "2020-05",
+      "index": 6.75
+    },
+    {
+      "month": "2020-06",
+      "index": 6.82
+    },
+    {
+      "month": "2020-07",
+      "index": 6.73
+    },
+    {
+      "month": "2020-08",
+      "index": 7.37
+    },
+    {
+      "month": "2020-09",
+      "index": 7.08
+    },
+    {
+      "month": "2020-10",
+      "index": 6.83
+    },
+    {
+      "month": "2020-11",
+      "index": 6.9
+    },
+    {
+      "month": "2020-12",
+      "index": 6.62
+    },
+    {
+      "month": "2021-01",
+      "index": 6.37
+    },
+    {
+      "month": "2021-02",
+      "index": 6.86
+    },
+    {
+      "month": "2021-03",
+      "index": 6.74
+    },
+    {
+      "month": "2021-04",
+      "index": 7.86
+    },
+    {
+      "month": "2021-05",
+      "index": 7.37
+    },
+    {
+      "month": "2021-06",
+      "index": 7.96
+    },
+    {
+      "month": "2021-07",
+      "index": 7.68
+    },
+    {
+      "month": "2021-08",
+      "index": 7.33
+    },
+    {
+      "month": "2021-09",
+      "index": 7.05
+    },
+    {
+      "month": "2021-10",
+      "index": 7.24
+    },
+    {
+      "month": "2021-11",
+      "index": 6.69
+    },
+    {
+      "month": "2021-12",
+      "index": 6.72
+    },
+    {
+      "month": "2022-01",
+      "index": 5.92
+    },
+    {
+      "month": "2022-02",
+      "index": 6.54
+    },
+    {
+      "month": "2022-03",
+      "index": 6.89
+    },
+    {
+      "month": "2022-04",
+      "index": 6.92
+    },
+    {
+      "month": "2022-05",
+      "index": 6.83
+    },
+    {
+      "month": "2022-06",
+      "index": 6.22
+    },
+    {
+      "month": "2022-07",
+      "index": 6.83
+    },
+    {
+      "month": "2022-08",
+      "index": 6.59
+    },
+    {
+      "month": "2022-09",
+      "index": 6.92
+    },
+    {
+      "month": "2022-10",
+      "index": 6.63
+    },
+    {
+      "month": "2022-11",
+      "index": 6.21
+    },
+    {
+      "month": "2022-12",
+      "index": 6.63
+    },
+    {
+      "month": "2023-01",
+      "index": 6.94
+    },
+    {
+      "month": "2023-02",
+      "index": 7.29
+    },
+    {
+      "month": "2023-03",
+      "index": 7.28
+    },
+    {
+      "month": "2023-04",
+      "index": 6.99
+    },
+    {
+      "month": "2023-05",
+      "index": 6.69
+    },
+    {
+      "month": "2023-06",
+      "index": 6.98
+    },
+    {
+      "month": "2023-07",
+      "index": 7.06
+    },
+    {
+      "month": "2023-08",
+      "index": 7.05
+    },
+    {
+      "month": "2023-09",
+      "index": 7.36
+    },
+    {
+      "month": "2023-10",
+      "index": 7.46
+    },
+    {
+      "month": "2023-11",
+      "index": 7.2
+    },
+    {
+      "month": "2023-12",
+      "index": 7.39
+    },
+    {
+      "month": "2024-01",
+      "index": 7.46
+    },
+    {
+      "month": "2024-02",
+      "index": 7.28
+    },
+    {
+      "month": "2024-03",
+      "index": 7.35
+    },
+    {
+      "month": "2024-04",
+      "index": 6.94
+    },
+    {
+      "month": "2024-05",
+      "index": 7.11
+    },
+    {
+      "month": "2024-06",
+      "index": 7.14
+    },
+    {
+      "month": "2024-07",
+      "index": 7.52
+    },
+    {
+      "month": "2024-08",
+      "index": 7.32
+    },
+    {
+      "month": "2024-09",
+      "index": 7.17
+    },
+    {
+      "month": "2024-10",
+      "index": 6.8
+    },
+    {
+      "month": "2024-11",
+      "index": 7.15
+    },
+    {
+      "month": "2024-12",
+      "index": 7.0
+    },
+    {
+      "month": "2025-01",
+      "index": 7.42
+    },
+    {
+      "month": "2025-02",
+      "index": 6.9
+    },
+    {
+      "month": "2025-03",
+      "index": 7.08
+    },
+    {
+      "month": "2025-04",
+      "index": 7.02
+    },
+    {
+      "month": "2025-05",
+      "index": 6.91
+    },
+    {
+      "month": "2025-06",
+      "index": 6.94
+    },
+    {
+      "month": "2025-07",
+      "index": 7.25
+    },
+    {
+      "month": "2025-08",
+      "index": 6.76
+    },
+    {
+      "month": "2025-09",
+      "index": 7.39
+    },
+    {
+      "month": "2025-10",
+      "index": 7.12
+    },
+    {
+      "month": "2025-11",
+      "index": 6.76
+    },
+    {
+      "month": "2025-12",
+      "index": 7.08
+    },
+    {
+      "month": "2026-01",
+      "index": 7.13
+    },
+    {
+      "month": "2026-02",
+      "index": 7.16
+    },
+    {
+      "month": "2026-03",
+      "index": 6.97
+    }
+  ]
+}

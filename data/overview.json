@@ -1,0 +1,487 @@
+{
+  "hero_stats": {
+    "total_streams": 130426,
+    "total_hours": 4244.1,
+    "unique_tracks": 14890,
+    "unique_artists": 5098
+  },
+  "monthly_volume": [
+    {
+      "month": "2018-09",
+      "hours": 0.5,
+      "streams": 24
+    },
+    {
+      "month": "2018-10",
+      "hours": 6.0,
+      "streams": 166
+    },
+    {
+      "month": "2018-11",
+      "hours": 0.7,
+      "streams": 18
+    },
+    {
+      "month": "2018-12",
+      "hours": 0.9,
+      "streams": 24
+    },
+    {
+      "month": "2019-03",
+      "hours": 1.6,
+      "streams": 50
+    },
+    {
+      "month": "2019-04",
+      "hours": 4.6,
+      "streams": 171
+    },
+    {
+      "month": "2019-05",
+      "hours": 0.5,
+      "streams": 16
+    },
+    {
+      "month": "2019-07",
+      "hours": 0.1,
+      "streams": 2
+    },
+    {
+      "month": "2019-08",
+      "hours": 0.1,
+      "streams": 4
+    },
+    {
+      "month": "2019-09",
+      "hours": 0.4,
+      "streams": 11
+    },
+    {
+      "month": "2019-10",
+      "hours": 0.7,
+      "streams": 21
+    },
+    {
+      "month": "2019-11",
+      "hours": 1.1,
+      "streams": 58
+    },
+    {
+      "month": "2019-12",
+      "hours": 0.6,
+      "streams": 16
+    },
+    {
+      "month": "2020-01",
+      "hours": 1.3,
+      "streams": 43
+    },
+    {
+      "month": "2020-02",
+      "hours": 5.0,
+      "streams": 184
+    },
+    {
+      "month": "2020-03",
+      "hours": 17.3,
+      "streams": 619
+    },
+    {
+      "month": "2020-04",
+      "hours": 28.2,
+      "streams": 825
+    },
+    {
+      "month": "2020-05",
+      "hours": 28.6,
+      "streams": 805
+    },
+    {
+      "month": "2020-06",
+      "hours": 49.8,
+      "streams": 1348
+    },
+    {
+      "month": "2020-07",
+      "hours": 41.0,
+      "streams": 1146
+    },
+    {
+      "month": "2020-08",
+      "hours": 52.2,
+      "streams": 1551
+    },
+    {
+      "month": "2020-09",
+      "hours": 49.0,
+      "streams": 1607
+    },
+    {
+      "month": "2020-10",
+      "hours": 43.8,
+      "streams": 1234
+    },
+    {
+      "month": "2020-11",
+      "hours": 39.9,
+      "streams": 1227
+    },
+    {
+      "month": "2020-12",
+      "hours": 53.0,
+      "streams": 1351
+    },
+    {
+      "month": "2021-01",
+      "hours": 35.0,
+      "streams": 911
+    },
+    {
+      "month": "2021-02",
+      "hours": 55.3,
+      "streams": 1579
+    },
+    {
+      "month": "2021-03",
+      "hours": 97.6,
+      "streams": 2917
+    },
+    {
+      "month": "2021-04",
+      "hours": 142.3,
+      "streams": 3483
+    },
+    {
+      "month": "2021-05",
+      "hours": 99.5,
+      "streams": 2553
+    },
+    {
+      "month": "2021-06",
+      "hours": 65.2,
+      "streams": 1883
+    },
+    {
+      "month": "2021-07",
+      "hours": 68.7,
+      "streams": 2072
+    },
+    {
+      "month": "2021-08",
+      "hours": 49.3,
+      "streams": 1441
+    },
+    {
+      "month": "2021-09",
+      "hours": 49.5,
+      "streams": 1414
+    },
+    {
+      "month": "2021-10",
+      "hours": 77.3,
+      "streams": 2589
+    },
+    {
+      "month": "2021-11",
+      "hours": 52.0,
+      "streams": 1842
+    },
+    {
+      "month": "2021-12",
+      "hours": 40.5,
+      "streams": 1239
+    },
+    {
+      "month": "2022-01",
+      "hours": 50.3,
+      "streams": 1588
+    },
+    {
+      "month": "2022-02",
+      "hours": 63.9,
+      "streams": 2106
+    },
+    {
+      "month": "2022-03",
+      "hours": 56.8,
+      "streams": 2005
+    },
+    {
+      "month": "2022-04",
+      "hours": 47.3,
+      "streams": 1913
+    },
+    {
+      "month": "2022-05",
+      "hours": 43.0,
+      "streams": 1472
+    },
+    {
+      "month": "2022-06",
+      "hours": 30.1,
+      "streams": 919
+    },
+    {
+      "month": "2022-07",
+      "hours": 32.2,
+      "streams": 892
+    },
+    {
+      "month": "2022-08",
+      "hours": 32.7,
+      "streams": 1045
+    },
+    {
+      "month": "2022-09",
+      "hours": 46.7,
+      "streams": 1478
+    },
+    {
+      "month": "2022-10",
+      "hours": 36.5,
+      "streams": 1125
+    },
+    {
+      "month": "2022-11",
+      "hours": 35.7,
+      "streams": 1023
+    },
+    {
+      "month": "2022-12",
+      "hours": 54.4,
+      "streams": 1658
+    },
+    {
+      "month": "2023-01",
+      "hours": 35.4,
+      "streams": 1081
+    },
+    {
+      "month": "2023-02",
+      "hours": 56.7,
+      "streams": 1620
+    },
+    {
+      "month": "2023-03",
+      "hours": 37.9,
+      "streams": 1030
+    },
+    {
+      "month": "2023-04",
+      "hours": 27.1,
+      "streams": 830
+    },
+    {
+      "month": "2023-05",
+      "hours": 33.2,
+      "streams": 917
+    },
+    {
+      "month": "2023-06",
+      "hours": 41.2,
+      "streams": 1136
+    },
+    {
+      "month": "2023-07",
+      "hours": 50.0,
+      "streams": 1482
+    },
+    {
+      "month": "2023-08",
+      "hours": 29.5,
+      "streams": 838
+    },
+    {
+      "month": "2023-09",
+      "hours": 65.7,
+      "streams": 2673
+    },
+    {
+      "month": "2023-10",
+      "hours": 115.0,
+      "streams": 4220
+    },
+    {
+      "month": "2023-11",
+      "hours": 113.3,
+      "streams": 3685
+    },
+    {
+      "month": "2023-12",
+      "hours": 130.2,
+      "streams": 3809
+    },
+    {
+      "month": "2024-01",
+      "hours": 98.3,
+      "streams": 2931
+    },
+    {
+      "month": "2024-02",
+      "hours": 95.1,
+      "streams": 3196
+    },
+    {
+      "month": "2024-03",
+      "hours": 69.7,
+      "streams": 2331
+    },
+    {
+      "month": "2024-04",
+      "hours": 48.9,
+      "streams": 1426
+    },
+    {
+      "month": "2024-05",
+      "hours": 47.5,
+      "streams": 1381
+    },
+    {
+      "month": "2024-06",
+      "hours": 44.1,
+      "streams": 1281
+    },
+    {
+      "month": "2024-07",
+      "hours": 53.5,
+      "streams": 1513
+    },
+    {
+      "month": "2024-08",
+      "hours": 70.5,
+      "streams": 2149
+    },
+    {
+      "month": "2024-09",
+      "hours": 70.2,
+      "streams": 2146
+    },
+    {
+      "month": "2024-10",
+      "hours": 59.7,
+      "streams": 1711
+    },
+    {
+      "month": "2024-11",
+      "hours": 45.8,
+      "streams": 1225
+    },
+    {
+      "month": "2024-12",
+      "hours": 53.7,
+      "streams": 1644
+    },
+    {
+      "month": "2025-01",
+      "hours": 62.1,
+      "streams": 1680
+    },
+    {
+      "month": "2025-02",
+      "hours": 60.1,
+      "streams": 1606
+    },
+    {
+      "month": "2025-03",
+      "hours": 67.7,
+      "streams": 1836
+    },
+    {
+      "month": "2025-04",
+      "hours": 51.4,
+      "streams": 1448
+    },
+    {
+      "month": "2025-05",
+      "hours": 53.9,
+      "streams": 1516
+    },
+    {
+      "month": "2025-06",
+      "hours": 53.5,
+      "streams": 1571
+    },
+    {
+      "month": "2025-07",
+      "hours": 68.0,
+      "streams": 2170
+    },
+    {
+      "month": "2025-08",
+      "hours": 55.5,
+      "streams": 1680
+    },
+    {
+      "month": "2025-09",
+      "hours": 70.1,
+      "streams": 2782
+    },
+    {
+      "month": "2025-10",
+      "hours": 74.0,
+      "streams": 2744
+    },
+    {
+      "month": "2025-11",
+      "hours": 73.2,
+      "streams": 2585
+    },
+    {
+      "month": "2025-12",
+      "hours": 79.9,
+      "streams": 2614
+    },
+    {
+      "month": "2026-01",
+      "hours": 63.1,
+      "streams": 2191
+    },
+    {
+      "month": "2026-02",
+      "hours": 93.4,
+      "streams": 2900
+    },
+    {
+      "month": "2026-03",
+      "hours": 37.6,
+      "streams": 1180
+    }
+  ],
+  "platform_breakdown": [
+    {
+      "platform": "iOS",
+      "streams": 92471,
+      "percentage": 70.9
+    },
+    {
+      "platform": "Windows",
+      "streams": 21219,
+      "percentage": 16.3
+    },
+    {
+      "platform": "Android",
+      "streams": 14759,
+      "percentage": 11.3
+    },
+    {
+      "platform": "TV",
+      "streams": 1261,
+      "percentage": 1.0
+    },
+    {
+      "platform": "Other",
+      "streams": 503,
+      "percentage": 0.4
+    },
+    {
+      "platform": "Console",
+      "streams": 183,
+      "percentage": 0.1
+    },
+    {
+      "platform": "Web",
+      "streams": 30,
+      "percentage": 0.0
+    }
+  ]
+}

@@ -1,0 +1,4666 @@
+{
+  "periods": [
+    "All Time",
+    "2018 H2",
+    "2019 H1",
+    "2019 H2",
+    "2020 H1",
+    "2020 H2",
+    "2021 H1",
+    "2021 H2",
+    "2022 H1",
+    "2022 H2",
+    "2023 H1",
+    "2023 H2",
+    "2024 H1",
+    "2024 H2",
+    "2025 H1",
+    "2025 H2",
+    "2026 H1"
+  ],
+  "data": {
+    "All Time": {
+      "genre_clusters": [
+        {
+          "cluster_id": 2,
+          "label": "The Weeknd, Post Malone, Wizkid",
+          "top_artists": [
+            "The Weeknd",
+            "Post Malone",
+            "Wizkid"
+          ],
+          "affinity": 0.403
+        },
+        {
+          "cluster_id": 5,
+          "label": "Darci, MIKNNA, FKJ",
+          "top_artists": [
+            "Darci",
+            "MIKNNA",
+            "FKJ"
+          ],
+          "affinity": 0.29
+        },
+        {
+          "cluster_id": 0,
+          "label": "Khalid, Russ, Jeremy Zucker",
+          "top_artists": [
+            "Khalid",
+            "Russ",
+            "Jeremy Zucker"
+          ],
+          "affinity": 0.132
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fred again.., Craig Isto, Burna Boy",
+          "top_artists": [
+            "Fred again..",
+            "Craig Isto",
+            "Burna Boy"
+          ],
+          "affinity": 0.061
+        },
+        {
+          "cluster_id": 6,
+          "label": "OBOY, Squidji, YG Pablo",
+          "top_artists": [
+            "OBOY",
+            "Squidji",
+            "YG Pablo"
+          ],
+          "affinity": 0.042
+        },
+        {
+          "cluster_id": 1,
+          "label": "Kiasmos, Wavy, Duñe",
+          "top_artists": [
+            "Kiasmos",
+            "Wavy",
+            "Duñe"
+          ],
+          "affinity": 0.06
+        },
+        {
+          "cluster_id": 7,
+          "label": "Pritam, A.R. Rahman, Arijit Singh",
+          "top_artists": [
+            "Pritam",
+            "A.R. Rahman",
+            "Arijit Singh"
+          ],
+          "affinity": 0.008
+        },
+        {
+          "cluster_id": 4,
+          "label": "Peter Bark, Elsei, Soft Eyez",
+          "top_artists": [
+            "Peter Bark",
+            "Elsei",
+            "Soft Eyez"
+          ],
+          "affinity": 0.004
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "The Weeknd, Post Malone, Wizkid",
+          "value": 0.403
+        },
+        {
+          "genre": "Darci, MIKNNA, FKJ",
+          "value": 0.29
+        },
+        {
+          "genre": "Khalid, Russ, Jeremy Zucker",
+          "value": 0.132
+        },
+        {
+          "genre": "Fred again.., Craig Isto, Burna Boy",
+          "value": 0.061
+        },
+        {
+          "genre": "OBOY, Squidji, YG Pablo",
+          "value": 0.042
+        },
+        {
+          "genre": "Kiasmos, Wavy, Duñe",
+          "value": 0.06
+        },
+        {
+          "genre": "Pritam, A.R. Rahman, Arijit Singh",
+          "value": 0.008
+        },
+        {
+          "genre": "Peter Bark, Elsei, Soft Eyez",
+          "value": 0.004
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "The Chordettes",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Soundshine",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Ramz",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Chrystal",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "meggifox.",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Tatsuro Yamashita",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Ciscero",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Wafia",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Amjad Ali Khan",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        },
+        {
+          "artist": "Myriam Fares",
+          "cluster": "The Weeknd, Post Malone, Wizkid",
+          "match_pct": 33,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2018-09",
+          "The Weeknd, Post Malone, Wizkid": 0.343,
+          "Darci, MIKNNA, FKJ": 0.031,
+          "Khalid, Russ, Jeremy Zucker": 0.598,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2018-10",
+          "The Weeknd, Post Malone, Wizkid": 0.127,
+          "Darci, MIKNNA, FKJ": 0.047,
+          "Khalid, Russ, Jeremy Zucker": 0.809,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.015,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2018-11",
+          "The Weeknd, Post Malone, Wizkid": 0.439,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 0.561,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2018-12",
+          "The Weeknd, Post Malone, Wizkid": 0.678,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 0.322,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-03",
+          "The Weeknd, Post Malone, Wizkid": 0.258,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 0.742,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-04",
+          "The Weeknd, Post Malone, Wizkid": 0.439,
+          "Darci, MIKNNA, FKJ": 0.003,
+          "Khalid, Russ, Jeremy Zucker": 0.558,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-05",
+          "The Weeknd, Post Malone, Wizkid": 0.0,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 1.0,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-07",
+          "The Weeknd, Post Malone, Wizkid": 0.0,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 1.0,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-08",
+          "The Weeknd, Post Malone, Wizkid": 0.747,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 0.253,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-09",
+          "The Weeknd, Post Malone, Wizkid": 0.461,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 0.539,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-10",
+          "The Weeknd, Post Malone, Wizkid": 0.344,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 0.656,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-11",
+          "The Weeknd, Post Malone, Wizkid": 0.329,
+          "Darci, MIKNNA, FKJ": 0.012,
+          "Khalid, Russ, Jeremy Zucker": 0.659,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2019-12",
+          "The Weeknd, Post Malone, Wizkid": 0.0,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 1.0,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2020-01",
+          "The Weeknd, Post Malone, Wizkid": 0.468,
+          "Darci, MIKNNA, FKJ": 0.0,
+          "Khalid, Russ, Jeremy Zucker": 0.532,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2020-02",
+          "The Weeknd, Post Malone, Wizkid": 0.318,
+          "Darci, MIKNNA, FKJ": 0.049,
+          "Khalid, Russ, Jeremy Zucker": 0.625,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.008,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2020-03",
+          "The Weeknd, Post Malone, Wizkid": 0.33,
+          "Darci, MIKNNA, FKJ": 0.022,
+          "Khalid, Russ, Jeremy Zucker": 0.648,
+          "Fred again.., Craig Isto, Burna Boy": 0.0,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2020-04",
+          "The Weeknd, Post Malone, Wizkid": 0.198,
+          "Darci, MIKNNA, FKJ": 0.018,
+          "Khalid, Russ, Jeremy Zucker": 0.464,
+          "Fred again.., Craig Isto, Burna Boy": 0.028,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.012,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.277
+        },
+        {
+          "month": "2020-05",
+          "The Weeknd, Post Malone, Wizkid": 0.154,
+          "Darci, MIKNNA, FKJ": 0.032,
+          "Khalid, Russ, Jeremy Zucker": 0.501,
+          "Fred again.., Craig Isto, Burna Boy": 0.005,
+          "OBOY, Squidji, YG Pablo": 0.002,
+          "Kiasmos, Wavy, Duñe": 0.0,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.305
+        },
+        {
+          "month": "2020-06",
+          "The Weeknd, Post Malone, Wizkid": 0.144,
+          "Darci, MIKNNA, FKJ": 0.021,
+          "Khalid, Russ, Jeremy Zucker": 0.738,
+          "Fred again.., Craig Isto, Burna Boy": 0.005,
+          "OBOY, Squidji, YG Pablo": 0.002,
+          "Kiasmos, Wavy, Duñe": 0.002,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.002,
+          "Peter Bark, Elsei, Soft Eyez": 0.085
+        },
+        {
+          "month": "2020-07",
+          "The Weeknd, Post Malone, Wizkid": 0.117,
+          "Darci, MIKNNA, FKJ": 0.027,
+          "Khalid, Russ, Jeremy Zucker": 0.792,
+          "Fred again.., Craig Isto, Burna Boy": 0.001,
+          "OBOY, Squidji, YG Pablo": 0.0,
+          "Kiasmos, Wavy, Duñe": 0.042,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.001,
+          "Peter Bark, Elsei, Soft Eyez": 0.02
+        },
+        {
+          "month": "2020-08",
+          "The Weeknd, Post Malone, Wizkid": 0.159,
+          "Darci, MIKNNA, FKJ": 0.082,
+          "Khalid, Russ, Jeremy Zucker": 0.66,
+          "Fred again.., Craig Isto, Burna Boy": 0.004,
+          "OBOY, Squidji, YG Pablo": 0.025,
+          "Kiasmos, Wavy, Duñe": 0.031,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.04
+        },
+        {
+          "month": "2020-09",
+          "The Weeknd, Post Malone, Wizkid": 0.169,
+          "Darci, MIKNNA, FKJ": 0.077,
+          "Khalid, Russ, Jeremy Zucker": 0.686,
+          "Fred again.., Craig Isto, Burna Boy": 0.002,
+          "OBOY, Squidji, YG Pablo": 0.038,
+          "Kiasmos, Wavy, Duñe": 0.022,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.006
+        },
+        {
+          "month": "2020-10",
+          "The Weeknd, Post Malone, Wizkid": 0.242,
+          "Darci, MIKNNA, FKJ": 0.025,
+          "Khalid, Russ, Jeremy Zucker": 0.699,
+          "Fred again.., Craig Isto, Burna Boy": 0.002,
+          "OBOY, Squidji, YG Pablo": 0.005,
+          "Kiasmos, Wavy, Duñe": 0.023,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.001,
+          "Peter Bark, Elsei, Soft Eyez": 0.002
+        },
+        {
+          "month": "2020-11",
+          "The Weeknd, Post Malone, Wizkid": 0.101,
+          "Darci, MIKNNA, FKJ": 0.124,
+          "Khalid, Russ, Jeremy Zucker": 0.709,
+          "Fred again.., Craig Isto, Burna Boy": 0.01,
+          "OBOY, Squidji, YG Pablo": 0.033,
+          "Kiasmos, Wavy, Duñe": 0.021,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.002
+        },
+        {
+          "month": "2020-12",
+          "The Weeknd, Post Malone, Wizkid": 0.179,
+          "Darci, MIKNNA, FKJ": 0.083,
+          "Khalid, Russ, Jeremy Zucker": 0.609,
+          "Fred again.., Craig Isto, Burna Boy": 0.007,
+          "OBOY, Squidji, YG Pablo": 0.019,
+          "Kiasmos, Wavy, Duñe": 0.103,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2021-01",
+          "The Weeknd, Post Malone, Wizkid": 0.107,
+          "Darci, MIKNNA, FKJ": 0.269,
+          "Khalid, Russ, Jeremy Zucker": 0.476,
+          "Fred again.., Craig Isto, Burna Boy": 0.006,
+          "OBOY, Squidji, YG Pablo": 0.015,
+          "Kiasmos, Wavy, Duñe": 0.127,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.001,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2021-02",
+          "The Weeknd, Post Malone, Wizkid": 0.218,
+          "Darci, MIKNNA, FKJ": 0.165,
+          "Khalid, Russ, Jeremy Zucker": 0.368,
+          "Fred again.., Craig Isto, Burna Boy": 0.013,
+          "OBOY, Squidji, YG Pablo": 0.182,
+          "Kiasmos, Wavy, Duñe": 0.053,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2021-03",
+          "The Weeknd, Post Malone, Wizkid": 0.077,
+          "Darci, MIKNNA, FKJ": 0.29,
+          "Khalid, Russ, Jeremy Zucker": 0.168,
+          "Fred again.., Craig Isto, Burna Boy": 0.013,
+          "OBOY, Squidji, YG Pablo": 0.351,
+          "Kiasmos, Wavy, Duñe": 0.1,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.002
+        },
+        {
+          "month": "2021-04",
+          "The Weeknd, Post Malone, Wizkid": 0.119,
+          "Darci, MIKNNA, FKJ": 0.311,
+          "Khalid, Russ, Jeremy Zucker": 0.172,
+          "Fred again.., Craig Isto, Burna Boy": 0.009,
+          "OBOY, Squidji, YG Pablo": 0.17,
+          "Kiasmos, Wavy, Duñe": 0.218,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.001
+        },
+        {
+          "month": "2021-05",
+          "The Weeknd, Post Malone, Wizkid": 0.085,
+          "Darci, MIKNNA, FKJ": 0.574,
+          "Khalid, Russ, Jeremy Zucker": 0.087,
+          "Fred again.., Craig Isto, Burna Boy": 0.01,
+          "OBOY, Squidji, YG Pablo": 0.105,
+          "Kiasmos, Wavy, Duñe": 0.126,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2021-06",
+          "The Weeknd, Post Malone, Wizkid": 0.168,
+          "Darci, MIKNNA, FKJ": 0.448,
+          "Khalid, Russ, Jeremy Zucker": 0.101,
+          "Fred again.., Craig Isto, Burna Boy": 0.008,
+          "OBOY, Squidji, YG Pablo": 0.099,
+          "Kiasmos, Wavy, Duñe": 0.176,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2021-07",
+          "The Weeknd, Post Malone, Wizkid": 0.181,
+          "Darci, MIKNNA, FKJ": 0.515,
+          "Khalid, Russ, Jeremy Zucker": 0.108,
+          "Fred again.., Craig Isto, Burna Boy": 0.01,
+          "OBOY, Squidji, YG Pablo": 0.019,
+          "Kiasmos, Wavy, Duñe": 0.164,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.001
+        },
+        {
+          "month": "2021-08",
+          "The Weeknd, Post Malone, Wizkid": 0.123,
+          "Darci, MIKNNA, FKJ": 0.511,
+          "Khalid, Russ, Jeremy Zucker": 0.082,
+          "Fred again.., Craig Isto, Burna Boy": 0.019,
+          "OBOY, Squidji, YG Pablo": 0.043,
+          "Kiasmos, Wavy, Duñe": 0.214,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2021-09",
+          "The Weeknd, Post Malone, Wizkid": 0.103,
+          "Darci, MIKNNA, FKJ": 0.478,
+          "Khalid, Russ, Jeremy Zucker": 0.075,
+          "Fred again.., Craig Isto, Burna Boy": 0.015,
+          "OBOY, Squidji, YG Pablo": 0.011,
+          "Kiasmos, Wavy, Duñe": 0.316,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.001
+        },
+        {
+          "month": "2021-10",
+          "The Weeknd, Post Malone, Wizkid": 0.125,
+          "Darci, MIKNNA, FKJ": 0.446,
+          "Khalid, Russ, Jeremy Zucker": 0.065,
+          "Fred again.., Craig Isto, Burna Boy": 0.007,
+          "OBOY, Squidji, YG Pablo": 0.023,
+          "Kiasmos, Wavy, Duñe": 0.335,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2021-11",
+          "The Weeknd, Post Malone, Wizkid": 0.156,
+          "Darci, MIKNNA, FKJ": 0.579,
+          "Khalid, Russ, Jeremy Zucker": 0.027,
+          "Fred again.., Craig Isto, Burna Boy": 0.001,
+          "OBOY, Squidji, YG Pablo": 0.049,
+          "Kiasmos, Wavy, Duñe": 0.185,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.003
+        },
+        {
+          "month": "2021-12",
+          "The Weeknd, Post Malone, Wizkid": 0.105,
+          "Darci, MIKNNA, FKJ": 0.576,
+          "Khalid, Russ, Jeremy Zucker": 0.023,
+          "Fred again.., Craig Isto, Burna Boy": 0.005,
+          "OBOY, Squidji, YG Pablo": 0.107,
+          "Kiasmos, Wavy, Duñe": 0.184,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.001
+        },
+        {
+          "month": "2022-01",
+          "The Weeknd, Post Malone, Wizkid": 0.082,
+          "Darci, MIKNNA, FKJ": 0.78,
+          "Khalid, Russ, Jeremy Zucker": 0.008,
+          "Fred again.., Craig Isto, Burna Boy": 0.002,
+          "OBOY, Squidji, YG Pablo": 0.093,
+          "Kiasmos, Wavy, Duñe": 0.035,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-02",
+          "The Weeknd, Post Malone, Wizkid": 0.075,
+          "Darci, MIKNNA, FKJ": 0.734,
+          "Khalid, Russ, Jeremy Zucker": 0.019,
+          "Fred again.., Craig Isto, Burna Boy": 0.002,
+          "OBOY, Squidji, YG Pablo": 0.089,
+          "Kiasmos, Wavy, Duñe": 0.082,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-03",
+          "The Weeknd, Post Malone, Wizkid": 0.088,
+          "Darci, MIKNNA, FKJ": 0.757,
+          "Khalid, Russ, Jeremy Zucker": 0.042,
+          "Fred again.., Craig Isto, Burna Boy": 0.001,
+          "OBOY, Squidji, YG Pablo": 0.047,
+          "Kiasmos, Wavy, Duñe": 0.065,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-04",
+          "The Weeknd, Post Malone, Wizkid": 0.148,
+          "Darci, MIKNNA, FKJ": 0.667,
+          "Khalid, Russ, Jeremy Zucker": 0.121,
+          "Fred again.., Craig Isto, Burna Boy": 0.002,
+          "OBOY, Squidji, YG Pablo": 0.027,
+          "Kiasmos, Wavy, Duñe": 0.033,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.001
+        },
+        {
+          "month": "2022-05",
+          "The Weeknd, Post Malone, Wizkid": 0.129,
+          "Darci, MIKNNA, FKJ": 0.624,
+          "Khalid, Russ, Jeremy Zucker": 0.176,
+          "Fred again.., Craig Isto, Burna Boy": 0.003,
+          "OBOY, Squidji, YG Pablo": 0.037,
+          "Kiasmos, Wavy, Duñe": 0.028,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.003
+        },
+        {
+          "month": "2022-06",
+          "The Weeknd, Post Malone, Wizkid": 0.267,
+          "Darci, MIKNNA, FKJ": 0.606,
+          "Khalid, Russ, Jeremy Zucker": 0.045,
+          "Fred again.., Craig Isto, Burna Boy": 0.003,
+          "OBOY, Squidji, YG Pablo": 0.012,
+          "Kiasmos, Wavy, Duñe": 0.067,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-07",
+          "The Weeknd, Post Malone, Wizkid": 0.165,
+          "Darci, MIKNNA, FKJ": 0.615,
+          "Khalid, Russ, Jeremy Zucker": 0.034,
+          "Fred again.., Craig Isto, Burna Boy": 0.004,
+          "OBOY, Squidji, YG Pablo": 0.005,
+          "Kiasmos, Wavy, Duñe": 0.178,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-08",
+          "The Weeknd, Post Malone, Wizkid": 0.179,
+          "Darci, MIKNNA, FKJ": 0.684,
+          "Khalid, Russ, Jeremy Zucker": 0.068,
+          "Fred again.., Craig Isto, Burna Boy": 0.01,
+          "OBOY, Squidji, YG Pablo": 0.01,
+          "Kiasmos, Wavy, Duñe": 0.045,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-09",
+          "The Weeknd, Post Malone, Wizkid": 0.23,
+          "Darci, MIKNNA, FKJ": 0.562,
+          "Khalid, Russ, Jeremy Zucker": 0.091,
+          "Fred again.., Craig Isto, Burna Boy": 0.005,
+          "OBOY, Squidji, YG Pablo": 0.005,
+          "Kiasmos, Wavy, Duñe": 0.074,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.031,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-10",
+          "The Weeknd, Post Malone, Wizkid": 0.095,
+          "Darci, MIKNNA, FKJ": 0.726,
+          "Khalid, Russ, Jeremy Zucker": 0.085,
+          "Fred again.., Craig Isto, Burna Boy": 0.001,
+          "OBOY, Squidji, YG Pablo": 0.007,
+          "Kiasmos, Wavy, Duñe": 0.085,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-11",
+          "The Weeknd, Post Malone, Wizkid": 0.284,
+          "Darci, MIKNNA, FKJ": 0.534,
+          "Khalid, Russ, Jeremy Zucker": 0.041,
+          "Fred again.., Craig Isto, Burna Boy": 0.003,
+          "OBOY, Squidji, YG Pablo": 0.014,
+          "Kiasmos, Wavy, Duñe": 0.09,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.033,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2022-12",
+          "The Weeknd, Post Malone, Wizkid": 0.282,
+          "Darci, MIKNNA, FKJ": 0.519,
+          "Khalid, Russ, Jeremy Zucker": 0.03,
+          "Fred again.., Craig Isto, Burna Boy": 0.001,
+          "OBOY, Squidji, YG Pablo": 0.037,
+          "Kiasmos, Wavy, Duñe": 0.118,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.013,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-01",
+          "The Weeknd, Post Malone, Wizkid": 0.195,
+          "Darci, MIKNNA, FKJ": 0.612,
+          "Khalid, Russ, Jeremy Zucker": 0.097,
+          "Fred again.., Craig Isto, Burna Boy": 0.005,
+          "OBOY, Squidji, YG Pablo": 0.012,
+          "Kiasmos, Wavy, Duñe": 0.067,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.005,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-02",
+          "The Weeknd, Post Malone, Wizkid": 0.267,
+          "Darci, MIKNNA, FKJ": 0.486,
+          "Khalid, Russ, Jeremy Zucker": 0.115,
+          "Fred again.., Craig Isto, Burna Boy": 0.001,
+          "OBOY, Squidji, YG Pablo": 0.067,
+          "Kiasmos, Wavy, Duñe": 0.023,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.041,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-03",
+          "The Weeknd, Post Malone, Wizkid": 0.214,
+          "Darci, MIKNNA, FKJ": 0.563,
+          "Khalid, Russ, Jeremy Zucker": 0.156,
+          "Fred again.., Craig Isto, Burna Boy": 0.001,
+          "OBOY, Squidji, YG Pablo": 0.03,
+          "Kiasmos, Wavy, Duñe": 0.025,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.003,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-04",
+          "The Weeknd, Post Malone, Wizkid": 0.304,
+          "Darci, MIKNNA, FKJ": 0.431,
+          "Khalid, Russ, Jeremy Zucker": 0.18,
+          "Fred again.., Craig Isto, Burna Boy": 0.002,
+          "OBOY, Squidji, YG Pablo": 0.017,
+          "Kiasmos, Wavy, Duñe": 0.063,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.002,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-05",
+          "The Weeknd, Post Malone, Wizkid": 0.342,
+          "Darci, MIKNNA, FKJ": 0.453,
+          "Khalid, Russ, Jeremy Zucker": 0.139,
+          "Fred again.., Craig Isto, Burna Boy": 0.01,
+          "OBOY, Squidji, YG Pablo": 0.013,
+          "Kiasmos, Wavy, Duñe": 0.03,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.013,
+          "Peter Bark, Elsei, Soft Eyez": 0.001
+        },
+        {
+          "month": "2023-06",
+          "The Weeknd, Post Malone, Wizkid": 0.441,
+          "Darci, MIKNNA, FKJ": 0.384,
+          "Khalid, Russ, Jeremy Zucker": 0.079,
+          "Fred again.., Craig Isto, Burna Boy": 0.002,
+          "OBOY, Squidji, YG Pablo": 0.013,
+          "Kiasmos, Wavy, Duñe": 0.054,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.026,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-07",
+          "The Weeknd, Post Malone, Wizkid": 0.442,
+          "Darci, MIKNNA, FKJ": 0.463,
+          "Khalid, Russ, Jeremy Zucker": 0.062,
+          "Fred again.., Craig Isto, Burna Boy": 0.004,
+          "OBOY, Squidji, YG Pablo": 0.006,
+          "Kiasmos, Wavy, Duñe": 0.015,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.009,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-08",
+          "The Weeknd, Post Malone, Wizkid": 0.545,
+          "Darci, MIKNNA, FKJ": 0.346,
+          "Khalid, Russ, Jeremy Zucker": 0.06,
+          "Fred again.., Craig Isto, Burna Boy": 0.013,
+          "OBOY, Squidji, YG Pablo": 0.011,
+          "Kiasmos, Wavy, Duñe": 0.024,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.001,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-09",
+          "The Weeknd, Post Malone, Wizkid": 0.555,
+          "Darci, MIKNNA, FKJ": 0.308,
+          "Khalid, Russ, Jeremy Zucker": 0.075,
+          "Fred again.., Craig Isto, Burna Boy": 0.018,
+          "OBOY, Squidji, YG Pablo": 0.01,
+          "Kiasmos, Wavy, Duñe": 0.023,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.01,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-10",
+          "The Weeknd, Post Malone, Wizkid": 0.592,
+          "Darci, MIKNNA, FKJ": 0.293,
+          "Khalid, Russ, Jeremy Zucker": 0.046,
+          "Fred again.., Craig Isto, Burna Boy": 0.006,
+          "OBOY, Squidji, YG Pablo": 0.004,
+          "Kiasmos, Wavy, Duñe": 0.043,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.016,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-11",
+          "The Weeknd, Post Malone, Wizkid": 0.706,
+          "Darci, MIKNNA, FKJ": 0.193,
+          "Khalid, Russ, Jeremy Zucker": 0.028,
+          "Fred again.., Craig Isto, Burna Boy": 0.004,
+          "OBOY, Squidji, YG Pablo": 0.049,
+          "Kiasmos, Wavy, Duñe": 0.016,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.004,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2023-12",
+          "The Weeknd, Post Malone, Wizkid": 0.656,
+          "Darci, MIKNNA, FKJ": 0.202,
+          "Khalid, Russ, Jeremy Zucker": 0.055,
+          "Fred again.., Craig Isto, Burna Boy": 0.01,
+          "OBOY, Squidji, YG Pablo": 0.05,
+          "Kiasmos, Wavy, Duñe": 0.025,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.001,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-01",
+          "The Weeknd, Post Malone, Wizkid": 0.679,
+          "Darci, MIKNNA, FKJ": 0.178,
+          "Khalid, Russ, Jeremy Zucker": 0.042,
+          "Fred again.., Craig Isto, Burna Boy": 0.005,
+          "OBOY, Squidji, YG Pablo": 0.036,
+          "Kiasmos, Wavy, Duñe": 0.055,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.006,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-02",
+          "The Weeknd, Post Malone, Wizkid": 0.753,
+          "Darci, MIKNNA, FKJ": 0.151,
+          "Khalid, Russ, Jeremy Zucker": 0.04,
+          "Fred again.., Craig Isto, Burna Boy": 0.014,
+          "OBOY, Squidji, YG Pablo": 0.02,
+          "Kiasmos, Wavy, Duñe": 0.019,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.002,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-03",
+          "The Weeknd, Post Malone, Wizkid": 0.683,
+          "Darci, MIKNNA, FKJ": 0.212,
+          "Khalid, Russ, Jeremy Zucker": 0.044,
+          "Fred again.., Craig Isto, Burna Boy": 0.01,
+          "OBOY, Squidji, YG Pablo": 0.02,
+          "Kiasmos, Wavy, Duñe": 0.016,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.016,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-04",
+          "The Weeknd, Post Malone, Wizkid": 0.746,
+          "Darci, MIKNNA, FKJ": 0.171,
+          "Khalid, Russ, Jeremy Zucker": 0.042,
+          "Fred again.., Craig Isto, Burna Boy": 0.006,
+          "OBOY, Squidji, YG Pablo": 0.031,
+          "Kiasmos, Wavy, Duñe": 0.005,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-05",
+          "The Weeknd, Post Malone, Wizkid": 0.715,
+          "Darci, MIKNNA, FKJ": 0.136,
+          "Khalid, Russ, Jeremy Zucker": 0.041,
+          "Fred again.., Craig Isto, Burna Boy": 0.02,
+          "OBOY, Squidji, YG Pablo": 0.017,
+          "Kiasmos, Wavy, Duñe": 0.022,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.047,
+          "Peter Bark, Elsei, Soft Eyez": 0.001
+        },
+        {
+          "month": "2024-06",
+          "The Weeknd, Post Malone, Wizkid": 0.651,
+          "Darci, MIKNNA, FKJ": 0.219,
+          "Khalid, Russ, Jeremy Zucker": 0.056,
+          "Fred again.., Craig Isto, Burna Boy": 0.013,
+          "OBOY, Squidji, YG Pablo": 0.032,
+          "Kiasmos, Wavy, Duñe": 0.013,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.016,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-07",
+          "The Weeknd, Post Malone, Wizkid": 0.672,
+          "Darci, MIKNNA, FKJ": 0.227,
+          "Khalid, Russ, Jeremy Zucker": 0.047,
+          "Fred again.., Craig Isto, Burna Boy": 0.015,
+          "OBOY, Squidji, YG Pablo": 0.006,
+          "Kiasmos, Wavy, Duñe": 0.02,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.014,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-08",
+          "The Weeknd, Post Malone, Wizkid": 0.683,
+          "Darci, MIKNNA, FKJ": 0.207,
+          "Khalid, Russ, Jeremy Zucker": 0.063,
+          "Fred again.., Craig Isto, Burna Boy": 0.007,
+          "OBOY, Squidji, YG Pablo": 0.005,
+          "Kiasmos, Wavy, Duñe": 0.008,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.027,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-09",
+          "The Weeknd, Post Malone, Wizkid": 0.736,
+          "Darci, MIKNNA, FKJ": 0.155,
+          "Khalid, Russ, Jeremy Zucker": 0.043,
+          "Fred again.., Craig Isto, Burna Boy": 0.012,
+          "OBOY, Squidji, YG Pablo": 0.01,
+          "Kiasmos, Wavy, Duñe": 0.007,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.037,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-10",
+          "The Weeknd, Post Malone, Wizkid": 0.712,
+          "Darci, MIKNNA, FKJ": 0.164,
+          "Khalid, Russ, Jeremy Zucker": 0.046,
+          "Fred again.., Craig Isto, Burna Boy": 0.013,
+          "OBOY, Squidji, YG Pablo": 0.028,
+          "Kiasmos, Wavy, Duñe": 0.02,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.017,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-11",
+          "The Weeknd, Post Malone, Wizkid": 0.611,
+          "Darci, MIKNNA, FKJ": 0.144,
+          "Khalid, Russ, Jeremy Zucker": 0.091,
+          "Fred again.., Craig Isto, Burna Boy": 0.005,
+          "OBOY, Squidji, YG Pablo": 0.006,
+          "Kiasmos, Wavy, Duñe": 0.126,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.016,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2024-12",
+          "The Weeknd, Post Malone, Wizkid": 0.748,
+          "Darci, MIKNNA, FKJ": 0.125,
+          "Khalid, Russ, Jeremy Zucker": 0.038,
+          "Fred again.., Craig Isto, Burna Boy": 0.033,
+          "OBOY, Squidji, YG Pablo": 0.008,
+          "Kiasmos, Wavy, Duñe": 0.012,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.035,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-01",
+          "The Weeknd, Post Malone, Wizkid": 0.679,
+          "Darci, MIKNNA, FKJ": 0.182,
+          "Khalid, Russ, Jeremy Zucker": 0.043,
+          "Fred again.., Craig Isto, Burna Boy": 0.058,
+          "OBOY, Squidji, YG Pablo": 0.006,
+          "Kiasmos, Wavy, Duñe": 0.021,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.011,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-02",
+          "The Weeknd, Post Malone, Wizkid": 0.683,
+          "Darci, MIKNNA, FKJ": 0.181,
+          "Khalid, Russ, Jeremy Zucker": 0.042,
+          "Fred again.., Craig Isto, Burna Boy": 0.063,
+          "OBOY, Squidji, YG Pablo": 0.006,
+          "Kiasmos, Wavy, Duñe": 0.024,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-03",
+          "The Weeknd, Post Malone, Wizkid": 0.598,
+          "Darci, MIKNNA, FKJ": 0.255,
+          "Khalid, Russ, Jeremy Zucker": 0.041,
+          "Fred again.., Craig Isto, Burna Boy": 0.056,
+          "OBOY, Squidji, YG Pablo": 0.019,
+          "Kiasmos, Wavy, Duñe": 0.03,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-04",
+          "The Weeknd, Post Malone, Wizkid": 0.561,
+          "Darci, MIKNNA, FKJ": 0.175,
+          "Khalid, Russ, Jeremy Zucker": 0.041,
+          "Fred again.., Craig Isto, Burna Boy": 0.152,
+          "OBOY, Squidji, YG Pablo": 0.034,
+          "Kiasmos, Wavy, Duñe": 0.028,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.009,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-05",
+          "The Weeknd, Post Malone, Wizkid": 0.534,
+          "Darci, MIKNNA, FKJ": 0.214,
+          "Khalid, Russ, Jeremy Zucker": 0.047,
+          "Fred again.., Craig Isto, Burna Boy": 0.156,
+          "OBOY, Squidji, YG Pablo": 0.009,
+          "Kiasmos, Wavy, Duñe": 0.037,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.003,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-06",
+          "The Weeknd, Post Malone, Wizkid": 0.56,
+          "Darci, MIKNNA, FKJ": 0.169,
+          "Khalid, Russ, Jeremy Zucker": 0.028,
+          "Fred again.., Craig Isto, Burna Boy": 0.161,
+          "OBOY, Squidji, YG Pablo": 0.027,
+          "Kiasmos, Wavy, Duñe": 0.051,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.003,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-07",
+          "The Weeknd, Post Malone, Wizkid": 0.502,
+          "Darci, MIKNNA, FKJ": 0.119,
+          "Khalid, Russ, Jeremy Zucker": 0.031,
+          "Fred again.., Craig Isto, Burna Boy": 0.315,
+          "OBOY, Squidji, YG Pablo": 0.011,
+          "Kiasmos, Wavy, Duñe": 0.019,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.004,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-08",
+          "The Weeknd, Post Malone, Wizkid": 0.412,
+          "Darci, MIKNNA, FKJ": 0.123,
+          "Khalid, Russ, Jeremy Zucker": 0.007,
+          "Fred again.., Craig Isto, Burna Boy": 0.442,
+          "OBOY, Squidji, YG Pablo": 0.002,
+          "Kiasmos, Wavy, Duñe": 0.01,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.004,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-09",
+          "The Weeknd, Post Malone, Wizkid": 0.488,
+          "Darci, MIKNNA, FKJ": 0.121,
+          "Khalid, Russ, Jeremy Zucker": 0.015,
+          "Fred again.., Craig Isto, Burna Boy": 0.297,
+          "OBOY, Squidji, YG Pablo": 0.025,
+          "Kiasmos, Wavy, Duñe": 0.008,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.047,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-10",
+          "The Weeknd, Post Malone, Wizkid": 0.448,
+          "Darci, MIKNNA, FKJ": 0.1,
+          "Khalid, Russ, Jeremy Zucker": 0.024,
+          "Fred again.., Craig Isto, Burna Boy": 0.365,
+          "OBOY, Squidji, YG Pablo": 0.016,
+          "Kiasmos, Wavy, Duñe": 0.031,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.015,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-11",
+          "The Weeknd, Post Malone, Wizkid": 0.659,
+          "Darci, MIKNNA, FKJ": 0.091,
+          "Khalid, Russ, Jeremy Zucker": 0.042,
+          "Fred again.., Craig Isto, Burna Boy": 0.201,
+          "OBOY, Squidji, YG Pablo": 0.005,
+          "Kiasmos, Wavy, Duñe": 0.002,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2025-12",
+          "The Weeknd, Post Malone, Wizkid": 0.545,
+          "Darci, MIKNNA, FKJ": 0.118,
+          "Khalid, Russ, Jeremy Zucker": 0.044,
+          "Fred again.., Craig Isto, Burna Boy": 0.262,
+          "OBOY, Squidji, YG Pablo": 0.021,
+          "Kiasmos, Wavy, Duñe": 0.005,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.005,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2026-01",
+          "The Weeknd, Post Malone, Wizkid": 0.539,
+          "Darci, MIKNNA, FKJ": 0.091,
+          "Khalid, Russ, Jeremy Zucker": 0.016,
+          "Fred again.., Craig Isto, Burna Boy": 0.31,
+          "OBOY, Squidji, YG Pablo": 0.016,
+          "Kiasmos, Wavy, Duñe": 0.014,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.014,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2026-02",
+          "The Weeknd, Post Malone, Wizkid": 0.487,
+          "Darci, MIKNNA, FKJ": 0.116,
+          "Khalid, Russ, Jeremy Zucker": 0.033,
+          "Fred again.., Craig Isto, Burna Boy": 0.331,
+          "OBOY, Squidji, YG Pablo": 0.012,
+          "Kiasmos, Wavy, Duñe": 0.002,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.018,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        },
+        {
+          "month": "2026-03",
+          "The Weeknd, Post Malone, Wizkid": 0.56,
+          "Darci, MIKNNA, FKJ": 0.141,
+          "Khalid, Russ, Jeremy Zucker": 0.066,
+          "Fred again.., Craig Isto, Burna Boy": 0.212,
+          "OBOY, Squidji, YG Pablo": 0.006,
+          "Kiasmos, Wavy, Duñe": 0.003,
+          "Pritam, A.R. Rahman, Arijit Singh": 0.011,
+          "Peter Bark, Elsei, Soft Eyez": 0.0
+        }
+      ]
+    },
+    "2018 H2": {
+      "genre_clusters": [
+        {
+          "cluster_id": 4,
+          "label": "Panic! At The Disco",
+          "top_artists": [
+            "Panic! At The Disco"
+          ],
+          "affinity": 0.284
+        },
+        {
+          "cluster_id": 3,
+          "label": "Trent Reznor and Atticus Ross",
+          "top_artists": [
+            "Trent Reznor and Atticus Ross"
+          ],
+          "affinity": 0.262
+        },
+        {
+          "cluster_id": 2,
+          "label": "Twenty One Pilots",
+          "top_artists": [
+            "Twenty One Pilots"
+          ],
+          "affinity": 0.246
+        },
+        {
+          "cluster_id": 1,
+          "label": "XXXTENTACION",
+          "top_artists": [
+            "XXXTENTACION"
+          ],
+          "affinity": 0.064
+        },
+        {
+          "cluster_id": 0,
+          "label": "Bad Bunny",
+          "top_artists": [
+            "Bad Bunny"
+          ],
+          "affinity": 0.145
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Panic! At The Disco",
+          "value": 0.284
+        },
+        {
+          "genre": "Trent Reznor and Atticus Ross",
+          "value": 0.262
+        },
+        {
+          "genre": "Twenty One Pilots",
+          "value": 0.246
+        },
+        {
+          "genre": "XXXTENTACION",
+          "value": 0.064
+        },
+        {
+          "genre": "Bad Bunny",
+          "value": 0.145
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Twilight Sparkle",
+          "cluster": "Panic! At The Disco",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "benny blanco",
+          "cluster": "Panic! At The Disco",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Party in Backyard",
+          "cluster": "Panic! At The Disco",
+          "match_pct": 20,
+          "current_plays": 2
+        },
+        {
+          "artist": "ItaloBrothers",
+          "cluster": "Twenty One Pilots",
+          "match_pct": 19,
+          "current_plays": 1
+        },
+        {
+          "artist": "Avicii",
+          "cluster": "Twenty One Pilots",
+          "match_pct": 19,
+          "current_plays": 1
+        },
+        {
+          "artist": "gnash",
+          "cluster": "Twenty One Pilots",
+          "match_pct": 19,
+          "current_plays": 1
+        },
+        {
+          "artist": "Martin Garrix",
+          "cluster": "Twenty One Pilots",
+          "match_pct": 19,
+          "current_plays": 1
+        },
+        {
+          "artist": "The Clash",
+          "cluster": "Twenty One Pilots",
+          "match_pct": 19,
+          "current_plays": 1
+        },
+        {
+          "artist": "Jesus Culture",
+          "cluster": "Twenty One Pilots",
+          "match_pct": 19,
+          "current_plays": 1
+        },
+        {
+          "artist": "Dua Lipa",
+          "cluster": "Twenty One Pilots",
+          "match_pct": 19,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2018-09",
+          "Panic! At The Disco": 0.029,
+          "Trent Reznor and Atticus Ross": 0.0,
+          "Twenty One Pilots": 0.794,
+          "XXXTENTACION": 0.0,
+          "Bad Bunny": 0.0
+        },
+        {
+          "month": "2018-10",
+          "Panic! At The Disco": 0.395,
+          "Trent Reznor and Atticus Ross": 0.193,
+          "Twenty One Pilots": 0.325,
+          "XXXTENTACION": 0.071,
+          "Bad Bunny": 0.0
+        },
+        {
+          "month": "2018-11",
+          "Panic! At The Disco": 0.0,
+          "Trent Reznor and Atticus Ross": 0.0,
+          "Twenty One Pilots": 0.685,
+          "XXXTENTACION": 0.0,
+          "Bad Bunny": 0.315
+        },
+        {
+          "month": "2018-12",
+          "Panic! At The Disco": 0.06,
+          "Trent Reznor and Atticus Ross": 0.0,
+          "Twenty One Pilots": 0.247,
+          "XXXTENTACION": 0.0,
+          "Bad Bunny": 0.617
+        }
+      ]
+    },
+    "2019 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 2,
+          "label": "Khalid",
+          "top_artists": [
+            "Khalid"
+          ],
+          "affinity": 0.297
+        },
+        {
+          "cluster_id": 3,
+          "label": "Billie Eilish",
+          "top_artists": [
+            "Billie Eilish"
+          ],
+          "affinity": 0.152
+        },
+        {
+          "cluster_id": 1,
+          "label": "Post Malone",
+          "top_artists": [
+            "Post Malone"
+          ],
+          "affinity": 0.368
+        },
+        {
+          "cluster_id": 0,
+          "label": "Eminem",
+          "top_artists": [
+            "Eminem"
+          ],
+          "affinity": 0.183
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Khalid",
+          "value": 0.297
+        },
+        {
+          "genre": "Billie Eilish",
+          "value": 0.152
+        },
+        {
+          "genre": "Post Malone",
+          "value": 0.368
+        },
+        {
+          "genre": "Eminem",
+          "value": 0.183
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Pedro Capó",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Sam Smith",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "XXXTENTACION",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "blackbear",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "BTS",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Nicky Jam",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Marshmello",
+          "cluster": "Khalid",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Avicii",
+          "cluster": "Khalid",
+          "match_pct": 21,
+          "current_plays": 2
+        },
+        {
+          "artist": "Daddy Yankee",
+          "cluster": "Khalid",
+          "match_pct": 21,
+          "current_plays": 2
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2019-03",
+          "Khalid": 0.0,
+          "Billie Eilish": 0.033,
+          "Post Malone": 0.0,
+          "Eminem": 0.943
+        },
+        {
+          "month": "2019-04",
+          "Khalid": 0.27,
+          "Billie Eilish": 0.161,
+          "Post Malone": 0.419,
+          "Eminem": 0.149
+        },
+        {
+          "month": "2019-05",
+          "Khalid": 1.0,
+          "Billie Eilish": 0.0,
+          "Post Malone": 0.0,
+          "Eminem": 0.0
+        }
+      ]
+    },
+    "2019 H2": {
+      "genre_clusters": [],
+      "radar_data": [],
+      "suggested_artists": [],
+      "genre_timeline": []
+    },
+    "2020 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 1,
+          "label": "Post Malone, Travis Scott, SAINt JHN",
+          "top_artists": [
+            "Post Malone",
+            "Travis Scott",
+            "SAINt JHN"
+          ],
+          "affinity": 0.434
+        },
+        {
+          "cluster_id": 4,
+          "label": "Vexento, Khalid, Conan Gray",
+          "top_artists": [
+            "Vexento",
+            "Khalid",
+            "Conan Gray"
+          ],
+          "affinity": 0.11
+        },
+        {
+          "cluster_id": 2,
+          "label": "BANNERS, DJ Snake, Jimmy Q",
+          "top_artists": [
+            "BANNERS",
+            "DJ Snake",
+            "Jimmy Q"
+          ],
+          "affinity": 0.044
+        },
+        {
+          "cluster_id": 3,
+          "label": "AllttA, Hocus Pocus, Shallou",
+          "top_artists": [
+            "AllttA",
+            "Hocus Pocus",
+            "Shallou"
+          ],
+          "affinity": 0.088
+        },
+        {
+          "cluster_id": 7,
+          "label": "A Boogie Wit da Hoodie, Powfu, Roddy Ricch",
+          "top_artists": [
+            "A Boogie Wit da Hoodie",
+            "Powfu",
+            "Roddy Ricch"
+          ],
+          "affinity": 0.127
+        },
+        {
+          "cluster_id": 5,
+          "label": "Peter Bark, Elsei, Soft Eyez",
+          "top_artists": [
+            "Peter Bark",
+            "Elsei",
+            "Soft Eyez"
+          ],
+          "affinity": 0.134
+        },
+        {
+          "cluster_id": 0,
+          "label": "Future, J. Cole, Kendrick Lamar",
+          "top_artists": [
+            "Future",
+            "J. Cole",
+            "Kendrick Lamar"
+          ],
+          "affinity": 0.062
+        },
+        {
+          "cluster_id": 6,
+          "label": "Beach Weather",
+          "top_artists": [
+            "Beach Weather"
+          ],
+          "affinity": 0.002
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Post Malone, Travis Scott, SAINt JHN",
+          "value": 0.434
+        },
+        {
+          "genre": "Vexento, Khalid, Conan Gray",
+          "value": 0.11
+        },
+        {
+          "genre": "BANNERS, DJ Snake, Jimmy Q",
+          "value": 0.044
+        },
+        {
+          "genre": "AllttA, Hocus Pocus, Shallou",
+          "value": 0.088
+        },
+        {
+          "genre": "A Boogie Wit da Hoodie, Powfu, Roddy Ricch",
+          "value": 0.127
+        },
+        {
+          "genre": "Peter Bark, Elsei, Soft Eyez",
+          "value": 0.134
+        },
+        {
+          "genre": "Future, J. Cole, Kendrick Lamar",
+          "value": 0.062
+        },
+        {
+          "genre": "Beach Weather",
+          "value": 0.002
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Kanye West",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "The Beatles",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "WWE",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "YG",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Zedd",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Blanco Brown",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "PUBLIC",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Caleb Hyles",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Alt Bloom",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "James TW",
+          "cluster": "Post Malone, Travis Scott, SAINt JHN",
+          "match_pct": 36,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2020-01",
+          "Post Malone, Travis Scott, SAINt JHN": 0.419,
+          "Vexento, Khalid, Conan Gray": 0.286,
+          "BANNERS, DJ Snake, Jimmy Q": 0.0,
+          "AllttA, Hocus Pocus, Shallou": 0.0,
+          "A Boogie Wit da Hoodie, Powfu, Roddy Ricch": 0.048,
+          "Peter Bark, Elsei, Soft Eyez": 0.0,
+          "Future, J. Cole, Kendrick Lamar": 0.032,
+          "Beach Weather": 0.215
+        },
+        {
+          "month": "2020-02",
+          "Post Malone, Travis Scott, SAINt JHN": 0.862,
+          "Vexento, Khalid, Conan Gray": 0.006,
+          "BANNERS, DJ Snake, Jimmy Q": 0.0,
+          "AllttA, Hocus Pocus, Shallou": 0.0,
+          "A Boogie Wit da Hoodie, Powfu, Roddy Ricch": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0,
+          "Future, J. Cole, Kendrick Lamar": 0.13,
+          "Beach Weather": 0.0
+        },
+        {
+          "month": "2020-03",
+          "Post Malone, Travis Scott, SAINt JHN": 0.857,
+          "Vexento, Khalid, Conan Gray": 0.051,
+          "BANNERS, DJ Snake, Jimmy Q": 0.0,
+          "AllttA, Hocus Pocus, Shallou": 0.0,
+          "A Boogie Wit da Hoodie, Powfu, Roddy Ricch": 0.0,
+          "Peter Bark, Elsei, Soft Eyez": 0.0,
+          "Future, J. Cole, Kendrick Lamar": 0.091,
+          "Beach Weather": 0.0
+        },
+        {
+          "month": "2020-04",
+          "Post Malone, Travis Scott, SAINt JHN": 0.379,
+          "Vexento, Khalid, Conan Gray": 0.091,
+          "BANNERS, DJ Snake, Jimmy Q": 0.019,
+          "AllttA, Hocus Pocus, Shallou": 0.004,
+          "A Boogie Wit da Hoodie, Powfu, Roddy Ricch": 0.186,
+          "Peter Bark, Elsei, Soft Eyez": 0.294,
+          "Future, J. Cole, Kendrick Lamar": 0.022,
+          "Beach Weather": 0.0
+        },
+        {
+          "month": "2020-05",
+          "Post Malone, Travis Scott, SAINt JHN": 0.255,
+          "Vexento, Khalid, Conan Gray": 0.122,
+          "BANNERS, DJ Snake, Jimmy Q": 0.005,
+          "AllttA, Hocus Pocus, Shallou": 0.002,
+          "A Boogie Wit da Hoodie, Powfu, Roddy Ricch": 0.276,
+          "Peter Bark, Elsei, Soft Eyez": 0.307,
+          "Future, J. Cole, Kendrick Lamar": 0.033,
+          "Beach Weather": 0.0
+        },
+        {
+          "month": "2020-06",
+          "Post Malone, Travis Scott, SAINt JHN": 0.291,
+          "Vexento, Khalid, Conan Gray": 0.192,
+          "BANNERS, DJ Snake, Jimmy Q": 0.09,
+          "AllttA, Hocus Pocus, Shallou": 0.227,
+          "A Boogie Wit da Hoodie, Powfu, Roddy Ricch": 0.061,
+          "Peter Bark, Elsei, Soft Eyez": 0.079,
+          "Future, J. Cole, Kendrick Lamar": 0.058,
+          "Beach Weather": 0.001
+        }
+      ]
+    },
+    "2020 H2": {
+      "genre_clusters": [
+        {
+          "cluster_id": 5,
+          "label": "Travis Scott, Hatik, Post Malone",
+          "top_artists": [
+            "Travis Scott",
+            "Hatik",
+            "Post Malone"
+          ],
+          "affinity": 0.191
+        },
+        {
+          "cluster_id": 1,
+          "label": "Jeremy Zucker, WILLOW, Tessa Violet",
+          "top_artists": [
+            "Jeremy Zucker",
+            "WILLOW",
+            "Tessa Violet"
+          ],
+          "affinity": 0.074
+        },
+        {
+          "cluster_id": 4,
+          "label": "Otis McDonald, Wiz Khalifa, Jaden",
+          "top_artists": [
+            "Otis McDonald",
+            "Wiz Khalifa",
+            "Jaden"
+          ],
+          "affinity": 0.153
+        },
+        {
+          "cluster_id": 2,
+          "label": "Vexento, The Weeknd, Lonely in the Rain",
+          "top_artists": [
+            "Vexento",
+            "The Weeknd",
+            "Lonely in the Rain"
+          ],
+          "affinity": 0.268
+        },
+        {
+          "cluster_id": 0,
+          "label": "GRAE, Eminem, Kodak Black",
+          "top_artists": [
+            "GRAE",
+            "Eminem",
+            "Kodak Black"
+          ],
+          "affinity": 0.193
+        },
+        {
+          "cluster_id": 3,
+          "label": "SAINt JHN, Jawsh 685, Curtis Waters",
+          "top_artists": [
+            "SAINt JHN",
+            "Jawsh 685",
+            "Curtis Waters"
+          ],
+          "affinity": 0.075
+        },
+        {
+          "cluster_id": 7,
+          "label": "AllttA, Jordyn Edmonds, Elsei",
+          "top_artists": [
+            "AllttA",
+            "Jordyn Edmonds",
+            "Elsei"
+          ],
+          "affinity": 0.024
+        },
+        {
+          "cluster_id": 6,
+          "label": "Panic! At The Disco, Anson Seabra, FINNEAS",
+          "top_artists": [
+            "Panic! At The Disco",
+            "Anson Seabra",
+            "FINNEAS"
+          ],
+          "affinity": 0.022
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Travis Scott, Hatik, Post Malone",
+          "value": 0.191
+        },
+        {
+          "genre": "Jeremy Zucker, WILLOW, Tessa Violet",
+          "value": 0.074
+        },
+        {
+          "genre": "Otis McDonald, Wiz Khalifa, Jaden",
+          "value": 0.153
+        },
+        {
+          "genre": "Vexento, The Weeknd, Lonely in the Rain",
+          "value": 0.268
+        },
+        {
+          "genre": "GRAE, Eminem, Kodak Black",
+          "value": 0.193
+        },
+        {
+          "genre": "SAINt JHN, Jawsh 685, Curtis Waters",
+          "value": 0.075
+        },
+        {
+          "genre": "AllttA, Jordyn Edmonds, Elsei",
+          "value": 0.024
+        },
+        {
+          "genre": "Panic! At The Disco, Anson Seabra, FINNEAS",
+          "value": 0.022
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "X Ambassadors",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "Mugen",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "ill Nicky",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "Lxst",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "DJ Khalil",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "pucca",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "Taiyo Ky",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "Gilbeaux",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "Viénce",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        },
+        {
+          "artist": "Mida.S",
+          "cluster": "Vexento, The Weeknd, Lonely in the Rain",
+          "match_pct": 22,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2020-07",
+          "Travis Scott, Hatik, Post Malone": 0.081,
+          "Jeremy Zucker, WILLOW, Tessa Violet": 0.013,
+          "Otis McDonald, Wiz Khalifa, Jaden": 0.024,
+          "Vexento, The Weeknd, Lonely in the Rain": 0.511,
+          "GRAE, Eminem, Kodak Black": 0.164,
+          "SAINt JHN, Jawsh 685, Curtis Waters": 0.072,
+          "AllttA, Jordyn Edmonds, Elsei": 0.108,
+          "Panic! At The Disco, Anson Seabra, FINNEAS": 0.028
+        },
+        {
+          "month": "2020-08",
+          "Travis Scott, Hatik, Post Malone": 0.275,
+          "Jeremy Zucker, WILLOW, Tessa Violet": 0.0,
+          "Otis McDonald, Wiz Khalifa, Jaden": 0.033,
+          "Vexento, The Weeknd, Lonely in the Rain": 0.283,
+          "GRAE, Eminem, Kodak Black": 0.188,
+          "SAINt JHN, Jawsh 685, Curtis Waters": 0.197,
+          "AllttA, Jordyn Edmonds, Elsei": 0.015,
+          "Panic! At The Disco, Anson Seabra, FINNEAS": 0.008
+        },
+        {
+          "month": "2020-09",
+          "Travis Scott, Hatik, Post Malone": 0.219,
+          "Jeremy Zucker, WILLOW, Tessa Violet": 0.001,
+          "Otis McDonald, Wiz Khalifa, Jaden": 0.132,
+          "Vexento, The Weeknd, Lonely in the Rain": 0.24,
+          "GRAE, Eminem, Kodak Black": 0.334,
+          "SAINt JHN, Jawsh 685, Curtis Waters": 0.054,
+          "AllttA, Jordyn Edmonds, Elsei": 0.0,
+          "Panic! At The Disco, Anson Seabra, FINNEAS": 0.019
+        },
+        {
+          "month": "2020-10",
+          "Travis Scott, Hatik, Post Malone": 0.185,
+          "Jeremy Zucker, WILLOW, Tessa Violet": 0.0,
+          "Otis McDonald, Wiz Khalifa, Jaden": 0.211,
+          "Vexento, The Weeknd, Lonely in the Rain": 0.226,
+          "GRAE, Eminem, Kodak Black": 0.299,
+          "SAINt JHN, Jawsh 685, Curtis Waters": 0.039,
+          "AllttA, Jordyn Edmonds, Elsei": 0.01,
+          "Panic! At The Disco, Anson Seabra, FINNEAS": 0.029
+        },
+        {
+          "month": "2020-11",
+          "Travis Scott, Hatik, Post Malone": 0.061,
+          "Jeremy Zucker, WILLOW, Tessa Violet": 0.105,
+          "Otis McDonald, Wiz Khalifa, Jaden": 0.401,
+          "Vexento, The Weeknd, Lonely in the Rain": 0.187,
+          "GRAE, Eminem, Kodak Black": 0.185,
+          "SAINt JHN, Jawsh 685, Curtis Waters": 0.022,
+          "AllttA, Jordyn Edmonds, Elsei": 0.009,
+          "Panic! At The Disco, Anson Seabra, FINNEAS": 0.029
+        },
+        {
+          "month": "2020-12",
+          "Travis Scott, Hatik, Post Malone": 0.19,
+          "Jeremy Zucker, WILLOW, Tessa Violet": 0.298,
+          "Otis McDonald, Wiz Khalifa, Jaden": 0.172,
+          "Vexento, The Weeknd, Lonely in the Rain": 0.155,
+          "GRAE, Eminem, Kodak Black": 0.139,
+          "SAINt JHN, Jawsh 685, Curtis Waters": 0.023,
+          "AllttA, Jordyn Edmonds, Elsei": 0.001,
+          "Panic! At The Disco, Anson Seabra, FINNEAS": 0.021
+        }
+      ]
+    },
+    "2021 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 4,
+          "label": "Darci, MIKNNA, BIGBABYGUCCI",
+          "top_artists": [
+            "Darci",
+            "MIKNNA",
+            "BIGBABYGUCCI"
+          ],
+          "affinity": 0.328
+        },
+        {
+          "cluster_id": 2,
+          "label": "PLAZA, FRVRFRIDAY, Apashe",
+          "top_artists": [
+            "PLAZA",
+            "FRVRFRIDAY",
+            "Apashe"
+          ],
+          "affinity": 0.201
+        },
+        {
+          "cluster_id": 6,
+          "label": "OBOY, YG Pablo, Luidji",
+          "top_artists": [
+            "OBOY",
+            "YG Pablo",
+            "Luidji"
+          ],
+          "affinity": 0.209
+        },
+        {
+          "cluster_id": 1,
+          "label": "dj poolboi, Kiasmos, Rival Consoles",
+          "top_artists": [
+            "dj poolboi",
+            "Kiasmos",
+            "Rival Consoles"
+          ],
+          "affinity": 0.11
+        },
+        {
+          "cluster_id": 3,
+          "label": "Throttle, Mansionair, Conan Gray",
+          "top_artists": [
+            "Throttle",
+            "Mansionair",
+            "Conan Gray"
+          ],
+          "affinity": 0.065
+        },
+        {
+          "cluster_id": 0,
+          "label": "3D BLAST, [bsd.u], RAC",
+          "top_artists": [
+            "3D BLAST",
+            "[bsd.u]",
+            "RAC"
+          ],
+          "affinity": 0.042
+        },
+        {
+          "cluster_id": 7,
+          "label": "Arctic Monkeys, Anson Seabra, Petit Biscuit",
+          "top_artists": [
+            "Arctic Monkeys",
+            "Anson Seabra",
+            "Petit Biscuit"
+          ],
+          "affinity": 0.029
+        },
+        {
+          "cluster_id": 5,
+          "label": "DeJ Loaf, Alina Baraz, Tank",
+          "top_artists": [
+            "DeJ Loaf",
+            "Alina Baraz",
+            "Tank"
+          ],
+          "affinity": 0.016
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Darci, MIKNNA, BIGBABYGUCCI",
+          "value": 0.328
+        },
+        {
+          "genre": "PLAZA, FRVRFRIDAY, Apashe",
+          "value": 0.201
+        },
+        {
+          "genre": "OBOY, YG Pablo, Luidji",
+          "value": 0.209
+        },
+        {
+          "genre": "dj poolboi, Kiasmos, Rival Consoles",
+          "value": 0.11
+        },
+        {
+          "genre": "Throttle, Mansionair, Conan Gray",
+          "value": 0.065
+        },
+        {
+          "genre": "3D BLAST, [bsd.u], RAC",
+          "value": 0.042
+        },
+        {
+          "genre": "Arctic Monkeys, Anson Seabra, Petit Biscuit",
+          "value": 0.029
+        },
+        {
+          "genre": "DeJ Loaf, Alina Baraz, Tank",
+          "value": 0.016
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Panic! At The Disco",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "Lilla Vargen",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "Blanks",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "ZAQ",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "Reo Cragun",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "BLKNZ",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "whiterosemoxie",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "Fideles",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "Cage The Elephant",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        },
+        {
+          "artist": "Johann Strauss II",
+          "cluster": "Darci, MIKNNA, BIGBABYGUCCI",
+          "match_pct": 26,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2021-01",
+          "Darci, MIKNNA, BIGBABYGUCCI": 0.625,
+          "PLAZA, FRVRFRIDAY, Apashe": 0.029,
+          "OBOY, YG Pablo, Luidji": 0.025,
+          "dj poolboi, Kiasmos, Rival Consoles": 0.016,
+          "Throttle, Mansionair, Conan Gray": 0.18,
+          "3D BLAST, [bsd.u], RAC": 0.081,
+          "Arctic Monkeys, Anson Seabra, Petit Biscuit": 0.043,
+          "DeJ Loaf, Alina Baraz, Tank": 0.0
+        },
+        {
+          "month": "2021-02",
+          "Darci, MIKNNA, BIGBABYGUCCI": 0.556,
+          "PLAZA, FRVRFRIDAY, Apashe": 0.033,
+          "OBOY, YG Pablo, Luidji": 0.19,
+          "dj poolboi, Kiasmos, Rival Consoles": 0.012,
+          "Throttle, Mansionair, Conan Gray": 0.12,
+          "3D BLAST, [bsd.u], RAC": 0.038,
+          "Arctic Monkeys, Anson Seabra, Petit Biscuit": 0.051,
+          "DeJ Loaf, Alina Baraz, Tank": 0.0
+        },
+        {
+          "month": "2021-03",
+          "Darci, MIKNNA, BIGBABYGUCCI": 0.354,
+          "PLAZA, FRVRFRIDAY, Apashe": 0.044,
+          "OBOY, YG Pablo, Luidji": 0.397,
+          "dj poolboi, Kiasmos, Rival Consoles": 0.09,
+          "Throttle, Mansionair, Conan Gray": 0.061,
+          "3D BLAST, [bsd.u], RAC": 0.032,
+          "Arctic Monkeys, Anson Seabra, Petit Biscuit": 0.02,
+          "DeJ Loaf, Alina Baraz, Tank": 0.001
+        },
+        {
+          "month": "2021-04",
+          "Darci, MIKNNA, BIGBABYGUCCI": 0.229,
+          "PLAZA, FRVRFRIDAY, Apashe": 0.193,
+          "OBOY, YG Pablo, Luidji": 0.189,
+          "dj poolboi, Kiasmos, Rival Consoles": 0.253,
+          "Throttle, Mansionair, Conan Gray": 0.057,
+          "3D BLAST, [bsd.u], RAC": 0.012,
+          "Arctic Monkeys, Anson Seabra, Petit Biscuit": 0.033,
+          "DeJ Loaf, Alina Baraz, Tank": 0.034
+        },
+        {
+          "month": "2021-05",
+          "Darci, MIKNNA, BIGBABYGUCCI": 0.195,
+          "PLAZA, FRVRFRIDAY, Apashe": 0.448,
+          "OBOY, YG Pablo, Luidji": 0.113,
+          "dj poolboi, Kiasmos, Rival Consoles": 0.144,
+          "Throttle, Mansionair, Conan Gray": 0.018,
+          "3D BLAST, [bsd.u], RAC": 0.051,
+          "Arctic Monkeys, Anson Seabra, Petit Biscuit": 0.008,
+          "DeJ Loaf, Alina Baraz, Tank": 0.011
+        },
+        {
+          "month": "2021-06",
+          "Darci, MIKNNA, BIGBABYGUCCI": 0.229,
+          "PLAZA, FRVRFRIDAY, Apashe": 0.398,
+          "OBOY, YG Pablo, Luidji": 0.108,
+          "dj poolboi, Kiasmos, Rival Consoles": 0.132,
+          "Throttle, Mansionair, Conan Gray": 0.033,
+          "3D BLAST, [bsd.u], RAC": 0.078,
+          "Arctic Monkeys, Anson Seabra, Petit Biscuit": 0.005,
+          "DeJ Loaf, Alina Baraz, Tank": 0.016
+        }
+      ]
+    },
+    "2021 H2": {
+      "genre_clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Darci, BIGBABYGUCCI, Jok'air",
+          "top_artists": [
+            "Darci",
+            "BIGBABYGUCCI",
+            "Jok'air"
+          ],
+          "affinity": 0.298
+        },
+        {
+          "cluster_id": 6,
+          "label": "Apashe, Just A Gent, pluko",
+          "top_artists": [
+            "Apashe",
+            "Just A Gent",
+            "pluko"
+          ],
+          "affinity": 0.052
+        },
+        {
+          "cluster_id": 0,
+          "label": "YUN MUFASA, Souly, Lost Child",
+          "top_artists": [
+            "YUN MUFASA",
+            "Souly",
+            "Lost Child"
+          ],
+          "affinity": 0.139
+        },
+        {
+          "cluster_id": 2,
+          "label": "Myth Syzer, MIKNNA, A$AP Rocky",
+          "top_artists": [
+            "Myth Syzer",
+            "MIKNNA",
+            "A$AP Rocky"
+          ],
+          "affinity": 0.249
+        },
+        {
+          "cluster_id": 5,
+          "label": "FKJ, Duñe, Darius",
+          "top_artists": [
+            "FKJ",
+            "Duñe",
+            "Darius"
+          ],
+          "affinity": 0.083
+        },
+        {
+          "cluster_id": 7,
+          "label": "Arin Ray, Eli Sostre, PLAZA",
+          "top_artists": [
+            "Arin Ray",
+            "Eli Sostre",
+            "PLAZA"
+          ],
+          "affinity": 0.098
+        },
+        {
+          "cluster_id": 1,
+          "label": "Muddy Monk, Aphex Twin, L'Impératrice",
+          "top_artists": [
+            "Muddy Monk",
+            "Aphex Twin",
+            "L'Impératrice"
+          ],
+          "affinity": 0.061
+        },
+        {
+          "cluster_id": 4,
+          "label": "OBOY, Squidji, YG Pablo",
+          "top_artists": [
+            "OBOY",
+            "Squidji",
+            "YG Pablo"
+          ],
+          "affinity": 0.019
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Darci, BIGBABYGUCCI, Jok'air",
+          "value": 0.298
+        },
+        {
+          "genre": "Apashe, Just A Gent, pluko",
+          "value": 0.052
+        },
+        {
+          "genre": "YUN MUFASA, Souly, Lost Child",
+          "value": 0.139
+        },
+        {
+          "genre": "Myth Syzer, MIKNNA, A$AP Rocky",
+          "value": 0.249
+        },
+        {
+          "genre": "FKJ, Duñe, Darius",
+          "value": 0.083
+        },
+        {
+          "genre": "Arin Ray, Eli Sostre, PLAZA",
+          "value": 0.098
+        },
+        {
+          "genre": "Muddy Monk, Aphex Twin, L'Impératrice",
+          "value": 0.061
+        },
+        {
+          "genre": "OBOY, Squidji, YG Pablo",
+          "value": 0.019
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Miles Davis",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "SZA",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "smol",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Vic Vision",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Wicca Phase Springs Eternal",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Unclenathannn",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "sagun",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "HVN",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Biosphere",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        },
+        {
+          "artist": "Common",
+          "cluster": "Darci, BIGBABYGUCCI, Jok'air",
+          "match_pct": 24,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2021-07",
+          "Darci, BIGBABYGUCCI, Jok'air": 0.414,
+          "Apashe, Just A Gent, pluko": 0.054,
+          "YUN MUFASA, Souly, Lost Child": 0.082,
+          "Myth Syzer, MIKNNA, A$AP Rocky": 0.12,
+          "FKJ, Duñe, Darius": 0.009,
+          "Arin Ray, Eli Sostre, PLAZA": 0.226,
+          "Muddy Monk, Aphex Twin, L'Impératrice": 0.079,
+          "OBOY, Squidji, YG Pablo": 0.009
+        },
+        {
+          "month": "2021-08",
+          "Darci, BIGBABYGUCCI, Jok'air": 0.444,
+          "Apashe, Just A Gent, pluko": 0.026,
+          "YUN MUFASA, Souly, Lost Child": 0.156,
+          "Myth Syzer, MIKNNA, A$AP Rocky": 0.112,
+          "FKJ, Duñe, Darius": 0.014,
+          "Arin Ray, Eli Sostre, PLAZA": 0.14,
+          "Muddy Monk, Aphex Twin, L'Impératrice": 0.083,
+          "OBOY, Squidji, YG Pablo": 0.014
+        },
+        {
+          "month": "2021-09",
+          "Darci, BIGBABYGUCCI, Jok'air": 0.312,
+          "Apashe, Just A Gent, pluko": 0.005,
+          "YUN MUFASA, Souly, Lost Child": 0.147,
+          "Myth Syzer, MIKNNA, A$AP Rocky": 0.176,
+          "FKJ, Duñe, Darius": 0.223,
+          "Arin Ray, Eli Sostre, PLAZA": 0.07,
+          "Muddy Monk, Aphex Twin, L'Impératrice": 0.059,
+          "OBOY, Squidji, YG Pablo": 0.007
+        },
+        {
+          "month": "2021-10",
+          "Darci, BIGBABYGUCCI, Jok'air": 0.265,
+          "Apashe, Just A Gent, pluko": 0.046,
+          "YUN MUFASA, Souly, Lost Child": 0.218,
+          "Myth Syzer, MIKNNA, A$AP Rocky": 0.278,
+          "FKJ, Duñe, Darius": 0.112,
+          "Arin Ray, Eli Sostre, PLAZA": 0.037,
+          "Muddy Monk, Aphex Twin, L'Impératrice": 0.031,
+          "OBOY, Squidji, YG Pablo": 0.012
+        },
+        {
+          "month": "2021-11",
+          "Darci, BIGBABYGUCCI, Jok'air": 0.189,
+          "Apashe, Just A Gent, pluko": 0.078,
+          "YUN MUFASA, Souly, Lost Child": 0.111,
+          "Myth Syzer, MIKNNA, A$AP Rocky": 0.449,
+          "FKJ, Duñe, Darius": 0.055,
+          "Arin Ray, Eli Sostre, PLAZA": 0.025,
+          "Muddy Monk, Aphex Twin, L'Impératrice": 0.045,
+          "OBOY, Squidji, YG Pablo": 0.048
+        },
+        {
+          "month": "2021-12",
+          "Darci, BIGBABYGUCCI, Jok'air": 0.231,
+          "Apashe, Just A Gent, pluko": 0.051,
+          "YUN MUFASA, Souly, Lost Child": 0.06,
+          "Myth Syzer, MIKNNA, A$AP Rocky": 0.498,
+          "FKJ, Duñe, Darius": 0.024,
+          "Arin Ray, Eli Sostre, PLAZA": 0.07,
+          "Muddy Monk, Aphex Twin, L'Impératrice": 0.05,
+          "OBOY, Squidji, YG Pablo": 0.014
+        }
+      ]
+    },
+    "2022 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 5,
+          "label": "Money Man, Darci, Green Piccolo",
+          "top_artists": [
+            "Money Man",
+            "Darci",
+            "Green Piccolo"
+          ],
+          "affinity": 0.28
+        },
+        {
+          "cluster_id": 2,
+          "label": "MIKNNA, DJ Khaled, Joyner Lucas",
+          "top_artists": [
+            "MIKNNA",
+            "DJ Khaled",
+            "Joyner Lucas"
+          ],
+          "affinity": 0.194
+        },
+        {
+          "cluster_id": 6,
+          "label": "Apashe, Death Grips, pluko",
+          "top_artists": [
+            "Apashe",
+            "Death Grips",
+            "pluko"
+          ],
+          "affinity": 0.088
+        },
+        {
+          "cluster_id": 1,
+          "label": "BIGBABYGUCCI, PLAZA, Arin Ray",
+          "top_artists": [
+            "BIGBABYGUCCI",
+            "PLAZA",
+            "Arin Ray"
+          ],
+          "affinity": 0.161
+        },
+        {
+          "cluster_id": 3,
+          "label": "FKJ, KAZEY J, Tyler, The Creator",
+          "top_artists": [
+            "FKJ",
+            "KAZEY J",
+            "Tyler, The Creator"
+          ],
+          "affinity": 0.125
+        },
+        {
+          "cluster_id": 0,
+          "label": "MDMA, Migos, Justin Bieber",
+          "top_artists": [
+            "MDMA",
+            "Migos",
+            "Justin Bieber"
+          ],
+          "affinity": 0.061
+        },
+        {
+          "cluster_id": 7,
+          "label": "Eli Sostre, Squidji, YG Pablo",
+          "top_artists": [
+            "Eli Sostre",
+            "Squidji",
+            "YG Pablo"
+          ],
+          "affinity": 0.061
+        },
+        {
+          "cluster_id": 4,
+          "label": "Joji, Kodak Black, Duñe",
+          "top_artists": [
+            "Joji",
+            "Kodak Black",
+            "Duñe"
+          ],
+          "affinity": 0.03
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Money Man, Darci, Green Piccolo",
+          "value": 0.28
+        },
+        {
+          "genre": "MIKNNA, DJ Khaled, Joyner Lucas",
+          "value": 0.194
+        },
+        {
+          "genre": "Apashe, Death Grips, pluko",
+          "value": 0.088
+        },
+        {
+          "genre": "BIGBABYGUCCI, PLAZA, Arin Ray",
+          "value": 0.161
+        },
+        {
+          "genre": "FKJ, KAZEY J, Tyler, The Creator",
+          "value": 0.125
+        },
+        {
+          "genre": "MDMA, Migos, Justin Bieber",
+          "value": 0.061
+        },
+        {
+          "genre": "Eli Sostre, Squidji, YG Pablo",
+          "value": 0.061
+        },
+        {
+          "genre": "Joji, Kodak Black, Duñe",
+          "value": 0.03
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Falz",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "UD",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Mir Fontane",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Hudi",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Taylor Art",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Willy William",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Tory Lanez",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Elias Burbick",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Rilès",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Bad Smith",
+          "cluster": "Money Man, Darci, Green Piccolo",
+          "match_pct": 23,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2022-01",
+          "Money Man, Darci, Green Piccolo": 0.515,
+          "MIKNNA, DJ Khaled, Joyner Lucas": 0.017,
+          "Apashe, Death Grips, pluko": 0.114,
+          "BIGBABYGUCCI, PLAZA, Arin Ray": 0.018,
+          "FKJ, KAZEY J, Tyler, The Creator": 0.246,
+          "MDMA, Migos, Justin Bieber": 0.011,
+          "Eli Sostre, Squidji, YG Pablo": 0.071,
+          "Joji, Kodak Black, Duñe": 0.008
+        },
+        {
+          "month": "2022-02",
+          "Money Man, Darci, Green Piccolo": 0.312,
+          "MIKNNA, DJ Khaled, Joyner Lucas": 0.052,
+          "Apashe, Death Grips, pluko": 0.144,
+          "BIGBABYGUCCI, PLAZA, Arin Ray": 0.13,
+          "FKJ, KAZEY J, Tyler, The Creator": 0.188,
+          "MDMA, Migos, Justin Bieber": 0.022,
+          "Eli Sostre, Squidji, YG Pablo": 0.112,
+          "Joji, Kodak Black, Duñe": 0.04
+        },
+        {
+          "month": "2022-03",
+          "Money Man, Darci, Green Piccolo": 0.311,
+          "MIKNNA, DJ Khaled, Joyner Lucas": 0.086,
+          "Apashe, Death Grips, pluko": 0.11,
+          "BIGBABYGUCCI, PLAZA, Arin Ray": 0.239,
+          "FKJ, KAZEY J, Tyler, The Creator": 0.109,
+          "MDMA, Migos, Justin Bieber": 0.029,
+          "Eli Sostre, Squidji, YG Pablo": 0.051,
+          "Joji, Kodak Black, Duñe": 0.064
+        },
+        {
+          "month": "2022-04",
+          "Money Man, Darci, Green Piccolo": 0.174,
+          "MIKNNA, DJ Khaled, Joyner Lucas": 0.391,
+          "Apashe, Death Grips, pluko": 0.051,
+          "BIGBABYGUCCI, PLAZA, Arin Ray": 0.257,
+          "FKJ, KAZEY J, Tyler, The Creator": 0.047,
+          "MDMA, Migos, Justin Bieber": 0.023,
+          "Eli Sostre, Squidji, YG Pablo": 0.033,
+          "Joji, Kodak Black, Duñe": 0.024
+        },
+        {
+          "month": "2022-05",
+          "Money Man, Darci, Green Piccolo": 0.148,
+          "MIKNNA, DJ Khaled, Joyner Lucas": 0.483,
+          "Apashe, Death Grips, pluko": 0.017,
+          "BIGBABYGUCCI, PLAZA, Arin Ray": 0.217,
+          "FKJ, KAZEY J, Tyler, The Creator": 0.035,
+          "MDMA, Migos, Justin Bieber": 0.05,
+          "Eli Sostre, Squidji, YG Pablo": 0.035,
+          "Joji, Kodak Black, Duñe": 0.015
+        },
+        {
+          "month": "2022-06",
+          "Money Man, Darci, Green Piccolo": 0.135,
+          "MIKNNA, DJ Khaled, Joyner Lucas": 0.229,
+          "Apashe, Death Grips, pluko": 0.009,
+          "BIGBABYGUCCI, PLAZA, Arin Ray": 0.199,
+          "FKJ, KAZEY J, Tyler, The Creator": 0.073,
+          "MDMA, Migos, Justin Bieber": 0.336,
+          "Eli Sostre, Squidji, YG Pablo": 0.009,
+          "Joji, Kodak Black, Duñe": 0.009
+        }
+      ]
+    },
+    "2022 H2": {
+      "genre_clusters": [
+        {
+          "cluster_id": 6,
+          "label": "Isaiah Rashad, MDMA, Myth Syzer",
+          "top_artists": [
+            "Isaiah Rashad",
+            "MDMA",
+            "Myth Syzer"
+          ],
+          "affinity": 0.373
+        },
+        {
+          "cluster_id": 2,
+          "label": "FKJ, MIKNNA, Migos",
+          "top_artists": [
+            "FKJ",
+            "MIKNNA",
+            "Migos"
+          ],
+          "affinity": 0.348
+        },
+        {
+          "cluster_id": 1,
+          "label": "Ferdous, Kendrick Lamar, Kanye West",
+          "top_artists": [
+            "Ferdous",
+            "Kendrick Lamar",
+            "Kanye West"
+          ],
+          "affinity": 0.152
+        },
+        {
+          "cluster_id": 0,
+          "label": "Russ, Travis Scott, Post Malone",
+          "top_artists": [
+            "Russ",
+            "Travis Scott",
+            "Post Malone"
+          ],
+          "affinity": 0.089
+        },
+        {
+          "cluster_id": 7,
+          "label": "Potatohead People, Coubo, IAMNOBODI",
+          "top_artists": [
+            "Potatohead People",
+            "Coubo",
+            "IAMNOBODI"
+          ],
+          "affinity": 0.018
+        },
+        {
+          "cluster_id": 4,
+          "label": "A L E X, [bsd.u], Kudasaibeats",
+          "top_artists": [
+            "A L E X",
+            "[bsd.u]",
+            "Kudasaibeats"
+          ],
+          "affinity": 0.01
+        },
+        {
+          "cluster_id": 3,
+          "label": "Sacred Earth, Kiasmos, OBOY",
+          "top_artists": [
+            "Sacred Earth",
+            "Kiasmos",
+            "OBOY"
+          ],
+          "affinity": 0.007
+        },
+        {
+          "cluster_id": 5,
+          "label": "Frank Sinatra, INNA",
+          "top_artists": [
+            "Frank Sinatra",
+            "INNA"
+          ],
+          "affinity": 0.003
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Isaiah Rashad, MDMA, Myth Syzer",
+          "value": 0.373
+        },
+        {
+          "genre": "FKJ, MIKNNA, Migos",
+          "value": 0.348
+        },
+        {
+          "genre": "Ferdous, Kendrick Lamar, Kanye West",
+          "value": 0.152
+        },
+        {
+          "genre": "Russ, Travis Scott, Post Malone",
+          "value": 0.089
+        },
+        {
+          "genre": "Potatohead People, Coubo, IAMNOBODI",
+          "value": 0.018
+        },
+        {
+          "genre": "A L E X, [bsd.u], Kudasaibeats",
+          "value": 0.01
+        },
+        {
+          "genre": "Sacred Earth, Kiasmos, OBOY",
+          "value": 0.007
+        },
+        {
+          "genre": "Frank Sinatra, INNA",
+          "value": 0.003
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "biosphere",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "Future",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "Moka Boka",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "Jamaar",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "Third World Don",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "Paris Paige",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "T.O Green",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "Amjad Ali Khan",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "Unknown Mortal Orchestra",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        },
+        {
+          "artist": "never young beach",
+          "cluster": "Isaiah Rashad, MDMA, Myth Syzer",
+          "match_pct": 31,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2022-07",
+          "Isaiah Rashad, MDMA, Myth Syzer": 0.145,
+          "FKJ, MIKNNA, Migos": 0.721,
+          "Ferdous, Kendrick Lamar, Kanye West": 0.0,
+          "Russ, Travis Scott, Post Malone": 0.048,
+          "Potatohead People, Coubo, IAMNOBODI": 0.002,
+          "A L E X, [bsd.u], Kudasaibeats": 0.05,
+          "Sacred Earth, Kiasmos, OBOY": 0.017,
+          "Frank Sinatra, INNA": 0.011
+        },
+        {
+          "month": "2022-08",
+          "Isaiah Rashad, MDMA, Myth Syzer": 0.369,
+          "FKJ, MIKNNA, Migos": 0.479,
+          "Ferdous, Kendrick Lamar, Kanye West": 0.017,
+          "Russ, Travis Scott, Post Malone": 0.103,
+          "Potatohead People, Coubo, IAMNOBODI": 0.001,
+          "A L E X, [bsd.u], Kudasaibeats": 0.018,
+          "Sacred Earth, Kiasmos, OBOY": 0.006,
+          "Frank Sinatra, INNA": 0.0
+        },
+        {
+          "month": "2022-09",
+          "Isaiah Rashad, MDMA, Myth Syzer": 0.462,
+          "FKJ, MIKNNA, Migos": 0.293,
+          "Ferdous, Kendrick Lamar, Kanye West": 0.007,
+          "Russ, Travis Scott, Post Malone": 0.223,
+          "Potatohead People, Coubo, IAMNOBODI": 0.0,
+          "A L E X, [bsd.u], Kudasaibeats": 0.005,
+          "Sacred Earth, Kiasmos, OBOY": 0.001,
+          "Frank Sinatra, INNA": 0.008
+        },
+        {
+          "month": "2022-10",
+          "Isaiah Rashad, MDMA, Myth Syzer": 0.497,
+          "FKJ, MIKNNA, Migos": 0.358,
+          "Ferdous, Kendrick Lamar, Kanye West": 0.037,
+          "Russ, Travis Scott, Post Malone": 0.079,
+          "Potatohead People, Coubo, IAMNOBODI": 0.0,
+          "A L E X, [bsd.u], Kudasaibeats": 0.03,
+          "Sacred Earth, Kiasmos, OBOY": 0.0,
+          "Frank Sinatra, INNA": 0.0
+        },
+        {
+          "month": "2022-11",
+          "Isaiah Rashad, MDMA, Myth Syzer": 0.445,
+          "FKJ, MIKNNA, Migos": 0.186,
+          "Ferdous, Kendrick Lamar, Kanye West": 0.271,
+          "Russ, Travis Scott, Post Malone": 0.027,
+          "Potatohead People, Coubo, IAMNOBODI": 0.061,
+          "A L E X, [bsd.u], Kudasaibeats": 0.0,
+          "Sacred Earth, Kiasmos, OBOY": 0.001,
+          "Frank Sinatra, INNA": 0.002
+        },
+        {
+          "month": "2022-12",
+          "Isaiah Rashad, MDMA, Myth Syzer": 0.265,
+          "FKJ, MIKNNA, Migos": 0.246,
+          "Ferdous, Kendrick Lamar, Kanye West": 0.39,
+          "Russ, Travis Scott, Post Malone": 0.035,
+          "Potatohead People, Coubo, IAMNOBODI": 0.042,
+          "A L E X, [bsd.u], Kudasaibeats": 0.0,
+          "Sacred Earth, Kiasmos, OBOY": 0.021,
+          "Frank Sinatra, INNA": 0.0
+        }
+      ]
+    },
+    "2023 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 0,
+          "label": "88GLAM, Tory Lanez, Tyler Thomas",
+          "top_artists": [
+            "88GLAM",
+            "Tory Lanez",
+            "Tyler Thomas"
+          ],
+          "affinity": 0.228
+        },
+        {
+          "cluster_id": 3,
+          "label": "The Weeknd, Khalid, FKJ",
+          "top_artists": [
+            "The Weeknd",
+            "Khalid",
+            "FKJ"
+          ],
+          "affinity": 0.295
+        },
+        {
+          "cluster_id": 6,
+          "label": "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza",
+          "top_artists": [
+            "Isaiah Rashad",
+            "NAYANA IZ",
+            "Lous and The Yakuza"
+          ],
+          "affinity": 0.254
+        },
+        {
+          "cluster_id": 2,
+          "label": "Duckwrth, Play Nice, Elliot Moss",
+          "top_artists": [
+            "Duckwrth",
+            "Play Nice",
+            "Elliot Moss"
+          ],
+          "affinity": 0.066
+        },
+        {
+          "cluster_id": 5,
+          "label": "Russ, Jaden, Croosh",
+          "top_artists": [
+            "Russ",
+            "Jaden",
+            "Croosh"
+          ],
+          "affinity": 0.109
+        },
+        {
+          "cluster_id": 4,
+          "label": "Squidji, Pritam, OBOY",
+          "top_artists": [
+            "Squidji",
+            "Pritam",
+            "OBOY"
+          ],
+          "affinity": 0.028
+        },
+        {
+          "cluster_id": 1,
+          "label": "Podval Capella, Injury Reserve, ZAYN",
+          "top_artists": [
+            "Podval Capella",
+            "Injury Reserve",
+            "ZAYN"
+          ],
+          "affinity": 0.016
+        },
+        {
+          "cluster_id": 7,
+          "label": "Wizkid, dj poolboi",
+          "top_artists": [
+            "Wizkid",
+            "dj poolboi"
+          ],
+          "affinity": 0.005
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "88GLAM, Tory Lanez, Tyler Thomas",
+          "value": 0.228
+        },
+        {
+          "genre": "The Weeknd, Khalid, FKJ",
+          "value": 0.295
+        },
+        {
+          "genre": "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza",
+          "value": 0.254
+        },
+        {
+          "genre": "Duckwrth, Play Nice, Elliot Moss",
+          "value": 0.066
+        },
+        {
+          "genre": "Russ, Jaden, Croosh",
+          "value": 0.109
+        },
+        {
+          "genre": "Squidji, Pritam, OBOY",
+          "value": 0.028
+        },
+        {
+          "genre": "Podval Capella, Injury Reserve, ZAYN",
+          "value": 0.016
+        },
+        {
+          "genre": "Wizkid, dj poolboi",
+          "value": 0.005
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Kaliii",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Rosa Linn",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Future",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "T-Pain",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Dalida",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "MASN",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "Gorillaz",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "ill Nicky",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "FLEE",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        },
+        {
+          "artist": "USHER",
+          "cluster": "The Weeknd, Khalid, FKJ",
+          "match_pct": 23,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2023-01",
+          "88GLAM, Tory Lanez, Tyler Thomas": 0.062,
+          "The Weeknd, Khalid, FKJ": 0.336,
+          "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza": 0.469,
+          "Duckwrth, Play Nice, Elliot Moss": 0.011,
+          "Russ, Jaden, Croosh": 0.101,
+          "Squidji, Pritam, OBOY": 0.006,
+          "Podval Capella, Injury Reserve, ZAYN": 0.004,
+          "Wizkid, dj poolboi": 0.005
+        },
+        {
+          "month": "2023-02",
+          "88GLAM, Tory Lanez, Tyler Thomas": 0.091,
+          "The Weeknd, Khalid, FKJ": 0.477,
+          "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza": 0.194,
+          "Duckwrth, Play Nice, Elliot Moss": 0.072,
+          "Russ, Jaden, Croosh": 0.079,
+          "Squidji, Pritam, OBOY": 0.08,
+          "Podval Capella, Injury Reserve, ZAYN": 0.006,
+          "Wizkid, dj poolboi": 0.0
+        },
+        {
+          "month": "2023-03",
+          "88GLAM, Tory Lanez, Tyler Thomas": 0.153,
+          "The Weeknd, Khalid, FKJ": 0.332,
+          "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza": 0.201,
+          "Duckwrth, Play Nice, Elliot Moss": 0.055,
+          "Russ, Jaden, Croosh": 0.138,
+          "Squidji, Pritam, OBOY": 0.024,
+          "Podval Capella, Injury Reserve, ZAYN": 0.084,
+          "Wizkid, dj poolboi": 0.0
+        },
+        {
+          "month": "2023-04",
+          "88GLAM, Tory Lanez, Tyler Thomas": 0.313,
+          "The Weeknd, Khalid, FKJ": 0.308,
+          "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza": 0.149,
+          "Duckwrth, Play Nice, Elliot Moss": 0.066,
+          "Russ, Jaden, Croosh": 0.107,
+          "Squidji, Pritam, OBOY": 0.007,
+          "Podval Capella, Injury Reserve, ZAYN": 0.025,
+          "Wizkid, dj poolboi": 0.002
+        },
+        {
+          "month": "2023-05",
+          "88GLAM, Tory Lanez, Tyler Thomas": 0.307,
+          "The Weeknd, Khalid, FKJ": 0.372,
+          "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza": 0.157,
+          "Duckwrth, Play Nice, Elliot Moss": 0.044,
+          "Russ, Jaden, Croosh": 0.107,
+          "Squidji, Pritam, OBOY": 0.012,
+          "Podval Capella, Injury Reserve, ZAYN": 0.0,
+          "Wizkid, dj poolboi": 0.0
+        },
+        {
+          "month": "2023-06",
+          "88GLAM, Tory Lanez, Tyler Thomas": 0.373,
+          "The Weeknd, Khalid, FKJ": 0.279,
+          "Isaiah Rashad, NAYANA IZ, Lous and The Yakuza": 0.202,
+          "Duckwrth, Play Nice, Elliot Moss": 0.062,
+          "Russ, Jaden, Croosh": 0.031,
+          "Squidji, Pritam, OBOY": 0.024,
+          "Podval Capella, Injury Reserve, ZAYN": 0.009,
+          "Wizkid, dj poolboi": 0.018
+        }
+      ]
+    },
+    "2023 H2": {
+      "genre_clusters": [
+        {
+          "cluster_id": 2,
+          "label": "88GLAM, The Weeknd, MIKNNA",
+          "top_artists": [
+            "88GLAM",
+            "The Weeknd",
+            "MIKNNA"
+          ],
+          "affinity": 0.586
+        },
+        {
+          "cluster_id": 3,
+          "label": "Kid Travis, Ta-ku, Daniel Caesar",
+          "top_artists": [
+            "Kid Travis",
+            "Ta-ku",
+            "Daniel Caesar"
+          ],
+          "affinity": 0.193
+        },
+        {
+          "cluster_id": 4,
+          "label": "Apashe, pluko, Rome in Silver",
+          "top_artists": [
+            "Apashe",
+            "pluko",
+            "Rome in Silver"
+          ],
+          "affinity": 0.029
+        },
+        {
+          "cluster_id": 1,
+          "label": "SiR, Bassti, Aleksandir",
+          "top_artists": [
+            "SiR",
+            "Bassti",
+            "Aleksandir"
+          ],
+          "affinity": 0.051
+        },
+        {
+          "cluster_id": 7,
+          "label": "S.Pri Noir, Krisy, OBOY",
+          "top_artists": [
+            "S.Pri Noir",
+            "Krisy",
+            "OBOY"
+          ],
+          "affinity": 0.048
+        },
+        {
+          "cluster_id": 5,
+          "label": "ARDN, Norman Perry, Tommy Newport",
+          "top_artists": [
+            "ARDN",
+            "Norman Perry",
+            "Tommy Newport"
+          ],
+          "affinity": 0.026
+        },
+        {
+          "cluster_id": 0,
+          "label": "Harrison BDP, Wavy, Lost Child",
+          "top_artists": [
+            "Harrison BDP",
+            "Wavy",
+            "Lost Child"
+          ],
+          "affinity": 0.04
+        },
+        {
+          "cluster_id": 6,
+          "label": "Dwn2earth, Ryan Trey, Childish Gambino",
+          "top_artists": [
+            "Dwn2earth",
+            "Ryan Trey",
+            "Childish Gambino"
+          ],
+          "affinity": 0.027
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "88GLAM, The Weeknd, MIKNNA",
+          "value": 0.586
+        },
+        {
+          "genre": "Kid Travis, Ta-ku, Daniel Caesar",
+          "value": 0.193
+        },
+        {
+          "genre": "Apashe, pluko, Rome in Silver",
+          "value": 0.029
+        },
+        {
+          "genre": "SiR, Bassti, Aleksandir",
+          "value": 0.051
+        },
+        {
+          "genre": "S.Pri Noir, Krisy, OBOY",
+          "value": 0.048
+        },
+        {
+          "genre": "ARDN, Norman Perry, Tommy Newport",
+          "value": 0.026
+        },
+        {
+          "genre": "Harrison BDP, Wavy, Lost Child",
+          "value": 0.04
+        },
+        {
+          "genre": "Dwn2earth, Ryan Trey, Childish Gambino",
+          "value": 0.027
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Jamie xx",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "Zae France",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "Joachim Pastor",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "ALIAH",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "Callecat",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "Tom Samit",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "Andre Bugatti",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "Essiyas",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "CRi",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        },
+        {
+          "artist": "Shlohmo",
+          "cluster": "88GLAM, The Weeknd, MIKNNA",
+          "match_pct": 47,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2023-07",
+          "88GLAM, The Weeknd, MIKNNA": 0.686,
+          "Kid Travis, Ta-ku, Daniel Caesar": 0.018,
+          "Apashe, pluko, Rome in Silver": 0.094,
+          "SiR, Bassti, Aleksandir": 0.143,
+          "S.Pri Noir, Krisy, OBOY": 0.006,
+          "ARDN, Norman Perry, Tommy Newport": 0.001,
+          "Harrison BDP, Wavy, Lost Child": 0.022,
+          "Dwn2earth, Ryan Trey, Childish Gambino": 0.032
+        },
+        {
+          "month": "2023-08",
+          "88GLAM, The Weeknd, MIKNNA": 0.738,
+          "Kid Travis, Ta-ku, Daniel Caesar": 0.028,
+          "Apashe, pluko, Rome in Silver": 0.005,
+          "SiR, Bassti, Aleksandir": 0.152,
+          "S.Pri Noir, Krisy, OBOY": 0.011,
+          "ARDN, Norman Perry, Tommy Newport": 0.001,
+          "Harrison BDP, Wavy, Lost Child": 0.018,
+          "Dwn2earth, Ryan Trey, Childish Gambino": 0.046
+        },
+        {
+          "month": "2023-09",
+          "88GLAM, The Weeknd, MIKNNA": 0.839,
+          "Kid Travis, Ta-ku, Daniel Caesar": 0.025,
+          "Apashe, pluko, Rome in Silver": 0.018,
+          "SiR, Bassti, Aleksandir": 0.054,
+          "S.Pri Noir, Krisy, OBOY": 0.01,
+          "ARDN, Norman Perry, Tommy Newport": 0.0,
+          "Harrison BDP, Wavy, Lost Child": 0.014,
+          "Dwn2earth, Ryan Trey, Childish Gambino": 0.04
+        },
+        {
+          "month": "2023-10",
+          "88GLAM, The Weeknd, MIKNNA": 0.715,
+          "Kid Travis, Ta-ku, Daniel Caesar": 0.125,
+          "Apashe, pluko, Rome in Silver": 0.018,
+          "SiR, Bassti, Aleksandir": 0.026,
+          "S.Pri Noir, Krisy, OBOY": 0.004,
+          "ARDN, Norman Perry, Tommy Newport": 0.0,
+          "Harrison BDP, Wavy, Lost Child": 0.079,
+          "Dwn2earth, Ryan Trey, Childish Gambino": 0.033
+        },
+        {
+          "month": "2023-11",
+          "88GLAM, The Weeknd, MIKNNA": 0.407,
+          "Kid Travis, Ta-ku, Daniel Caesar": 0.408,
+          "Apashe, pluko, Rome in Silver": 0.036,
+          "SiR, Bassti, Aleksandir": 0.023,
+          "S.Pri Noir, Krisy, OBOY": 0.084,
+          "ARDN, Norman Perry, Tommy Newport": 0.0,
+          "Harrison BDP, Wavy, Lost Child": 0.031,
+          "Dwn2earth, Ryan Trey, Childish Gambino": 0.011
+        },
+        {
+          "month": "2023-12",
+          "88GLAM, The Weeknd, MIKNNA": 0.506,
+          "Kid Travis, Ta-ku, Daniel Caesar": 0.245,
+          "Apashe, pluko, Rome in Silver": 0.01,
+          "SiR, Bassti, Aleksandir": 0.019,
+          "S.Pri Noir, Krisy, OBOY": 0.09,
+          "ARDN, Norman Perry, Tommy Newport": 0.089,
+          "Harrison BDP, Wavy, Lost Child": 0.028,
+          "Dwn2earth, Ryan Trey, Childish Gambino": 0.013
+        }
+      ]
+    },
+    "2024 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 2,
+          "label": "Darci, ARDN, 88GLAM",
+          "top_artists": [
+            "Darci",
+            "ARDN",
+            "88GLAM"
+          ],
+          "affinity": 0.471
+        },
+        {
+          "cluster_id": 1,
+          "label": "Wizkid, Future, Majid Jordan",
+          "top_artists": [
+            "Wizkid",
+            "Future",
+            "Majid Jordan"
+          ],
+          "affinity": 0.162
+        },
+        {
+          "cluster_id": 0,
+          "label": "Norman Perry, JayO, Vory",
+          "top_artists": [
+            "Norman Perry",
+            "JayO",
+            "Vory"
+          ],
+          "affinity": 0.18
+        },
+        {
+          "cluster_id": 6,
+          "label": "Chase Shakur, Squidji, Justice Der",
+          "top_artists": [
+            "Chase Shakur",
+            "Squidji",
+            "Justice Der"
+          ],
+          "affinity": 0.063
+        },
+        {
+          "cluster_id": 5,
+          "label": "BROCKHAMPTON, Shay, James Blake",
+          "top_artists": [
+            "BROCKHAMPTON",
+            "Shay",
+            "James Blake"
+          ],
+          "affinity": 0.094
+        },
+        {
+          "cluster_id": 4,
+          "label": "Tayc, Nekfeu, YG Pablo",
+          "top_artists": [
+            "Tayc",
+            "Nekfeu",
+            "YG Pablo"
+          ],
+          "affinity": 0.013
+        },
+        {
+          "cluster_id": 7,
+          "label": "Pritam, Akon, Atif Aslam",
+          "top_artists": [
+            "Pritam",
+            "Akon",
+            "Atif Aslam"
+          ],
+          "affinity": 0.005
+        },
+        {
+          "cluster_id": 3,
+          "label": "Anoushka Shankar, Downing And Mayer, Duñe",
+          "top_artists": [
+            "Anoushka Shankar",
+            "Downing And Mayer",
+            "Duñe"
+          ],
+          "affinity": 0.012
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Darci, ARDN, 88GLAM",
+          "value": 0.471
+        },
+        {
+          "genre": "Wizkid, Future, Majid Jordan",
+          "value": 0.162
+        },
+        {
+          "genre": "Norman Perry, JayO, Vory",
+          "value": 0.18
+        },
+        {
+          "genre": "Chase Shakur, Squidji, Justice Der",
+          "value": 0.063
+        },
+        {
+          "genre": "BROCKHAMPTON, Shay, James Blake",
+          "value": 0.094
+        },
+        {
+          "genre": "Tayc, Nekfeu, YG Pablo",
+          "value": 0.013
+        },
+        {
+          "genre": "Pritam, Akon, Atif Aslam",
+          "value": 0.005
+        },
+        {
+          "genre": "Anoushka Shankar, Downing And Mayer, Duñe",
+          "value": 0.012
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "CEOYANO",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "Destroy Lonely",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "TiaCorine",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "A.CHAL",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "Mann",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "David Frontado",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "Kyddiekafka",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "Common Saints",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "Rayana Jay",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        },
+        {
+          "artist": "Anderson .Paak",
+          "cluster": "Darci, ARDN, 88GLAM",
+          "match_pct": 39,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2024-01",
+          "Darci, ARDN, 88GLAM": 0.56,
+          "Wizkid, Future, Majid Jordan": 0.03,
+          "Norman Perry, JayO, Vory": 0.213,
+          "Chase Shakur, Squidji, Justice Der": 0.015,
+          "BROCKHAMPTON, Shay, James Blake": 0.11,
+          "Tayc, Nekfeu, YG Pablo": 0.03,
+          "Pritam, Akon, Atif Aslam": 0.003,
+          "Anoushka Shankar, Downing And Mayer, Duñe": 0.038
+        },
+        {
+          "month": "2024-02",
+          "Darci, ARDN, 88GLAM": 0.562,
+          "Wizkid, Future, Majid Jordan": 0.028,
+          "Norman Perry, JayO, Vory": 0.183,
+          "Chase Shakur, Squidji, Justice Der": 0.097,
+          "BROCKHAMPTON, Shay, James Blake": 0.116,
+          "Tayc, Nekfeu, YG Pablo": 0.01,
+          "Pritam, Akon, Atif Aslam": 0.001,
+          "Anoushka Shankar, Downing And Mayer, Duñe": 0.002
+        },
+        {
+          "month": "2024-03",
+          "Darci, ARDN, 88GLAM": 0.596,
+          "Wizkid, Future, Majid Jordan": 0.071,
+          "Norman Perry, JayO, Vory": 0.162,
+          "Chase Shakur, Squidji, Justice Der": 0.087,
+          "BROCKHAMPTON, Shay, James Blake": 0.07,
+          "Tayc, Nekfeu, YG Pablo": 0.001,
+          "Pritam, Akon, Atif Aslam": 0.006,
+          "Anoushka Shankar, Downing And Mayer, Duñe": 0.007
+        },
+        {
+          "month": "2024-04",
+          "Darci, ARDN, 88GLAM": 0.46,
+          "Wizkid, Future, Majid Jordan": 0.325,
+          "Norman Perry, JayO, Vory": 0.082,
+          "Chase Shakur, Squidji, Justice Der": 0.053,
+          "BROCKHAMPTON, Shay, James Blake": 0.078,
+          "Tayc, Nekfeu, YG Pablo": 0.002,
+          "Pritam, Akon, Atif Aslam": 0.0,
+          "Anoushka Shankar, Downing And Mayer, Duñe": 0.0
+        },
+        {
+          "month": "2024-05",
+          "Darci, ARDN, 88GLAM": 0.365,
+          "Wizkid, Future, Majid Jordan": 0.392,
+          "Norman Perry, JayO, Vory": 0.137,
+          "Chase Shakur, Squidji, Justice Der": 0.061,
+          "BROCKHAMPTON, Shay, James Blake": 0.022,
+          "Tayc, Nekfeu, YG Pablo": 0.002,
+          "Pritam, Akon, Atif Aslam": 0.019,
+          "Anoushka Shankar, Downing And Mayer, Duñe": 0.001
+        },
+        {
+          "month": "2024-06",
+          "Darci, ARDN, 88GLAM": 0.433,
+          "Wizkid, Future, Majid Jordan": 0.332,
+          "Norman Perry, JayO, Vory": 0.139,
+          "Chase Shakur, Squidji, Justice Der": 0.029,
+          "BROCKHAMPTON, Shay, James Blake": 0.043,
+          "Tayc, Nekfeu, YG Pablo": 0.014,
+          "Pritam, Akon, Atif Aslam": 0.008,
+          "Anoushka Shankar, Downing And Mayer, Duñe": 0.001
+        }
+      ]
+    },
+    "2024 H2": {
+      "genre_clusters": [
+        {
+          "cluster_id": 7,
+          "label": "Post Malone, The Weeknd, Wizkid",
+          "top_artists": [
+            "Post Malone",
+            "The Weeknd",
+            "Wizkid"
+          ],
+          "affinity": 0.632
+        },
+        {
+          "cluster_id": 4,
+          "label": "Social House, Still Woozy, Pharrell Williams",
+          "top_artists": [
+            "Social House",
+            "Still Woozy",
+            "Pharrell Williams"
+          ],
+          "affinity": 0.147
+        },
+        {
+          "cluster_id": 6,
+          "label": "Down to Mars, Fred again.., Alberto Baldan Bembo",
+          "top_artists": [
+            "Down to Mars",
+            "Fred again..",
+            "Alberto Baldan Bembo"
+          ],
+          "affinity": 0.015
+        },
+        {
+          "cluster_id": 5,
+          "label": "berlioz, forcian, Lelio Luttazzi",
+          "top_artists": [
+            "berlioz",
+            "forcian",
+            "Lelio Luttazzi"
+          ],
+          "affinity": 0.015
+        },
+        {
+          "cluster_id": 1,
+          "label": "MDMA, AQVOL, BROCKHAMPTON",
+          "top_artists": [
+            "MDMA",
+            "AQVOL",
+            "BROCKHAMPTON"
+          ],
+          "affinity": 0.103
+        },
+        {
+          "cluster_id": 2,
+          "label": "Tyler, The Creator, Nu, Pritam",
+          "top_artists": [
+            "Tyler, The Creator",
+            "Nu",
+            "Pritam"
+          ],
+          "affinity": 0.059
+        },
+        {
+          "cluster_id": 3,
+          "label": "Eminem, Noah Richardson, dublon",
+          "top_artists": [
+            "Eminem",
+            "Noah Richardson",
+            "dublon"
+          ],
+          "affinity": 0.024
+        },
+        {
+          "cluster_id": 0,
+          "label": "Austin Wintory, Channel Tres, Gustav Mahler",
+          "top_artists": [
+            "Austin Wintory",
+            "Channel Tres",
+            "Gustav Mahler"
+          ],
+          "affinity": 0.005
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Post Malone, The Weeknd, Wizkid",
+          "value": 0.632
+        },
+        {
+          "genre": "Social House, Still Woozy, Pharrell Williams",
+          "value": 0.147
+        },
+        {
+          "genre": "Down to Mars, Fred again.., Alberto Baldan Bembo",
+          "value": 0.015
+        },
+        {
+          "genre": "berlioz, forcian, Lelio Luttazzi",
+          "value": 0.015
+        },
+        {
+          "genre": "MDMA, AQVOL, BROCKHAMPTON",
+          "value": 0.103
+        },
+        {
+          "genre": "Tyler, The Creator, Nu, Pritam",
+          "value": 0.059
+        },
+        {
+          "genre": "Eminem, Noah Richardson, dublon",
+          "value": 0.024
+        },
+        {
+          "genre": "Austin Wintory, Channel Tres, Gustav Mahler",
+          "value": 0.005
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Rounhaa",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Beyoncé",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Frizzy P & Mr Cole",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Twista",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Hunnah",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Cherokee",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Nakala",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "VIC MENSA",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Johnny Yukon",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        },
+        {
+          "artist": "Tkay Maidza",
+          "cluster": "Post Malone, The Weeknd, Wizkid",
+          "match_pct": 53,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2024-07",
+          "Post Malone, The Weeknd, Wizkid": 0.576,
+          "Social House, Still Woozy, Pharrell Williams": 0.194,
+          "Down to Mars, Fred again.., Alberto Baldan Bembo": 0.001,
+          "berlioz, forcian, Lelio Luttazzi": 0.025,
+          "MDMA, AQVOL, BROCKHAMPTON": 0.129,
+          "Tyler, The Creator, Nu, Pritam": 0.024,
+          "Eminem, Noah Richardson, dublon": 0.031,
+          "Austin Wintory, Channel Tres, Gustav Mahler": 0.018
+        },
+        {
+          "month": "2024-08",
+          "Post Malone, The Weeknd, Wizkid": 0.617,
+          "Social House, Still Woozy, Pharrell Williams": 0.213,
+          "Down to Mars, Fred again.., Alberto Baldan Bembo": 0.0,
+          "berlioz, forcian, Lelio Luttazzi": 0.012,
+          "MDMA, AQVOL, BROCKHAMPTON": 0.092,
+          "Tyler, The Creator, Nu, Pritam": 0.037,
+          "Eminem, Noah Richardson, dublon": 0.029,
+          "Austin Wintory, Channel Tres, Gustav Mahler": 0.0
+        },
+        {
+          "month": "2024-09",
+          "Post Malone, The Weeknd, Wizkid": 0.708,
+          "Social House, Still Woozy, Pharrell Williams": 0.112,
+          "Down to Mars, Fred again.., Alberto Baldan Bembo": 0.0,
+          "berlioz, forcian, Lelio Luttazzi": 0.018,
+          "MDMA, AQVOL, BROCKHAMPTON": 0.077,
+          "Tyler, The Creator, Nu, Pritam": 0.077,
+          "Eminem, Noah Richardson, dublon": 0.008,
+          "Austin Wintory, Channel Tres, Gustav Mahler": 0.0
+        },
+        {
+          "month": "2024-10",
+          "Post Malone, The Weeknd, Wizkid": 0.705,
+          "Social House, Still Woozy, Pharrell Williams": 0.081,
+          "Down to Mars, Fred again.., Alberto Baldan Bembo": 0.003,
+          "berlioz, forcian, Lelio Luttazzi": 0.018,
+          "MDMA, AQVOL, BROCKHAMPTON": 0.092,
+          "Tyler, The Creator, Nu, Pritam": 0.084,
+          "Eminem, Noah Richardson, dublon": 0.017,
+          "Austin Wintory, Channel Tres, Gustav Mahler": 0.0
+        },
+        {
+          "month": "2024-11",
+          "Post Malone, The Weeknd, Wizkid": 0.658,
+          "Social House, Still Woozy, Pharrell Williams": 0.088,
+          "Down to Mars, Fred again.., Alberto Baldan Bembo": 0.007,
+          "berlioz, forcian, Lelio Luttazzi": 0.096,
+          "MDMA, AQVOL, BROCKHAMPTON": 0.052,
+          "Tyler, The Creator, Nu, Pritam": 0.072,
+          "Eminem, Noah Richardson, dublon": 0.015,
+          "Austin Wintory, Channel Tres, Gustav Mahler": 0.009
+        },
+        {
+          "month": "2024-12",
+          "Post Malone, The Weeknd, Wizkid": 0.663,
+          "Social House, Still Woozy, Pharrell Williams": 0.074,
+          "Down to Mars, Fred again.., Alberto Baldan Bembo": 0.075,
+          "berlioz, forcian, Lelio Luttazzi": 0.004,
+          "MDMA, AQVOL, BROCKHAMPTON": 0.088,
+          "Tyler, The Creator, Nu, Pritam": 0.07,
+          "Eminem, Noah Richardson, dublon": 0.027,
+          "Austin Wintory, Channel Tres, Gustav Mahler": 0.0
+        }
+      ]
+    },
+    "2025 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 1,
+          "label": "Wizkid, MIKNNA, Post Malone",
+          "top_artists": [
+            "Wizkid",
+            "MIKNNA",
+            "Post Malone"
+          ],
+          "affinity": 0.709
+        },
+        {
+          "cluster_id": 3,
+          "label": "Madvillain, Davido, melvitto",
+          "top_artists": [
+            "Madvillain",
+            "Davido",
+            "melvitto"
+          ],
+          "affinity": 0.036
+        },
+        {
+          "cluster_id": 0,
+          "label": "berlioz, Polo & Pan, vbnd",
+          "top_artists": [
+            "berlioz",
+            "Polo & Pan",
+            "vbnd"
+          ],
+          "affinity": 0.138
+        },
+        {
+          "cluster_id": 5,
+          "label": "Down to Mars, Norman Perry, Social House",
+          "top_artists": [
+            "Down to Mars",
+            "Norman Perry",
+            "Social House"
+          ],
+          "affinity": 0.039
+        },
+        {
+          "cluster_id": 7,
+          "label": "6LACK, Hermanos Gutiérrez, Free Nationals",
+          "top_artists": [
+            "6LACK",
+            "Hermanos Gutiérrez",
+            "Free Nationals"
+          ],
+          "affinity": 0.04
+        },
+        {
+          "cluster_id": 4,
+          "label": "Tame Impala, Glass Animals, Vory",
+          "top_artists": [
+            "Tame Impala",
+            "Glass Animals",
+            "Vory"
+          ],
+          "affinity": 0.024
+        },
+        {
+          "cluster_id": 2,
+          "label": "AQVOL, Larry June, Play Nice",
+          "top_artists": [
+            "AQVOL",
+            "Larry June",
+            "Play Nice"
+          ],
+          "affinity": 0.011
+        },
+        {
+          "cluster_id": 6,
+          "label": "Sonny Boy Williamson II, John Lee Hooker",
+          "top_artists": [
+            "Sonny Boy Williamson II",
+            "John Lee Hooker"
+          ],
+          "affinity": 0.003
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Wizkid, MIKNNA, Post Malone",
+          "value": 0.709
+        },
+        {
+          "genre": "Madvillain, Davido, melvitto",
+          "value": 0.036
+        },
+        {
+          "genre": "berlioz, Polo & Pan, vbnd",
+          "value": 0.138
+        },
+        {
+          "genre": "Down to Mars, Norman Perry, Social House",
+          "value": 0.039
+        },
+        {
+          "genre": "6LACK, Hermanos Gutiérrez, Free Nationals",
+          "value": 0.04
+        },
+        {
+          "genre": "Tame Impala, Glass Animals, Vory",
+          "value": 0.024
+        },
+        {
+          "genre": "AQVOL, Larry June, Play Nice",
+          "value": 0.011
+        },
+        {
+          "genre": "Sonny Boy Williamson II, John Lee Hooker",
+          "value": 0.003
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Macca Grills",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "prod. DTM",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "KARMA",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "Lucas Dekker",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "DELACOUR",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "Cupidon",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "Lojay",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "Fido",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "Flying Lotus",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        },
+        {
+          "artist": "Kllo",
+          "cluster": "Wizkid, MIKNNA, Post Malone",
+          "match_pct": 58,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2025-01",
+          "Wizkid, MIKNNA, Post Malone": 0.77,
+          "Madvillain, Davido, melvitto": 0.036,
+          "berlioz, Polo & Pan, vbnd": 0.076,
+          "Down to Mars, Norman Perry, Social House": 0.051,
+          "6LACK, Hermanos Gutiérrez, Free Nationals": 0.032,
+          "Tame Impala, Glass Animals, Vory": 0.024,
+          "AQVOL, Larry June, Play Nice": 0.011,
+          "Sonny Boy Williamson II, John Lee Hooker": 0.0
+        },
+        {
+          "month": "2025-02",
+          "Wizkid, MIKNNA, Post Malone": 0.792,
+          "Madvillain, Davido, melvitto": 0.056,
+          "berlioz, Polo & Pan, vbnd": 0.048,
+          "Down to Mars, Norman Perry, Social House": 0.032,
+          "6LACK, Hermanos Gutiérrez, Free Nationals": 0.034,
+          "Tame Impala, Glass Animals, Vory": 0.011,
+          "AQVOL, Larry June, Play Nice": 0.012,
+          "Sonny Boy Williamson II, John Lee Hooker": 0.015
+        },
+        {
+          "month": "2025-03",
+          "Wizkid, MIKNNA, Post Malone": 0.78,
+          "Madvillain, Davido, melvitto": 0.024,
+          "berlioz, Polo & Pan, vbnd": 0.092,
+          "Down to Mars, Norman Perry, Social House": 0.027,
+          "6LACK, Hermanos Gutiérrez, Free Nationals": 0.045,
+          "Tame Impala, Glass Animals, Vory": 0.021,
+          "AQVOL, Larry June, Play Nice": 0.011,
+          "Sonny Boy Williamson II, John Lee Hooker": 0.0
+        },
+        {
+          "month": "2025-04",
+          "Wizkid, MIKNNA, Post Malone": 0.641,
+          "Madvillain, Davido, melvitto": 0.024,
+          "berlioz, Polo & Pan, vbnd": 0.22,
+          "Down to Mars, Norman Perry, Social House": 0.041,
+          "6LACK, Hermanos Gutiérrez, Free Nationals": 0.035,
+          "Tame Impala, Glass Animals, Vory": 0.036,
+          "AQVOL, Larry June, Play Nice": 0.003,
+          "Sonny Boy Williamson II, John Lee Hooker": 0.0
+        },
+        {
+          "month": "2025-05",
+          "Wizkid, MIKNNA, Post Malone": 0.719,
+          "Madvillain, Davido, melvitto": 0.017,
+          "berlioz, Polo & Pan, vbnd": 0.183,
+          "Down to Mars, Norman Perry, Social House": 0.021,
+          "6LACK, Hermanos Gutiérrez, Free Nationals": 0.028,
+          "Tame Impala, Glass Animals, Vory": 0.025,
+          "AQVOL, Larry June, Play Nice": 0.006,
+          "Sonny Boy Williamson II, John Lee Hooker": 0.0
+        },
+        {
+          "month": "2025-06",
+          "Wizkid, MIKNNA, Post Malone": 0.688,
+          "Madvillain, Davido, melvitto": 0.022,
+          "berlioz, Polo & Pan, vbnd": 0.208,
+          "Down to Mars, Norman Perry, Social House": 0.031,
+          "6LACK, Hermanos Gutiérrez, Free Nationals": 0.028,
+          "Tame Impala, Glass Animals, Vory": 0.009,
+          "AQVOL, Larry June, Play Nice": 0.013,
+          "Sonny Boy Williamson II, John Lee Hooker": 0.0
+        }
+      ]
+    },
+    "2025 H2": {
+      "genre_clusters": [
+        {
+          "cluster_id": 0,
+          "label": "Future, Wizkid, Fred again..",
+          "top_artists": [
+            "Future",
+            "Wizkid",
+            "Fred again.."
+          ],
+          "affinity": 0.668
+        },
+        {
+          "cluster_id": 6,
+          "label": "Aya Nakamura, S.Pri Noir, Krisy",
+          "top_artists": [
+            "Aya Nakamura",
+            "S.Pri Noir",
+            "Krisy"
+          ],
+          "affinity": 0.06
+        },
+        {
+          "cluster_id": 1,
+          "label": "88GLAM, Kartell, Kendrick Lamar",
+          "top_artists": [
+            "88GLAM",
+            "Kartell",
+            "Kendrick Lamar"
+          ],
+          "affinity": 0.102
+        },
+        {
+          "cluster_id": 4,
+          "label": "Polo & Pan, Nujabes, L'Impératrice",
+          "top_artists": [
+            "Polo & Pan",
+            "Nujabes",
+            "L'Impératrice"
+          ],
+          "affinity": 0.038
+        },
+        {
+          "cluster_id": 2,
+          "label": "Childish Gambino, MDMA, Shay",
+          "top_artists": [
+            "Childish Gambino",
+            "MDMA",
+            "Shay"
+          ],
+          "affinity": 0.06
+        },
+        {
+          "cluster_id": 7,
+          "label": "Montell Fish, The Kid LAROI, Chase Atlantic",
+          "top_artists": [
+            "Montell Fish",
+            "The Kid LAROI",
+            "Chase Atlantic"
+          ],
+          "affinity": 0.02
+        },
+        {
+          "cluster_id": 3,
+          "label": "HAAi, Overmono, Kwengface",
+          "top_artists": [
+            "HAAi",
+            "Overmono",
+            "Kwengface"
+          ],
+          "affinity": 0.032
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tour-Maubourg, warner case, Tonique & Man",
+          "top_artists": [
+            "Tour-Maubourg",
+            "warner case",
+            "Tonique & Man"
+          ],
+          "affinity": 0.019
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Future, Wizkid, Fred again..",
+          "value": 0.668
+        },
+        {
+          "genre": "Aya Nakamura, S.Pri Noir, Krisy",
+          "value": 0.06
+        },
+        {
+          "genre": "88GLAM, Kartell, Kendrick Lamar",
+          "value": 0.102
+        },
+        {
+          "genre": "Polo & Pan, Nujabes, L'Impératrice",
+          "value": 0.038
+        },
+        {
+          "genre": "Childish Gambino, MDMA, Shay",
+          "value": 0.06
+        },
+        {
+          "genre": "Montell Fish, The Kid LAROI, Chase Atlantic",
+          "value": 0.02
+        },
+        {
+          "genre": "HAAi, Overmono, Kwengface",
+          "value": 0.032
+        },
+        {
+          "genre": "Tour-Maubourg, warner case, Tonique & Man",
+          "value": 0.019
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "SPINALL",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Amaarae",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Corneille",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Ty Dolla $ign",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Dinos",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Phil Harris",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "A$AP Mob",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Che Ecru",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Clara La San",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        },
+        {
+          "artist": "Jazzwaves",
+          "cluster": "Future, Wizkid, Fred again..",
+          "match_pct": 54,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2025-07",
+          "Future, Wizkid, Fred again..": 0.655,
+          "Aya Nakamura, S.Pri Noir, Krisy": 0.01,
+          "88GLAM, Kartell, Kendrick Lamar": 0.107,
+          "Polo & Pan, Nujabes, L'Impératrice": 0.086,
+          "Childish Gambino, MDMA, Shay": 0.042,
+          "Montell Fish, The Kid LAROI, Chase Atlantic": 0.027,
+          "HAAi, Overmono, Kwengface": 0.073,
+          "Tour-Maubourg, warner case, Tonique & Man": 0.0
+        },
+        {
+          "month": "2025-08",
+          "Future, Wizkid, Fred again..": 0.676,
+          "Aya Nakamura, S.Pri Noir, Krisy": 0.006,
+          "88GLAM, Kartell, Kendrick Lamar": 0.06,
+          "Polo & Pan, Nujabes, L'Impératrice": 0.065,
+          "Childish Gambino, MDMA, Shay": 0.034,
+          "Montell Fish, The Kid LAROI, Chase Atlantic": 0.046,
+          "HAAi, Overmono, Kwengface": 0.055,
+          "Tour-Maubourg, warner case, Tonique & Man": 0.059
+        },
+        {
+          "month": "2025-09",
+          "Future, Wizkid, Fred again..": 0.697,
+          "Aya Nakamura, S.Pri Noir, Krisy": 0.018,
+          "88GLAM, Kartell, Kendrick Lamar": 0.102,
+          "Polo & Pan, Nujabes, L'Impératrice": 0.025,
+          "Childish Gambino, MDMA, Shay": 0.095,
+          "Montell Fish, The Kid LAROI, Chase Atlantic": 0.011,
+          "HAAi, Overmono, Kwengface": 0.03,
+          "Tour-Maubourg, warner case, Tonique & Man": 0.023
+        },
+        {
+          "month": "2025-10",
+          "Future, Wizkid, Fred again..": 0.697,
+          "Aya Nakamura, S.Pri Noir, Krisy": 0.126,
+          "88GLAM, Kartell, Kendrick Lamar": 0.07,
+          "Polo & Pan, Nujabes, L'Impératrice": 0.01,
+          "Childish Gambino, MDMA, Shay": 0.06,
+          "Montell Fish, The Kid LAROI, Chase Atlantic": 0.009,
+          "HAAi, Overmono, Kwengface": 0.016,
+          "Tour-Maubourg, warner case, Tonique & Man": 0.011
+        },
+        {
+          "month": "2025-11",
+          "Future, Wizkid, Fred again..": 0.699,
+          "Aya Nakamura, S.Pri Noir, Krisy": 0.096,
+          "88GLAM, Kartell, Kendrick Lamar": 0.133,
+          "Polo & Pan, Nujabes, L'Impératrice": 0.021,
+          "Childish Gambino, MDMA, Shay": 0.038,
+          "Montell Fish, The Kid LAROI, Chase Atlantic": 0.005,
+          "HAAi, Overmono, Kwengface": 0.003,
+          "Tour-Maubourg, warner case, Tonique & Man": 0.003
+        },
+        {
+          "month": "2025-12",
+          "Future, Wizkid, Fred again..": 0.735,
+          "Aya Nakamura, S.Pri Noir, Krisy": 0.051,
+          "88GLAM, Kartell, Kendrick Lamar": 0.1,
+          "Polo & Pan, Nujabes, L'Impératrice": 0.014,
+          "Childish Gambino, MDMA, Shay": 0.056,
+          "Montell Fish, The Kid LAROI, Chase Atlantic": 0.019,
+          "HAAi, Overmono, Kwengface": 0.009,
+          "Tour-Maubourg, warner case, Tonique & Man": 0.016
+        }
+      ]
+    },
+    "2026 H1": {
+      "genre_clusters": [
+        {
+          "cluster_id": 0,
+          "label": "Future, A$AP Rocky, The Weeknd",
+          "top_artists": [
+            "Future",
+            "A$AP Rocky",
+            "The Weeknd"
+          ],
+          "affinity": 0.448
+        },
+        {
+          "cluster_id": 5,
+          "label": "Drake, Justin Bieber, Gesaffelstein",
+          "top_artists": [
+            "Drake",
+            "Justin Bieber",
+            "Gesaffelstein"
+          ],
+          "affinity": 0.162
+        },
+        {
+          "cluster_id": 4,
+          "label": "Craig Isto, Aya Nakamura, MIKNNA",
+          "top_artists": [
+            "Craig Isto",
+            "Aya Nakamura",
+            "MIKNNA"
+          ],
+          "affinity": 0.107
+        },
+        {
+          "cluster_id": 6,
+          "label": "Wizkid, Davido, Burna Boy",
+          "top_artists": [
+            "Wizkid",
+            "Davido",
+            "Burna Boy"
+          ],
+          "affinity": 0.05
+        },
+        {
+          "cluster_id": 2,
+          "label": "Kendrick Lamar, Masego, Jorja Smith",
+          "top_artists": [
+            "Kendrick Lamar",
+            "Masego",
+            "Jorja Smith"
+          ],
+          "affinity": 0.118
+        },
+        {
+          "cluster_id": 7,
+          "label": "A.R. Rahman, Zara Larsson, FKJ",
+          "top_artists": [
+            "A.R. Rahman",
+            "Zara Larsson",
+            "FKJ"
+          ],
+          "affinity": 0.039
+        },
+        {
+          "cluster_id": 3,
+          "label": "Dabeull, warner case, Darius",
+          "top_artists": [
+            "Dabeull",
+            "warner case",
+            "Darius"
+          ],
+          "affinity": 0.052
+        },
+        {
+          "cluster_id": 1,
+          "label": "Talvin Singh, OBOY, Morgentau",
+          "top_artists": [
+            "Talvin Singh",
+            "OBOY",
+            "Morgentau"
+          ],
+          "affinity": 0.024
+        }
+      ],
+      "radar_data": [
+        {
+          "genre": "Future, A$AP Rocky, The Weeknd",
+          "value": 0.448
+        },
+        {
+          "genre": "Drake, Justin Bieber, Gesaffelstein",
+          "value": 0.162
+        },
+        {
+          "genre": "Craig Isto, Aya Nakamura, MIKNNA",
+          "value": 0.107
+        },
+        {
+          "genre": "Wizkid, Davido, Burna Boy",
+          "value": 0.05
+        },
+        {
+          "genre": "Kendrick Lamar, Masego, Jorja Smith",
+          "value": 0.118
+        },
+        {
+          "genre": "A.R. Rahman, Zara Larsson, FKJ",
+          "value": 0.039
+        },
+        {
+          "genre": "Dabeull, warner case, Darius",
+          "value": 0.052
+        },
+        {
+          "genre": "Talvin Singh, OBOY, Morgentau",
+          "value": 0.024
+        }
+      ],
+      "suggested_artists": [
+        {
+          "artist": "Ayanis",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Xavier Omär",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Ciscero",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Biig Piig",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "anders",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Hotel Ugly",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "meggifox.",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "OG Parker",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "2Pac",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        },
+        {
+          "artist": "Young Stoner Life",
+          "cluster": "Future, A$AP Rocky, The Weeknd",
+          "match_pct": 36,
+          "current_plays": 1
+        }
+      ],
+      "genre_timeline": [
+        {
+          "month": "2026-01",
+          "Future, A$AP Rocky, The Weeknd": 0.529,
+          "Drake, Justin Bieber, Gesaffelstein": 0.127,
+          "Craig Isto, Aya Nakamura, MIKNNA": 0.063,
+          "Wizkid, Davido, Burna Boy": 0.084,
+          "Kendrick Lamar, Masego, Jorja Smith": 0.073,
+          "A.R. Rahman, Zara Larsson, FKJ": 0.031,
+          "Dabeull, warner case, Darius": 0.052,
+          "Talvin Singh, OBOY, Morgentau": 0.038
+        },
+        {
+          "month": "2026-02",
+          "Future, A$AP Rocky, The Weeknd": 0.472,
+          "Drake, Justin Bieber, Gesaffelstein": 0.159,
+          "Craig Isto, Aya Nakamura, MIKNNA": 0.137,
+          "Wizkid, Davido, Burna Boy": 0.034,
+          "Kendrick Lamar, Masego, Jorja Smith": 0.11,
+          "A.R. Rahman, Zara Larsson, FKJ": 0.041,
+          "Dabeull, warner case, Darius": 0.034,
+          "Talvin Singh, OBOY, Morgentau": 0.014
+        },
+        {
+          "month": "2026-03",
+          "Future, A$AP Rocky, The Weeknd": 0.475,
+          "Drake, Justin Bieber, Gesaffelstein": 0.101,
+          "Craig Isto, Aya Nakamura, MIKNNA": 0.095,
+          "Wizkid, Davido, Burna Boy": 0.025,
+          "Kendrick Lamar, Masego, Jorja Smith": 0.225,
+          "A.R. Rahman, Zara Larsson, FKJ": 0.018,
+          "Dabeull, warner case, Darius": 0.056,
+          "Talvin Singh, OBOY, Morgentau": 0.006
+        }
+      ]
+    }
+  }
+}

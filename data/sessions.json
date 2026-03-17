@@ -1,0 +1,467 @@
+{
+  "overall": {
+    "skip_rate": 0.52,
+    "avg_session_minutes": 23.5,
+    "shuffle_rate": 0.412
+  },
+  "skip_trend": [
+    {
+      "month": "2018-09",
+      "skip_rate": 0.542
+    },
+    {
+      "month": "2018-10",
+      "skip_rate": 0.265
+    },
+    {
+      "month": "2018-11",
+      "skip_rate": 0.111
+    },
+    {
+      "month": "2018-12",
+      "skip_rate": 0.208
+    },
+    {
+      "month": "2019-03",
+      "skip_rate": 0.48
+    },
+    {
+      "month": "2019-04",
+      "skip_rate": 0.409
+    },
+    {
+      "month": "2019-05",
+      "skip_rate": 0.5
+    },
+    {
+      "month": "2019-07",
+      "skip_rate": 0.5
+    },
+    {
+      "month": "2019-08",
+      "skip_rate": 0.25
+    },
+    {
+      "month": "2019-09",
+      "skip_rate": 0.273
+    },
+    {
+      "month": "2019-10",
+      "skip_rate": 0.048
+    },
+    {
+      "month": "2019-11",
+      "skip_rate": 0.414
+    },
+    {
+      "month": "2019-12",
+      "skip_rate": 0.438
+    },
+    {
+      "month": "2020-01",
+      "skip_rate": 0.395
+    },
+    {
+      "month": "2020-02",
+      "skip_rate": 0.38
+    },
+    {
+      "month": "2020-03",
+      "skip_rate": 0.456
+    },
+    {
+      "month": "2020-04",
+      "skip_rate": 0.304
+    },
+    {
+      "month": "2020-05",
+      "skip_rate": 0.24
+    },
+    {
+      "month": "2020-06",
+      "skip_rate": 0.257
+    },
+    {
+      "month": "2020-07",
+      "skip_rate": 0.303
+    },
+    {
+      "month": "2020-08",
+      "skip_rate": 0.324
+    },
+    {
+      "month": "2020-09",
+      "skip_rate": 0.382
+    },
+    {
+      "month": "2020-10",
+      "skip_rate": 0.306
+    },
+    {
+      "month": "2020-11",
+      "skip_rate": 0.352
+    },
+    {
+      "month": "2020-12",
+      "skip_rate": 0.252
+    },
+    {
+      "month": "2021-01",
+      "skip_rate": 0.24
+    },
+    {
+      "month": "2021-02",
+      "skip_rate": 0.323
+    },
+    {
+      "month": "2021-03",
+      "skip_rate": 0.344
+    },
+    {
+      "month": "2021-04",
+      "skip_rate": 0.222
+    },
+    {
+      "month": "2021-05",
+      "skip_rate": 0.194
+    },
+    {
+      "month": "2021-06",
+      "skip_rate": 0.319
+    },
+    {
+      "month": "2021-07",
+      "skip_rate": 0.313
+    },
+    {
+      "month": "2021-08",
+      "skip_rate": 0.287
+    },
+    {
+      "month": "2021-09",
+      "skip_rate": 0.35
+    },
+    {
+      "month": "2021-10",
+      "skip_rate": 0.368
+    },
+    {
+      "month": "2021-11",
+      "skip_rate": 0.383
+    },
+    {
+      "month": "2021-12",
+      "skip_rate": 0.366
+    },
+    {
+      "month": "2022-01",
+      "skip_rate": 0.365
+    },
+    {
+      "month": "2022-02",
+      "skip_rate": 0.465
+    },
+    {
+      "month": "2022-03",
+      "skip_rate": 0.48
+    },
+    {
+      "month": "2022-04",
+      "skip_rate": 0.547
+    },
+    {
+      "month": "2022-05",
+      "skip_rate": 0.467
+    },
+    {
+      "month": "2022-06",
+      "skip_rate": 0.361
+    },
+    {
+      "month": "2022-07",
+      "skip_rate": 0.297
+    },
+    {
+      "month": "2022-08",
+      "skip_rate": 0.358
+    },
+    {
+      "month": "2022-09",
+      "skip_rate": 0.358
+    },
+    {
+      "month": "2022-10",
+      "skip_rate": 0.412
+    },
+    {
+      "month": "2022-11",
+      "skip_rate": 0.545
+    },
+    {
+      "month": "2022-12",
+      "skip_rate": 0.574
+    },
+    {
+      "month": "2023-01",
+      "skip_rate": 0.576
+    },
+    {
+      "month": "2023-02",
+      "skip_rate": 0.581
+    },
+    {
+      "month": "2023-03",
+      "skip_rate": 0.486
+    },
+    {
+      "month": "2023-04",
+      "skip_rate": 0.589
+    },
+    {
+      "month": "2023-05",
+      "skip_rate": 0.506
+    },
+    {
+      "month": "2023-06",
+      "skip_rate": 0.452
+    },
+    {
+      "month": "2023-07",
+      "skip_rate": 0.555
+    },
+    {
+      "month": "2023-08",
+      "skip_rate": 0.486
+    },
+    {
+      "month": "2023-09",
+      "skip_rate": 0.751
+    },
+    {
+      "month": "2023-10",
+      "skip_rate": 0.741
+    },
+    {
+      "month": "2023-11",
+      "skip_rate": 0.71
+    },
+    {
+      "month": "2023-12",
+      "skip_rate": 0.632
+    },
+    {
+      "month": "2024-01",
+      "skip_rate": 0.613
+    },
+    {
+      "month": "2024-02",
+      "skip_rate": 0.662
+    },
+    {
+      "month": "2024-03",
+      "skip_rate": 0.678
+    },
+    {
+      "month": "2024-04",
+      "skip_rate": 0.663
+    },
+    {
+      "month": "2024-05",
+      "skip_rate": 0.6
+    },
+    {
+      "month": "2024-06",
+      "skip_rate": 0.6
+    },
+    {
+      "month": "2024-07",
+      "skip_rate": 0.52
+    },
+    {
+      "month": "2024-08",
+      "skip_rate": 0.627
+    },
+    {
+      "month": "2024-09",
+      "skip_rate": 0.651
+    },
+    {
+      "month": "2024-10",
+      "skip_rate": 0.587
+    },
+    {
+      "month": "2024-11",
+      "skip_rate": 0.553
+    },
+    {
+      "month": "2024-12",
+      "skip_rate": 0.602
+    },
+    {
+      "month": "2025-01",
+      "skip_rate": 0.479
+    },
+    {
+      "month": "2025-02",
+      "skip_rate": 0.473
+    },
+    {
+      "month": "2025-03",
+      "skip_rate": 0.493
+    },
+    {
+      "month": "2025-04",
+      "skip_rate": 0.557
+    },
+    {
+      "month": "2025-05",
+      "skip_rate": 0.536
+    },
+    {
+      "month": "2025-06",
+      "skip_rate": 0.596
+    },
+    {
+      "month": "2025-07",
+      "skip_rate": 0.674
+    },
+    {
+      "month": "2025-08",
+      "skip_rate": 0.658
+    },
+    {
+      "month": "2025-09",
+      "skip_rate": 0.788
+    },
+    {
+      "month": "2025-10",
+      "skip_rate": 0.759
+    },
+    {
+      "month": "2025-11",
+      "skip_rate": 0.742
+    },
+    {
+      "month": "2025-12",
+      "skip_rate": 0.669
+    },
+    {
+      "month": "2026-01",
+      "skip_rate": 0.692
+    },
+    {
+      "month": "2026-02",
+      "skip_rate": 0.648
+    },
+    {
+      "month": "2026-03",
+      "skip_rate": 0.648
+    }
+  ],
+  "length_distribution": [
+    {
+      "bucket": "<10min",
+      "count": 4653
+    },
+    {
+      "bucket": "10-30min",
+      "count": 3578
+    },
+    {
+      "bucket": "30-60min",
+      "count": 1511
+    },
+    {
+      "bucket": "1-2hr",
+      "count": 875
+    },
+    {
+      "bucket": "2hr+",
+      "count": 241
+    }
+  ],
+  "reason_start": [
+    {
+      "reason": "clickrow",
+      "count": 58488
+    },
+    {
+      "reason": "trackdone",
+      "count": 46270
+    },
+    {
+      "reason": "fwdbtn",
+      "count": 14209
+    },
+    {
+      "reason": "playbtn",
+      "count": 6517
+    },
+    {
+      "reason": "appload",
+      "count": 2037
+    },
+    {
+      "reason": "remote",
+      "count": 1334
+    },
+    {
+      "reason": "backbtn",
+      "count": 1211
+    },
+    {
+      "reason": "trackerror",
+      "count": 262
+    },
+    {
+      "reason": "unknown",
+      "count": 97
+    },
+    {
+      "reason": "switched-to-audio",
+      "count": 1
+    }
+  ],
+  "reason_end": [
+    {
+      "reason": "endplay",
+      "count": 60316
+    },
+    {
+      "reason": "trackdone",
+      "count": 47254
+    },
+    {
+      "reason": "fwdbtn",
+      "count": 14165
+    },
+    {
+      "reason": "unexpected-exit-while-paused",
+      "count": 3504
+    },
+    {
+      "reason": "remote",
+      "count": 2265
+    },
+    {
+      "reason": "logout",
+      "count": 1509
+    },
+    {
+      "reason": "backbtn",
+      "count": 1120
+    },
+    {
+      "reason": "unknown",
+      "count": 127
+    },
+    {
+      "reason": "unexpected-exit",
+      "count": 91
+    },
+    {
+      "reason": "trackerror",
+      "count": 75
+    }
+  ]
+}

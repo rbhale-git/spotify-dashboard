@@ -1,0 +1,11 @@
+{
+  "last_updated": "2026-03-15T23:38:49+00:00Z",
+  "processed_at": "2026-03-17T17:01:32.313108+00:00",
+  "total_records_raw": 133208,
+  "total_records_clean": 130426,
+  "filtered_records": 2782,
+  "date_range": {
+    "start": "2018-09-28",
+    "end": "2026-03-15"
+  }
+}
