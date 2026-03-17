@@ -11,7 +11,7 @@ from overview import compute_overview
 from habits import compute_habits
 from sessions import compute_sessions
 from deep_cuts import compute_deep_cuts
-from recommendations import compute_recommendations
+from recommendations import compute_recommendations_by_period
 
 
 DATA_DIR = os.environ.get(
@@ -74,9 +74,9 @@ def main():
     deep_cuts = compute_deep_cuts(df)
     write_json(deep_cuts, "deep-cuts.json")
 
-    # Recommendations
-    print("Processing recommendations...")
-    recommendations = compute_recommendations(df)
+    # Recommendations (all time + per 6-month period)
+    print("Processing recommendations by period...")
+    recommendations = compute_recommendations_by_period(df)
     write_json(recommendations, "recommendations.json")
 
     print("Done! All JSON files written to:", OUTPUT_DIR)

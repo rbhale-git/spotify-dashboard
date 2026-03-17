@@ -51,11 +51,16 @@ export interface GenreCluster {
   affinity: number;
 }
 
-export interface RecommendationsData {
+export interface PeriodRecommendation {
   genre_clusters: GenreCluster[];
   radar_data: { genre: string; value: number }[];
   suggested_artists: { artist: string; cluster: string; match_pct: number; current_plays: number }[];
   genre_timeline: Record<string, string | number>[];
+}
+
+export interface RecommendationsData {
+  periods: string[];
+  data: Record<string, PeriodRecommendation>;
 }
 
 import metadataJson from "../../data/metadata.json";

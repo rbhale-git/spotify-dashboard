@@ -10,7 +10,10 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { recommendations } from "@/lib/data";
+
+interface GenreTimelineProps {
+  data: Record<string, string | number>[];
+}
 
 const CLUSTER_COLORS = [
   "#1ED760",
@@ -33,8 +36,9 @@ const TOOLTIP_STYLE = {
   padding: "10px 14px",
 };
 
-export default function GenreTimeline() {
-  const data = recommendations.genre_timeline;
+export default function GenreTimeline({ data }: GenreTimelineProps) {
+  if (!data || data.length === 0) return null;
+
   const genreKeys = Object.keys(data[0] ?? {}).filter((k) => k !== "month");
 
   const shortLabels: Record<string, string> = {};
@@ -54,7 +58,7 @@ export default function GenreTimeline() {
             dataKey="month"
             tick={{ fill: "#9999B0", fontSize: 11, fontFamily: "Outfit" }}
             tickLine={false}
-            interval={11}
+            interval={Math.max(1, Math.floor(data.length / 8))}
             axisLine={{ stroke: "#1a1a2e" }}
           />
           <YAxis

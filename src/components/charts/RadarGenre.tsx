@@ -9,7 +9,10 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { recommendations } from "@/lib/data";
+
+interface RadarGenreProps {
+  data: { genre: string; value: number }[];
+}
 
 const TOOLTIP_STYLE = {
   backgroundColor: "#0d0d14",
@@ -21,13 +24,13 @@ const TOOLTIP_STYLE = {
   padding: "10px 14px",
 };
 
-export default function RadarGenre() {
-  const data = recommendations.radar_data.map((d) => ({
+export default function RadarGenre({ data }: RadarGenreProps) {
+  const formatted = data.map((d) => ({
     genre: d.genre.split(",")[0].trim(),
     value: Math.round(d.value * 100),
   }));
 
-  const maxValue = Math.max(...data.map((d) => d.value), 10);
+  const maxValue = Math.max(...formatted.map((d) => d.value), 10);
 
   return (
     <div className="glass-card p-6">
@@ -35,7 +38,7 @@ export default function RadarGenre() {
         Genre Cluster Affinities
       </h3>
       <ResponsiveContainer width="100%" height={380}>
-        <RadarChart data={data} margin={{ top: 20, right: 40, left: 40, bottom: 20 }}>
+        <RadarChart data={formatted} margin={{ top: 20, right: 40, left: 40, bottom: 20 }}>
           <PolarGrid stroke="#2a2a3e" />
           <PolarAngleAxis
             dataKey="genre"

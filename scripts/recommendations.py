@@ -140,6 +140,59 @@ def compute_recommendations(df: pd.DataFrame) -> dict:
     }
 
 
+def compute_recommendations_by_period(df: pd.DataFrame) -> dict:
+    """Compute recommendations for all time + each 6-month period."""
+    df = df.copy()
+    df["ts"] = pd.to_datetime(df["ts"], utc=True)
+
+    # Generate 6-month period boundaries
+    min_date = df["ts"].min().tz_localize(None)
+    max_date = df["ts"].max().tz_localize(None)
+
+    periods = []
+    # Determine the starting half: H1 = Jan-Jun, H2 = Jul-Dec
+    year = min_date.year
+    half = 1 if min_date.month <= 6 else 2
+    while True:
+        start_month = 1 if half == 1 else 7
+        end_month = 6 if half == 1 else 12
+        start = pd.Timestamp(f"{year}-{start_month:02d}-01")
+        end = pd.Timestamp(f"{year}-{end_month:02d}-01") + pd.offsets.MonthEnd(0) + pd.Timedelta(hours=23, minutes=59, seconds=59)
+        label = f"{year} H{half}"
+
+        if start > max_date:
+            break
+
+        periods.append({"label": label, "start": start, "end": end})
+
+        if half == 1:
+            half = 2
+        else:
+            half = 1
+            year += 1
+
+    result = {}
+
+    # All time
+    print("    Computing: All Time")
+    result["All Time"] = compute_recommendations(df)
+
+    # Per period
+    for p in periods:
+        period_df = df[(df["ts"].dt.tz_localize(None) >= p["start"]) & (df["ts"].dt.tz_localize(None) <= p["end"])]
+        if len(period_df) < 50:
+            continue
+        print(f"    Computing: {p['label']} ({len(period_df)} records)")
+        result[p["label"]] = compute_recommendations(period_df)
+
+    # Return structure: { periods: ["All Time", "2018 H2", ...], data: { "All Time": {...}, ... } }
+    period_labels = [k for k in result.keys()]
+    return {
+        "periods": period_labels,
+        "data": result,
+    }
+
+
 def _empty_result() -> dict:
     return {
         "genre_clusters": [],
