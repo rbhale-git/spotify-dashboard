@@ -6,9 +6,9 @@ import { metadata } from "@/lib/data";
 const sections = [
   { id: "overview", label: "Overview", icon: "01" },
   { id: "habits", label: "Listening Habits", icon: "02" },
-  { id: "deep-cuts", label: "Deep Cuts", icon: "03" },
-  { id: "sessions", label: "Sessions", icon: "04" },
-  { id: "recommendations", label: "Recommendations", icon: "05" },
+  { id: "recommendations", label: "Recommendations", icon: "03" },
+  { id: "deep-cuts", label: "Deep Cuts", icon: "04" },
+  { id: "sessions", label: "Sessions", icon: "05" },
 ];
 
 export default function Sidebar() {
