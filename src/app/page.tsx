@@ -8,9 +8,13 @@ export default function Home() {
   return (
     <>
       <OverviewSection />
+      <div className="section-divider" />
       <HabitsSection />
+      <div className="section-divider" />
       <DeepCutsSection />
+      <div className="section-divider" />
       <SessionsSection />
+      <div className="section-divider" />
       <RecommendationsSection />
     </>
   );

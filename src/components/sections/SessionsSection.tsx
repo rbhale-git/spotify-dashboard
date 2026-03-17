@@ -9,7 +9,7 @@ export default function SessionsSection() {
   const { overall } = sessions;
 
   return (
-    <section className="mb-16">
+    <section className="mb-12">
       <SectionHeader
         id="sessions"
         title="Sessions"
@@ -20,17 +20,20 @@ export default function SessionsSection() {
         <StatCard
           value={`${Math.round(overall.skip_rate * 100)}%`}
           label="Skip Rate"
-          color="text-red-500"
+          color="text-sp-coral"
+          delay={0}
         />
         <StatCard
           value={`${overall.avg_session_minutes}m`}
           label="Avg Session Length"
-          color="text-blue-400"
+          color="text-sp-teal"
+          delay={1}
         />
         <StatCard
           value={`${Math.round(overall.shuffle_rate * 100)}%`}
           label="Shuffle Rate"
-          color="text-yellow-400"
+          color="text-sp-amber"
+          delay={2}
         />
       </div>
 

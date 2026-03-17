@@ -5,9 +5,13 @@ import { habits } from "@/lib/data";
 const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
 function getColor(value: number, max: number): string {
+  if (max === 0 || value === 0) return "rgba(30, 215, 96, 0.03)";
   const intensity = Math.sqrt(value / max);
-  const alpha = 0.1 + intensity * 0.9;
-  return `rgba(29, 185, 84, ${alpha.toFixed(2)})`;
+  // Gradient from deep blue-green to bright green
+  const r = Math.round(10 + intensity * 20);
+  const g = Math.round(20 + intensity * 195);
+  const b = Math.round(30 + intensity * 66);
+  return `rgb(${r}, ${g}, ${b})`;
 }
 
 export default function Heatmap() {
@@ -24,8 +28,8 @@ export default function Heatmap() {
   const totalHeight = labelHeight + 7 * (cellHeight + cellGap);
 
   return (
-    <div className="bg-spotify-dark-card rounded-lg p-4">
-      <h3 className="text-sm text-spotify-text-secondary mb-4">
+    <div className="glass-card p-4">
+      <h3 className="text-xs text-sp-text-muted uppercase tracking-wider font-semibold mb-4">
         Listening Heatmap — Day of Week × Hour of Day
       </h3>
       <div className="overflow-x-auto">
@@ -41,8 +45,9 @@ export default function Heatmap() {
               x={labelWidth + h * (cellWidth + cellGap) + cellWidth / 2}
               y={14}
               textAnchor="middle"
-              fill="#6a6a6a"
+              fill="#4A4A62"
               fontSize={8}
+              fontFamily="Outfit"
             >
               {h % 4 === 0 ? `${h}h` : ""}
             </text>
@@ -55,8 +60,9 @@ export default function Heatmap() {
                 x={labelWidth - 4}
                 y={labelHeight + dayIdx * (cellHeight + cellGap) + cellHeight / 2 + 4}
                 textAnchor="end"
-                fill="#6a6a6a"
+                fill="#4A4A62"
                 fontSize={9}
+                fontFamily="Outfit"
               >
                 {DAYS[dayIdx]}
               </text>
@@ -80,14 +86,19 @@ export default function Heatmap() {
 
       {/* Legend */}
       <div className="flex items-center gap-2 mt-3 justify-end">
-        <span className="text-[10px] text-spotify-text-muted">Less</span>
-        {[0.1, 0.3, 0.5, 0.7, 0.9].map((v) => (
+        <span className="text-[10px]" style={{ color: "#4A4A62" }}>Less</span>
+        {[0, 0.25, 0.5, 0.75, 1].map((v) => (
           <div
             key={v}
-            style={{ backgroundColor: `rgba(29,185,84,${v})`, width: 12, height: 12, borderRadius: 2 }}
+            style={{
+              backgroundColor: getColor(v * maxVal, maxVal),
+              width: 12,
+              height: 12,
+              borderRadius: 2,
+            }}
           />
         ))}
-        <span className="text-[10px] text-spotify-text-muted">More</span>
+        <span className="text-[10px]" style={{ color: "#4A4A62" }}>More</span>
       </div>
     </div>
   );

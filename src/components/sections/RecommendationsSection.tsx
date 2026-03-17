@@ -8,7 +8,7 @@ export default function RecommendationsSection() {
   const artists = recommendations.suggested_artists;
 
   return (
-    <section className="mb-16">
+    <section className="mb-12">
       <SectionHeader
         id="recommendations"
         title="Recommendations"
@@ -18,8 +18,13 @@ export default function RecommendationsSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
         <RadarGenre />
         <div>
-          <div className="bg-spotify-dark-card rounded-lg p-4 mb-0">
-            <h3 className="text-sm text-spotify-text-secondary mb-3">Suggested Artists</h3>
+          <div className="glass-card p-4 mb-0">
+            <h3
+              className="text-xs uppercase tracking-wider font-semibold mb-3"
+              style={{ color: "#4A4A62" }}
+            >
+              Suggested Artists
+            </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-[320px] overflow-y-auto pr-1">
               {artists.map((a, i) => (
                 <ArtistCard

@@ -8,7 +8,7 @@ export default function OverviewSection() {
   const { hero_stats } = overview;
 
   return (
-    <section className="mb-16">
+    <section className="mb-12">
       <SectionHeader
         id="overview"
         title="Listening Overview"
@@ -19,22 +19,26 @@ export default function OverviewSection() {
         <StatCard
           value={hero_stats.total_streams.toLocaleString()}
           label="Total Streams"
-          color="text-spotify-green"
+          color="text-sp-green"
+          delay={0}
         />
         <StatCard
           value={`${Math.round(hero_stats.total_hours).toLocaleString()}h`}
           label="Total Hours"
-          color="text-spotify-green"
+          color="text-sp-green"
+          delay={1}
         />
         <StatCard
           value={hero_stats.unique_tracks.toLocaleString()}
           label="Unique Tracks"
-          color="text-spotify-green"
+          color="text-sp-teal"
+          delay={2}
         />
         <StatCard
           value={hero_stats.unique_artists.toLocaleString()}
           label="Unique Artists"
-          color="text-spotify-green"
+          color="text-sp-amber"
+          delay={3}
         />
       </div>
 

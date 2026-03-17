@@ -5,7 +5,7 @@ import HourlyBar from "@/components/charts/HourlyBar";
 
 export default function HabitsSection() {
   return (
-    <section className="mb-16">
+    <section className="mb-12">
       <SectionHeader
         id="habits"
         title="Listening Habits"

@@ -1,36 +1,131 @@
 @import "tailwindcss";
 
 @theme {
-  --color-spotify-green: #1DB954;
-  --color-spotify-green-dark: #1aa34a;
-  --color-spotify-green-light: #1ed760;
-  --color-spotify-black: #0a0a0a;
-  --color-spotify-dark-base: #121212;
-  --color-spotify-dark-card: #1a1a2e;
-  --color-spotify-dark-elevated: #242438;
-  --color-spotify-dark-border: #333333;
-  --color-spotify-text-primary: #ffffff;
-  --color-spotify-text-secondary: #b3b3b3;
-  --color-spotify-text-muted: #6a6a6a;
-  --font-sans: "Inter", "system-ui", "sans-serif";
+  --color-sp-green: #1ED760;
+  --color-sp-green-dim: #1aa34a;
+  --color-sp-green-glow: rgba(30, 215, 96, 0.15);
+  --color-sp-coral: #FF6B6B;
+  --color-sp-teal: #4ECDC4;
+  --color-sp-amber: #FFD93D;
+  --color-sp-base: #050508;
+  --color-sp-surface: #0d0d14;
+  --color-sp-elevated: #161622;
+  --color-sp-border: #1e1e2e;
+  --color-sp-text: #EAEAEA;
+  --color-sp-text-dim: #8B8BA3;
+  --color-sp-text-muted: #4A4A62;
+  --font-display: "Syne", sans-serif;
+  --font-body: "Outfit", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--color-spotify-black);
-  color: var(--color-spotify-text-primary);
-  font-family: var(--font-sans);
+  background-color: var(--color-sp-base);
+  color: var(--color-sp-text);
+  font-family: var(--font-body);
+  position: relative;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
+/* Noise grain texture overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
 }
-::-webkit-scrollbar-track {
-  background: var(--color-spotify-dark-base);
+
+/* Atmospheric background glow */
+body::after {
+  content: "";
+  position: fixed;
+  top: -20%;
+  left: -10%;
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(ellipse at center, rgba(30, 215, 96, 0.04) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
 }
-::-webkit-scrollbar-thumb {
-  background: var(--color-spotify-dark-border);
-  border-radius: 4px;
+
+/* Glass card utility */
+.glass-card {
+  background: linear-gradient(135deg, rgba(13, 13, 20, 0.8), rgba(22, 22, 34, 0.6));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(30, 30, 46, 0.6);
+  border-radius: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-spotify-text-muted);
+
+.glass-card:hover {
+  border-color: rgba(30, 215, 96, 0.2);
+  box-shadow: 0 0 30px rgba(30, 215, 96, 0.05);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(30, 215, 96, 0.1); }
+  50% { box-shadow: 0 0 40px rgba(30, 215, 96, 0.2); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out both;
+}
+
+/* Stagger delays */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-sp-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-sp-text-muted); }
+
+/* Glow line divider between sections */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(30, 215, 96, 0.3), transparent);
+  margin: 3rem 0;
+}
+
+/* Hover states for pure-CSS interactive elements */
+.scrolllist-row:hover {
+  background-color: rgba(22, 22, 34, 0.6) !important;
+  border-color: rgba(30, 215, 96, 0.1) !important;
+}
+
+.artist-card:hover {
+  border-color: rgba(30, 215, 96, 0.2) !important;
 }

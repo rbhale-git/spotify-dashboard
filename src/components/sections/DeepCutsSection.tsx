@@ -24,7 +24,7 @@ export default function DeepCutsSection() {
   }));
 
   return (
-    <section className="mb-16">
+    <section className="mb-12">
       <SectionHeader
         id="deep-cuts"
         title="Deep Cuts"
