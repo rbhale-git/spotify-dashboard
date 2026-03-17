@@ -13,43 +13,46 @@ import { recommendations } from "@/lib/data";
 
 const TOOLTIP_STYLE = {
   backgroundColor: "#0d0d14",
-  border: "1px solid #1e1e2e",
+  border: "1px solid #2a2a3e",
   borderRadius: 12,
   color: "#EAEAEA",
   fontFamily: "Outfit",
-  fontSize: 12,
+  fontSize: 13,
+  padding: "10px 14px",
 };
 
 export default function RadarGenre() {
   const data = recommendations.radar_data.map((d) => ({
-    // Shorten to first artist name
     genre: d.genre.split(",")[0].trim(),
     value: Math.round(d.value * 100),
   }));
 
+  const maxValue = Math.max(...data.map((d) => d.value), 10);
+
   return (
-    <div className="glass-card p-4">
-      <h3 className="text-xs text-sp-text-muted uppercase tracking-wider font-semibold mb-4">
+    <div className="glass-card p-6">
+      <h3 className="text-xs uppercase tracking-wider font-semibold mb-5" style={{ color: "#8B8BA3" }}>
         Genre Cluster Affinities
       </h3>
-      <ResponsiveContainer width="100%" height={320}>
-        <RadarChart data={data} margin={{ top: 10, right: 30, left: 30, bottom: 10 }}>
-          <PolarGrid stroke="#1e1e2e" />
+      <ResponsiveContainer width="100%" height={380}>
+        <RadarChart data={data} margin={{ top: 20, right: 40, left: 40, bottom: 20 }}>
+          <PolarGrid stroke="#2a2a3e" />
           <PolarAngleAxis
             dataKey="genre"
-            tick={{ fill: "#8B8BA3", fontSize: 10, fontFamily: "Outfit" }}
+            tick={{ fill: "#BBBBD0", fontSize: 12, fontFamily: "Outfit", fontWeight: 500 }}
           />
           <PolarRadiusAxis
             angle={30}
-            domain={[0, 50]}
-            tick={{ fill: "#4A4A62", fontSize: 9, fontFamily: "Outfit" }}
+            domain={[0, Math.ceil(maxValue / 10) * 10]}
+            tick={{ fill: "#9999B0", fontSize: 10, fontFamily: "Outfit" }}
           />
           <Radar
             name="Affinity %"
             dataKey="value"
             stroke="#1ED760"
             fill="#1ED760"
-            fillOpacity={0.3}
+            fillOpacity={0.25}
+            strokeWidth={2}
           />
           <Tooltip
             contentStyle={TOOLTIP_STYLE}

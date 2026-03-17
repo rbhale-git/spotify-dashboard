@@ -34,11 +34,12 @@ const REASON_LABELS: Record<string, string> = {
 
 const TOOLTIP_STYLE = {
   backgroundColor: "#0d0d14",
-  border: "1px solid #1e1e2e",
+  border: "1px solid #2a2a3e",
   borderRadius: 12,
   color: "#EAEAEA",
   fontFamily: "Outfit",
-  fontSize: 12,
+  fontSize: 13,
+  padding: "10px 14px",
 };
 
 export default function ReasonBar({ type }: ReasonBarProps) {
@@ -48,38 +49,38 @@ export default function ReasonBar({ type }: ReasonBarProps) {
     .map((d) => ({ reason: REASON_LABELS[d.reason] ?? d.reason, count: d.count }));
 
   return (
-    <div className="glass-card p-4">
-      <h3 className="text-xs text-sp-text-muted uppercase tracking-wider font-semibold mb-4">
+    <div className="glass-card p-6">
+      <h3 className="text-xs uppercase tracking-wider font-semibold mb-5" style={{ color: "#8B8BA3" }}>
         {type === "start" ? "Why Tracks Start" : "Why Tracks End"}
       </h3>
-      <ResponsiveContainer width="100%" height={260}>
+      <ResponsiveContainer width="100%" height={300}>
         <BarChart
           data={data}
           layout="vertical"
-          margin={{ top: 5, right: 20, left: 90, bottom: 5 }}
+          margin={{ top: 5, right: 24, left: 8, bottom: 5 }}
         >
-          <CartesianGrid strokeDasharray="3 3" stroke="#1e1e2e" horizontal={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="#1a1a2e" horizontal={false} />
           <XAxis
             type="number"
-            tick={{ fill: "#4A4A62", fontSize: 10, fontFamily: "Outfit" }}
+            tick={{ fill: "#9999B0", fontSize: 11, fontFamily: "Outfit" }}
             tickLine={false}
-            axisLine={{ stroke: "#1e1e2e" }}
+            axisLine={{ stroke: "#1a1a2e" }}
           />
           <YAxis
             dataKey="reason"
             type="category"
-            tick={{ fill: "#8B8BA3", fontSize: 10, fontFamily: "Outfit" }}
+            tick={{ fill: "#BBBBD0", fontSize: 12, fontFamily: "Outfit" }}
             tickLine={false}
-            width={90}
+            width={110}
           />
           <Tooltip
             contentStyle={TOOLTIP_STYLE}
-            formatter={(value) => [value, "Count"]}
+            formatter={(value) => [typeof value === "number" ? value.toLocaleString() : value, "Count"]}
           />
           <Bar
             dataKey="count"
             fill={type === "start" ? "#4ECDC4" : "#8b5cf6"}
-            radius={[0, 2, 2, 0]}
+            radius={[0, 4, 4, 0]}
           />
         </BarChart>
       </ResponsiveContainer>

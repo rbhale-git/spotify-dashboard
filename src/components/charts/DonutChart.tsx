@@ -10,36 +10,39 @@ import {
 } from "recharts";
 import { overview } from "@/lib/data";
 
-const COLORS = ["#1ED760", "#1aa34a", "#17923f", "#4ECDC4", "#40916c", "#74c69d", "#95d5b2"];
+// Distinct, high-contrast colors — not all greens
+const COLORS = ["#1ED760", "#4ECDC4", "#FFD93D", "#FF6B6B", "#8b5cf6", "#06b6d4", "#ec4899"];
 
 const TOOLTIP_STYLE = {
   backgroundColor: "#0d0d14",
-  border: "1px solid #1e1e2e",
+  border: "1px solid #2a2a3e",
   borderRadius: 12,
   color: "#EAEAEA",
   fontFamily: "Outfit",
-  fontSize: 12,
+  fontSize: 13,
+  padding: "10px 14px",
 };
 
 export default function DonutChart() {
   const data = overview.platform_breakdown;
 
   return (
-    <div className="glass-card p-4">
-      <h3 className="text-xs text-sp-text-muted uppercase tracking-wider font-semibold mb-4">
+    <div className="glass-card p-6">
+      <h3 className="text-xs uppercase tracking-wider font-semibold mb-5" style={{ color: "#8B8BA3" }}>
         Platform Breakdown
       </h3>
-      <ResponsiveContainer width="100%" height={280}>
+      <ResponsiveContainer width="100%" height={320}>
         <PieChart>
           <Pie
             data={data}
             dataKey="streams"
             nameKey="platform"
             cx="50%"
-            cy="50%"
-            innerRadius={60}
-            outerRadius={100}
-            paddingAngle={2}
+            cy="45%"
+            innerRadius={65}
+            outerRadius={110}
+            paddingAngle={3}
+            strokeWidth={0}
           >
             {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
@@ -53,8 +56,9 @@ export default function DonutChart() {
             ]}
           />
           <Legend
+            verticalAlign="bottom"
             formatter={(value) => (
-              <span style={{ color: "#8B8BA3", fontSize: 11, fontFamily: "Outfit" }}>{value}</span>
+              <span style={{ color: "#BBBBD0", fontSize: 12, fontFamily: "Outfit" }}>{value}</span>
             )}
           />
         </PieChart>
