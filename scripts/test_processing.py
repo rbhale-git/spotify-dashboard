@@ -50,3 +50,48 @@ def test_normalize_platform_console():
 def test_normalize_platform_other():
     assert normalize_platform("not_applicable") == "Other"
     assert normalize_platform("cast") == "Other"
+
+from overview import compute_overview
+import pandas as pd
+
+def make_test_df():
+    """Create a small test DataFrame for overview tests."""
+    records = [
+        {"ts": "2024-01-15T10:00:00Z", "ms_played": 180000, "platform": "iOS",
+         "master_metadata_track_name": "Track A", "master_metadata_album_artist_name": "Artist 1",
+         "spotify_track_uri": "spotify:track:aaa"},
+        {"ts": "2024-01-15T10:03:00Z", "ms_played": 240000, "platform": "iOS",
+         "master_metadata_track_name": "Track B", "master_metadata_album_artist_name": "Artist 2",
+         "spotify_track_uri": "spotify:track:bbb"},
+        {"ts": "2024-02-20T14:00:00Z", "ms_played": 200000, "platform": "Windows",
+         "master_metadata_track_name": "Track A", "master_metadata_album_artist_name": "Artist 1",
+         "spotify_track_uri": "spotify:track:aaa"},
+    ]
+    df = pd.DataFrame(records)
+    df["ts"] = pd.to_datetime(df["ts"])
+    return df
+
+def test_overview_hero_stats():
+    df = make_test_df()
+    result = compute_overview(df)
+    assert result["hero_stats"]["total_streams"] == 3
+    assert result["hero_stats"]["unique_tracks"] == 2
+    assert result["hero_stats"]["unique_artists"] == 2
+    expected_hours = round((180000 + 240000 + 200000) / 3600000, 1)
+    assert result["hero_stats"]["total_hours"] == expected_hours
+
+def test_overview_monthly_volume():
+    df = make_test_df()
+    result = compute_overview(df)
+    months = {m["month"]: m for m in result["monthly_volume"]}
+    assert "2024-01" in months
+    assert "2024-02" in months
+    assert months["2024-01"]["streams"] == 2
+
+def test_overview_platform_breakdown():
+    df = make_test_df()
+    result = compute_overview(df)
+    platforms = {p["platform"]: p for p in result["platform_breakdown"]}
+    assert "iOS" in platforms
+    assert "Windows" in platforms
+    assert platforms["iOS"]["streams"] == 2
