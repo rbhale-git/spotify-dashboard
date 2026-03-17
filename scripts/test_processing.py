@@ -179,3 +179,73 @@ def test_seasonal_overlay():
     jan_2024 = [e for e in entries if e["month_of_year"] == 1 and e["year"] == 2024]
     assert len(jan_2024) == 1
     assert jan_2024[0]["hours"] == 1.0
+
+from deep_cuts import compute_deep_cuts
+
+def make_deep_cuts_df():
+    records = [
+        *[{"ts": pd.Timestamp(f"2020-0{i+1}-15T10:00:00Z"), "ms_played": 180000,
+           "master_metadata_album_artist_name": "Loyal Artist",
+           "master_metadata_track_name": f"Track {i}", "spotify_track_uri": f"uri:{i}",
+           "reason_end": "trackdone"} for i in range(4)],
+        *[{"ts": pd.Timestamp(f"2021-0{i+1}-15T10:00:00Z"), "ms_played": 180000,
+           "master_metadata_album_artist_name": "Loyal Artist",
+           "master_metadata_track_name": f"Track {i}", "spotify_track_uri": f"uri:{i}",
+           "reason_end": "trackdone"} for i in range(3)],
+        *[{"ts": pd.Timestamp(f"2022-0{i+1}-15T10:00:00Z"), "ms_played": 180000,
+           "master_metadata_album_artist_name": "Loyal Artist",
+           "master_metadata_track_name": f"Track {i}", "spotify_track_uri": f"uri:{i}",
+           "reason_end": "trackdone"} for i in range(3)],
+        {"ts": pd.Timestamp("2023-06-15T10:00:00Z"), "ms_played": 200000,
+         "master_metadata_album_artist_name": "One Hit Artist",
+         "master_metadata_track_name": "Fleeting Song", "spotify_track_uri": "uri:onehit",
+         "reason_end": "trackdone"},
+        *[{"ts": pd.Timestamp(f"2023-0{i+1}-15T10:00:00Z"), "ms_played": 180000,
+           "master_metadata_album_artist_name": "Popular Artist",
+           "master_metadata_track_name": "Hit Song", "spotify_track_uri": "uri:hit",
+           "reason_end": "trackdone"} for i in range(5)],
+    ]
+    df = pd.DataFrame(records)
+    df["ts"] = pd.to_datetime(df["ts"])
+    return df
+
+def test_loyalty_scores():
+    df = make_deep_cuts_df()
+    result = compute_deep_cuts(df)
+    loyalty = result["loyalty_scores"]
+    assert len(loyalty) > 0
+    loyal = [a for a in loyalty if a["artist"] == "Loyal Artist"]
+    assert len(loyal) == 1
+    assert loyal[0]["years_active"] == 3
+
+def test_one_hit_wonders():
+    df = make_deep_cuts_df()
+    result = compute_deep_cuts(df)
+    wonders = result["one_hit_wonders"]
+    wonder_tracks = [w["track"] for w in wonders]
+    assert "Fleeting Song" in wonder_tracks
+
+def test_most_replayed():
+    df = make_deep_cuts_df()
+    result = compute_deep_cuts(df)
+    replayed = result["most_replayed"]
+    assert replayed[0]["track"] == "Hit Song"
+    assert replayed[0]["plays"] == 5
+
+def test_diversity_index_excludes_low_months():
+    records = [
+        *[{"ts": pd.Timestamp(f"2024-01-{i+1:02d}T10:00:00Z"), "ms_played": 180000,
+           "master_metadata_album_artist_name": f"Artist {i}",
+           "master_metadata_track_name": f"Track {i}", "spotify_track_uri": f"uri:d{i}",
+           "reason_end": "trackdone"} for i in range(5)],
+        *[{"ts": pd.Timestamp(f"2024-02-{i+1:02d}T10:00:00Z"), "ms_played": 180000,
+           "master_metadata_album_artist_name": f"Artist {i}",
+           "master_metadata_track_name": f"Track {i}", "spotify_track_uri": f"uri:d{i}",
+           "reason_end": "trackdone"} for i in range(25)],
+    ]
+    df = pd.DataFrame(records)
+    df["ts"] = pd.to_datetime(df["ts"])
+    result = compute_deep_cuts(df)
+    months = [d["month"] for d in result["diversity_index"]]
+    assert "2024-01" not in months
+    assert "2024-02" in months
