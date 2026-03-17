@@ -9,7 +9,9 @@ import { recommendations } from "@/lib/data";
 
 export default function RecommendationsSection() {
   const periods = recommendations.periods;
-  const [selectedPeriod, setSelectedPeriod] = useState("All Time");
+  // Default to most recent period (last in list, excluding "All Time")
+  const mostRecent = periods[periods.length - 1] ?? "All Time";
+  const [selectedPeriod, setSelectedPeriod] = useState(mostRecent);
 
   const currentData = recommendations.data[selectedPeriod];
   const hasData = currentData && currentData.genre_clusters.length > 0;
