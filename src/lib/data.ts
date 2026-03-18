@@ -24,12 +24,22 @@ export interface HabitsData {
   hourly_distribution: { hour: number; streams: number }[];
 }
 
+export interface TopArtistEntry {
+  artist: string;
+  total_plays: number;
+  total_hours: number;
+}
+
 export interface DeepCutsData {
   loyalty_scores: { artist: string; score: number; years_active: number; total_plays: number }[];
   one_hit_wonders: { track: string; artist: string; date: string }[];
   most_replayed: { track: string; artist: string; plays: number }[];
   hidden_gems: { track: string; artist: string; plays: number; completion_rate: number }[];
   diversity_index: { month: string; index: number }[];
+  top_artists_by_year: {
+    years: string[];
+    data: Record<string, TopArtistEntry[]>;
+  };
 }
 
 export interface SessionsData {

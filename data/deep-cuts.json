@@ -1356,5 +1356,1041 @@
       "month": "2026-03",
       "index": 6.97
     }
-  ]
+  ],
+  "top_artists_by_year": {
+    "years": [
+      "All Time",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "data": {
+      "All Time": [
+        {
+          "artist": "The Weeknd",
+          "total_plays": 3097,
+          "total_hours": 109.1
+        },
+        {
+          "artist": "Darci",
+          "total_plays": 2642,
+          "total_hours": 87.3
+        },
+        {
+          "artist": "MIKNNA",
+          "total_plays": 2328,
+          "total_hours": 79.6
+        },
+        {
+          "artist": "Post Malone",
+          "total_plays": 2042,
+          "total_hours": 67.3
+        },
+        {
+          "artist": "Wizkid",
+          "total_plays": 1916,
+          "total_hours": 68.0
+        },
+        {
+          "artist": "FKJ",
+          "total_plays": 1817,
+          "total_hours": 67.1
+        },
+        {
+          "artist": "Future",
+          "total_plays": 1810,
+          "total_hours": 73.3
+        },
+        {
+          "artist": "Isaiah Rashad",
+          "total_plays": 1617,
+          "total_hours": 52.9
+        },
+        {
+          "artist": "88GLAM",
+          "total_plays": 1535,
+          "total_hours": 52.4
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "total_plays": 1449,
+          "total_hours": 53.4
+        },
+        {
+          "artist": "BIGBABYGUCCI",
+          "total_plays": 1334,
+          "total_hours": 39.2
+        },
+        {
+          "artist": "Apashe",
+          "total_plays": 1235,
+          "total_hours": 42.8
+        },
+        {
+          "artist": "Kanye West",
+          "total_plays": 1175,
+          "total_hours": 45.4
+        },
+        {
+          "artist": "Tory Lanez",
+          "total_plays": 1175,
+          "total_hours": 35.8
+        },
+        {
+          "artist": "Travis Scott",
+          "total_plays": 1167,
+          "total_hours": 46.7
+        },
+        {
+          "artist": "Metro Boomin",
+          "total_plays": 1139,
+          "total_hours": 37.3
+        },
+        {
+          "artist": "A$AP Rocky",
+          "total_plays": 1081,
+          "total_hours": 33.5
+        },
+        {
+          "artist": "MDMA",
+          "total_plays": 1065,
+          "total_hours": 34.0
+        },
+        {
+          "artist": "Masego",
+          "total_plays": 1049,
+          "total_hours": 37.9
+        },
+        {
+          "artist": "Khalid",
+          "total_plays": 943,
+          "total_hours": 35.0
+        }
+      ],
+      "2018": [
+        {
+          "artist": "Panic! At The Disco",
+          "total_plays": 40,
+          "total_hours": 1.3
+        },
+        {
+          "artist": "Trent Reznor and Atticus Ross",
+          "total_plays": 21,
+          "total_hours": 1.2
+        },
+        {
+          "artist": "Twenty One Pilots",
+          "total_plays": 20,
+          "total_hours": 1.1
+        },
+        {
+          "artist": "XXXTENTACION",
+          "total_plays": 12,
+          "total_hours": 0.3
+        },
+        {
+          "artist": "Bad Bunny",
+          "total_plays": 10,
+          "total_hours": 0.6
+        },
+        {
+          "artist": "Khalid",
+          "total_plays": 9,
+          "total_hours": 0.3
+        },
+        {
+          "artist": "Barns Courtney",
+          "total_plays": 8,
+          "total_hours": 0.3
+        },
+        {
+          "artist": "Bad Computer",
+          "total_plays": 6,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "Dr. Dre",
+          "total_plays": 6,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "total_plays": 5,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "Stephen",
+          "total_plays": 5,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Lauv",
+          "total_plays": 5,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "YUNGBLUD",
+          "total_plays": 5,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Drake",
+          "total_plays": 4,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Post Malone",
+          "total_plays": 4,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "The Weeknd",
+          "total_plays": 4,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "French Montana",
+          "total_plays": 4,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "Dunderpatrullen",
+          "total_plays": 3,
+          "total_hours": 0.0
+        },
+        {
+          "artist": "Jennifer Lopez",
+          "total_plays": 3,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "USHER",
+          "total_plays": 3,
+          "total_hours": 0.1
+        }
+      ],
+      "2019": [
+        {
+          "artist": "Post Malone",
+          "total_plays": 67,
+          "total_hours": 2.6
+        },
+        {
+          "artist": "Khalid",
+          "total_plays": 51,
+          "total_hours": 1.5
+        },
+        {
+          "artist": "Billie Eilish",
+          "total_plays": 49,
+          "total_hours": 0.8
+        },
+        {
+          "artist": "Eminem",
+          "total_plays": 30,
+          "total_hours": 1.1
+        },
+        {
+          "artist": "Juice WRLD",
+          "total_plays": 12,
+          "total_hours": 0.5
+        },
+        {
+          "artist": "Jonas Brothers",
+          "total_plays": 9,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "NF",
+          "total_plays": 9,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Lil Nas X",
+          "total_plays": 8,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Daddy Yankee",
+          "total_plays": 7,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "T.I.",
+          "total_plays": 7,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "Y2K",
+          "total_plays": 6,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Lady Gaga",
+          "total_plays": 6,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "6ix9ine",
+          "total_plays": 6,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Lil Tecca",
+          "total_plays": 5,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Travis Scott",
+          "total_plays": 5,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "BLACKPINK",
+          "total_plays": 4,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Lewis Capaldi",
+          "total_plays": 4,
+          "total_hours": 0.2
+        },
+        {
+          "artist": "Shawn Mendes",
+          "total_plays": 3,
+          "total_hours": 0.1
+        },
+        {
+          "artist": "Drake",
+          "total_plays": 3,
+          "total_hours": 0.0
+        },
+        {
+          "artist": "Ariana Grande",
+          "total_plays": 3,
+          "total_hours": 0.1
+        }
+      ],
+      "2020": [
+        {
+          "artist": "Travis Scott",
+          "total_plays": 451,
+          "total_hours": 19.2
+        },
+        {
+          "artist": "Vexento",
+          "total_plays": 285,
+          "total_hours": 11.9
+        },
+        {
+          "artist": "Post Malone",
+          "total_plays": 272,
+          "total_hours": 9.6
+        },
+        {
+          "artist": "The Weeknd",
+          "total_plays": 213,
+          "total_hours": 8.0
+        },
+        {
+          "artist": "Eminem",
+          "total_plays": 211,
+          "total_hours": 9.1
+        },
+        {
+          "artist": "Jeremy Zucker",
+          "total_plays": 204,
+          "total_hours": 8.7
+        },
+        {
+          "artist": "Otis McDonald",
+          "total_plays": 197,
+          "total_hours": 5.2
+        },
+        {
+          "artist": "GRAE",
+          "total_plays": 167,
+          "total_hours": 5.6
+        },
+        {
+          "artist": "SAINt JHN",
+          "total_plays": 166,
+          "total_hours": 5.4
+        },
+        {
+          "artist": "Hatik",
+          "total_plays": 162,
+          "total_hours": 5.3
+        },
+        {
+          "artist": "BANNERS",
+          "total_plays": 160,
+          "total_hours": 6.6
+        },
+        {
+          "artist": "24kGoldn",
+          "total_plays": 144,
+          "total_hours": 4.6
+        },
+        {
+          "artist": "NAV",
+          "total_plays": 141,
+          "total_hours": 5.2
+        },
+        {
+          "artist": "Wiz Khalifa",
+          "total_plays": 130,
+          "total_hours": 4.7
+        },
+        {
+          "artist": "Khalid",
+          "total_plays": 129,
+          "total_hours": 4.9
+        },
+        {
+          "artist": "Conan Gray",
+          "total_plays": 115,
+          "total_hours": 4.4
+        },
+        {
+          "artist": "Arizona Zervas",
+          "total_plays": 111,
+          "total_hours": 3.8
+        },
+        {
+          "artist": "Lonely in the Rain",
+          "total_plays": 109,
+          "total_hours": 4.0
+        },
+        {
+          "artist": "Doja Cat",
+          "total_plays": 104,
+          "total_hours": 3.2
+        },
+        {
+          "artist": "AllttA",
+          "total_plays": 103,
+          "total_hours": 3.4
+        }
+      ],
+      "2021": [
+        {
+          "artist": "Darci",
+          "total_plays": 1210,
+          "total_hours": 42.3
+        },
+        {
+          "artist": "BIGBABYGUCCI",
+          "total_plays": 618,
+          "total_hours": 17.3
+        },
+        {
+          "artist": "MIKNNA",
+          "total_plays": 554,
+          "total_hours": 16.9
+        },
+        {
+          "artist": "Apashe",
+          "total_plays": 425,
+          "total_hours": 16.2
+        },
+        {
+          "artist": "PLAZA",
+          "total_plays": 344,
+          "total_hours": 16.2
+        },
+        {
+          "artist": "Jok'air",
+          "total_plays": 313,
+          "total_hours": 11.9
+        },
+        {
+          "artist": "Jeremy Zucker",
+          "total_plays": 311,
+          "total_hours": 10.3
+        },
+        {
+          "artist": "FRVRFRIDAY",
+          "total_plays": 301,
+          "total_hours": 10.2
+        },
+        {
+          "artist": "Russ",
+          "total_plays": 295,
+          "total_hours": 10.7
+        },
+        {
+          "artist": "OBOY",
+          "total_plays": 282,
+          "total_hours": 10.1
+        },
+        {
+          "artist": "YG Pablo",
+          "total_plays": 254,
+          "total_hours": 8.6
+        },
+        {
+          "artist": "Squidji",
+          "total_plays": 243,
+          "total_hours": 8.1
+        },
+        {
+          "artist": "Luidji",
+          "total_plays": 240,
+          "total_hours": 7.3
+        },
+        {
+          "artist": "Col3trane",
+          "total_plays": 238,
+          "total_hours": 7.1
+        },
+        {
+          "artist": "Eli Sostre",
+          "total_plays": 227,
+          "total_hours": 7.6
+        },
+        {
+          "artist": "YUN MUFASA",
+          "total_plays": 219,
+          "total_hours": 7.0
+        },
+        {
+          "artist": "Ashh",
+          "total_plays": 216,
+          "total_hours": 11.0
+        },
+        {
+          "artist": "Myth Syzer",
+          "total_plays": 213,
+          "total_hours": 7.8
+        },
+        {
+          "artist": "FKJ",
+          "total_plays": 207,
+          "total_hours": 7.3
+        },
+        {
+          "artist": "Glass Animals",
+          "total_plays": 207,
+          "total_hours": 9.0
+        }
+      ],
+      "2022": [
+        {
+          "artist": "Isaiah Rashad",
+          "total_plays": 656,
+          "total_hours": 21.3
+        },
+        {
+          "artist": "MIKNNA",
+          "total_plays": 604,
+          "total_hours": 19.9
+        },
+        {
+          "artist": "Money Man",
+          "total_plays": 512,
+          "total_hours": 17.4
+        },
+        {
+          "artist": "FKJ",
+          "total_plays": 487,
+          "total_hours": 17.1
+        },
+        {
+          "artist": "Apashe",
+          "total_plays": 417,
+          "total_hours": 13.1
+        },
+        {
+          "artist": "MDMA",
+          "total_plays": 361,
+          "total_hours": 11.7
+        },
+        {
+          "artist": "Darci",
+          "total_plays": 348,
+          "total_hours": 8.7
+        },
+        {
+          "artist": "BIGBABYGUCCI",
+          "total_plays": 347,
+          "total_hours": 10.7
+        },
+        {
+          "artist": "Myth Syzer",
+          "total_plays": 331,
+          "total_hours": 12.4
+        },
+        {
+          "artist": "The Weeknd",
+          "total_plays": 275,
+          "total_hours": 8.9
+        },
+        {
+          "artist": "Green Piccolo",
+          "total_plays": 246,
+          "total_hours": 6.3
+        },
+        {
+          "artist": "Arin Ray",
+          "total_plays": 232,
+          "total_hours": 8.2
+        },
+        {
+          "artist": "AQVOL",
+          "total_plays": 214,
+          "total_hours": 5.9
+        },
+        {
+          "artist": "DJ Khaled",
+          "total_plays": 206,
+          "total_hours": 7.2
+        },
+        {
+          "artist": "PLAZA",
+          "total_plays": 193,
+          "total_hours": 8.0
+        },
+        {
+          "artist": "KAZEY J",
+          "total_plays": 179,
+          "total_hours": 4.8
+        },
+        {
+          "artist": "Migos",
+          "total_plays": 173,
+          "total_hours": 7.1
+        },
+        {
+          "artist": "Joyner Lucas",
+          "total_plays": 172,
+          "total_hours": 6.1
+        },
+        {
+          "artist": "Lala &ce",
+          "total_plays": 159,
+          "total_hours": 4.4
+        },
+        {
+          "artist": "Russ",
+          "total_plays": 152,
+          "total_hours": 5.2
+        }
+      ],
+      "2023": [
+        {
+          "artist": "88GLAM",
+          "total_plays": 910,
+          "total_hours": 31.6
+        },
+        {
+          "artist": "The Weeknd",
+          "total_plays": 695,
+          "total_hours": 23.3
+        },
+        {
+          "artist": "Isaiah Rashad",
+          "total_plays": 533,
+          "total_hours": 17.6
+        },
+        {
+          "artist": "MIKNNA",
+          "total_plays": 453,
+          "total_hours": 16.0
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "total_plays": 413,
+          "total_hours": 15.0
+        },
+        {
+          "artist": "FKJ",
+          "total_plays": 407,
+          "total_hours": 15.1
+        },
+        {
+          "artist": "Tory Lanez",
+          "total_plays": 367,
+          "total_hours": 12.1
+        },
+        {
+          "artist": "Vory",
+          "total_plays": 350,
+          "total_hours": 10.4
+        },
+        {
+          "artist": "Darci",
+          "total_plays": 327,
+          "total_hours": 10.2
+        },
+        {
+          "artist": "MDMA",
+          "total_plays": 321,
+          "total_hours": 10.3
+        },
+        {
+          "artist": "Kanye West",
+          "total_plays": 309,
+          "total_hours": 13.5
+        },
+        {
+          "artist": "Kid Travis",
+          "total_plays": 255,
+          "total_hours": 8.9
+        },
+        {
+          "artist": "Khalid",
+          "total_plays": 249,
+          "total_hours": 9.5
+        },
+        {
+          "artist": "PARTYNEXTDOOR",
+          "total_plays": 240,
+          "total_hours": 4.4
+        },
+        {
+          "artist": "Ta-ku",
+          "total_plays": 239,
+          "total_hours": 6.2
+        },
+        {
+          "artist": "Nipsey Hussle",
+          "total_plays": 227,
+          "total_hours": 10.4
+        },
+        {
+          "artist": "Apashe",
+          "total_plays": 226,
+          "total_hours": 7.5
+        },
+        {
+          "artist": "Duckwrth",
+          "total_plays": 223,
+          "total_hours": 8.1
+        },
+        {
+          "artist": "SiR",
+          "total_plays": 219,
+          "total_hours": 5.4
+        },
+        {
+          "artist": "Daniel Caesar",
+          "total_plays": 215,
+          "total_hours": 6.7
+        }
+      ],
+      "2024": [
+        {
+          "artist": "The Weeknd",
+          "total_plays": 706,
+          "total_hours": 26.4
+        },
+        {
+          "artist": "Wizkid",
+          "total_plays": 703,
+          "total_hours": 26.3
+        },
+        {
+          "artist": "Post Malone",
+          "total_plays": 564,
+          "total_hours": 20.6
+        },
+        {
+          "artist": "Darci",
+          "total_plays": 438,
+          "total_hours": 15.0
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "total_plays": 437,
+          "total_hours": 15.3
+        },
+        {
+          "artist": "88GLAM",
+          "total_plays": 416,
+          "total_hours": 13.9
+        },
+        {
+          "artist": "ARDN",
+          "total_plays": 384,
+          "total_hours": 12.7
+        },
+        {
+          "artist": "Norman Perry",
+          "total_plays": 353,
+          "total_hours": 10.2
+        },
+        {
+          "artist": "Majid Jordan",
+          "total_plays": 327,
+          "total_hours": 13.4
+        },
+        {
+          "artist": "Tory Lanez",
+          "total_plays": 314,
+          "total_hours": 8.8
+        },
+        {
+          "artist": "Metro Boomin",
+          "total_plays": 309,
+          "total_hours": 11.6
+        },
+        {
+          "artist": "Future",
+          "total_plays": 308,
+          "total_hours": 15.2
+        },
+        {
+          "artist": "Kanye West",
+          "total_plays": 303,
+          "total_hours": 11.5
+        },
+        {
+          "artist": "Bryson Tiller",
+          "total_plays": 298,
+          "total_hours": 9.5
+        },
+        {
+          "artist": "Masego",
+          "total_plays": 291,
+          "total_hours": 11.6
+        },
+        {
+          "artist": "JayO",
+          "total_plays": 269,
+          "total_hours": 7.0
+        },
+        {
+          "artist": "Social House",
+          "total_plays": 261,
+          "total_hours": 8.9
+        },
+        {
+          "artist": "21 Savage",
+          "total_plays": 250,
+          "total_hours": 9.8
+        },
+        {
+          "artist": "MDMA",
+          "total_plays": 250,
+          "total_hours": 8.6
+        },
+        {
+          "artist": "FKJ",
+          "total_plays": 244,
+          "total_hours": 10.7
+        }
+      ],
+      "2025": [
+        {
+          "artist": "Future",
+          "total_plays": 1023,
+          "total_hours": 40.2
+        },
+        {
+          "artist": "Wizkid",
+          "total_plays": 977,
+          "total_hours": 33.4
+        },
+        {
+          "artist": "The Weeknd",
+          "total_plays": 880,
+          "total_hours": 31.3
+        },
+        {
+          "artist": "Fred again..",
+          "total_plays": 679,
+          "total_hours": 23.2
+        },
+        {
+          "artist": "Post Malone",
+          "total_plays": 640,
+          "total_hours": 20.1
+        },
+        {
+          "artist": "Metro Boomin",
+          "total_plays": 621,
+          "total_hours": 19.5
+        },
+        {
+          "artist": "MIKNNA",
+          "total_plays": 529,
+          "total_hours": 20.0
+        },
+        {
+          "artist": "FKJ",
+          "total_plays": 441,
+          "total_hours": 16.2
+        },
+        {
+          "artist": "Tory Lanez",
+          "total_plays": 424,
+          "total_hours": 12.7
+        },
+        {
+          "artist": "Offset",
+          "total_plays": 417,
+          "total_hours": 15.2
+        },
+        {
+          "artist": "A$AP Rocky",
+          "total_plays": 347,
+          "total_hours": 10.6
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "total_plays": 343,
+          "total_hours": 11.6
+        },
+        {
+          "artist": "Drake",
+          "total_plays": 285,
+          "total_hours": 7.3
+        },
+        {
+          "artist": "Darci",
+          "total_plays": 278,
+          "total_hours": 9.9
+        },
+        {
+          "artist": "Craig Isto",
+          "total_plays": 264,
+          "total_hours": 6.4
+        },
+        {
+          "artist": "Bryson Tiller",
+          "total_plays": 251,
+          "total_hours": 7.0
+        },
+        {
+          "artist": "Burna Boy",
+          "total_plays": 248,
+          "total_hours": 6.2
+        },
+        {
+          "artist": "Kodak Black",
+          "total_plays": 240,
+          "total_hours": 7.7
+        },
+        {
+          "artist": "3ee",
+          "total_plays": 238,
+          "total_hours": 7.4
+        },
+        {
+          "artist": "Masego",
+          "total_plays": 222,
+          "total_hours": 7.3
+        }
+      ],
+      "2026": [
+        {
+          "artist": "Future",
+          "total_plays": 370,
+          "total_hours": 14.2
+        },
+        {
+          "artist": "A$AP Rocky",
+          "total_plays": 302,
+          "total_hours": 10.0
+        },
+        {
+          "artist": "The Weeknd",
+          "total_plays": 261,
+          "total_hours": 8.9
+        },
+        {
+          "artist": "Fred again..",
+          "total_plays": 203,
+          "total_hours": 6.1
+        },
+        {
+          "artist": "Kanye West",
+          "total_plays": 194,
+          "total_hours": 5.6
+        },
+        {
+          "artist": "Metro Boomin",
+          "total_plays": 147,
+          "total_hours": 4.9
+        },
+        {
+          "artist": "Drake",
+          "total_plays": 125,
+          "total_hours": 3.3
+        },
+        {
+          "artist": "starly",
+          "total_plays": 115,
+          "total_hours": 2.8
+        },
+        {
+          "artist": "Yeat",
+          "total_plays": 105,
+          "total_hours": 3.8
+        },
+        {
+          "artist": "Justin Bieber",
+          "total_plays": 92,
+          "total_hours": 3.6
+        },
+        {
+          "artist": "Craig Isto",
+          "total_plays": 91,
+          "total_hours": 1.6
+        },
+        {
+          "artist": "Wizkid",
+          "total_plays": 82,
+          "total_hours": 2.5
+        },
+        {
+          "artist": "Gesaffelstein",
+          "total_plays": 79,
+          "total_hours": 2.6
+        },
+        {
+          "artist": "Kodak Black",
+          "total_plays": 77,
+          "total_hours": 2.3
+        },
+        {
+          "artist": "Post Malone",
+          "total_plays": 63,
+          "total_hours": 1.9
+        },
+        {
+          "artist": "MIKNNA",
+          "total_plays": 63,
+          "total_hours": 2.4
+        },
+        {
+          "artist": "Aya Nakamura",
+          "total_plays": 63,
+          "total_hours": 1.8
+        },
+        {
+          "artist": "Offset",
+          "total_plays": 62,
+          "total_hours": 1.7
+        },
+        {
+          "artist": "Tory Lanez",
+          "total_plays": 53,
+          "total_hours": 1.7
+        },
+        {
+          "artist": "The Kount",
+          "total_plays": 53,
+          "total_hours": 2.0
+        }
+      ]
+    }
+  }
 }

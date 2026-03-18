@@ -80,10 +80,42 @@ def compute_deep_cuts(df: pd.DataFrame) -> dict:
         entropy = -float((probs * np.log2(probs)).sum())
         diversity_index.append({"month": str(month), "index": round(entropy, 2)})
 
+    # --- Top Artists by Year ---
+    years = sorted(df["year"].unique())
+    top_artists_by_year = {}
+
+    # All Time
+    all_time_top = (
+        df.groupby("master_metadata_album_artist_name")
+        .agg(total_plays=("ts", "count"), total_hours=("ms_played", lambda x: round(x.sum() / 3600000, 1)))
+        .sort_values("total_plays", ascending=False)
+        .head(20)
+        .reset_index()
+        .rename(columns={"master_metadata_album_artist_name": "artist"})
+    )
+    top_artists_by_year["All Time"] = all_time_top[["artist", "total_plays", "total_hours"]].to_dict("records")
+
+    # Per year
+    for year in years:
+        year_df = df[df["year"] == year]
+        year_top = (
+            year_df.groupby("master_metadata_album_artist_name")
+            .agg(total_plays=("ts", "count"), total_hours=("ms_played", lambda x: round(x.sum() / 3600000, 1)))
+            .sort_values("total_plays", ascending=False)
+            .head(20)
+            .reset_index()
+            .rename(columns={"master_metadata_album_artist_name": "artist"})
+        )
+        top_artists_by_year[str(year)] = year_top[["artist", "total_plays", "total_hours"]].to_dict("records")
+
     return {
         "loyalty_scores": loyalty_scores,
         "one_hit_wonders": one_hit_wonders,
         "most_replayed": most_replayed,
         "hidden_gems": hidden_gems,
         "diversity_index": diversity_index,
+        "top_artists_by_year": {
+            "years": ["All Time"] + [str(y) for y in years],
+            "data": top_artists_by_year,
+        },
     }
