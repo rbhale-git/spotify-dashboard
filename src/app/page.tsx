@@ -16,7 +16,7 @@ export default function Home() {
       <div className="section-divider" />
       <HabitsSection />
       <div className="section-divider" />
-      <RecommendationsSection />
+      <ArtistJourneysSection />
       <div className="section-divider" />
       <DeepCutsSection />
       <div className="section-divider" />
@@ -24,7 +24,7 @@ export default function Home() {
       <div className="section-divider" />
       <StreaksSection />
       <div className="section-divider" />
-      <ArtistJourneysSection />
+      <RecommendationsSection />
       <div className="section-divider" />
       <SkipAutopsySection />
       <div className="section-divider" />
