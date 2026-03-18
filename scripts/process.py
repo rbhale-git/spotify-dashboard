@@ -12,6 +12,7 @@ from habits import compute_habits
 from sessions import compute_sessions
 from deep_cuts import compute_deep_cuts
 from recommendations import compute_recommendations_by_period
+from insights import compute_insights
 
 
 DATA_DIR = os.environ.get(
@@ -78,6 +79,11 @@ def main():
     print("Processing recommendations by period...")
     recommendations = compute_recommendations_by_period(df)
     write_json(recommendations, "recommendations.json")
+
+    # Insights (streaks, artist journeys, skip autopsy, repeat/explore, binges)
+    print("Processing insights...")
+    insights = compute_insights(df)
+    write_json(insights, "insights.json")
 
     print("Done! All JSON files written to:", OUTPUT_DIR)
 
