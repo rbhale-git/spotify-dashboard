@@ -5,7 +5,7 @@ import SessionsSection from "@/components/sections/SessionsSection";
 import RecommendationsSection from "@/components/sections/RecommendationsSection";
 import StreaksSection from "@/components/sections/StreaksSection";
 import ArtistJourneysSection from "@/components/sections/ArtistJourneysSection";
-import SkipAutopsySection from "@/components/sections/SkipAutopsySection";
+
 import RepeatExploreSection from "@/components/sections/RepeatExploreSection";
 import BingeScoreSection from "@/components/sections/BingeScoreSection";
 
@@ -25,8 +25,6 @@ export default function Home() {
       <StreaksSection />
       <div className="section-divider" />
       <RecommendationsSection />
-      <div className="section-divider" />
-      <SkipAutopsySection />
       <div className="section-divider" />
       <RepeatExploreSection />
       <div className="section-divider" />

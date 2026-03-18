@@ -11,9 +11,8 @@ const sections = [
   { id: "sessions", label: "Sessions", icon: "05" },
   { id: "streaks", label: "Streaks", icon: "06" },
   { id: "recommendations", label: "Recommendations", icon: "07" },
-  { id: "skip-autopsy", label: "Skip Autopsy", icon: "08" },
-  { id: "repeat-explore", label: "Repeat vs Explore", icon: "09" },
-  { id: "binge-score", label: "Binge Score", icon: "10" },
+  { id: "repeat-explore", label: "Repeat vs Explore", icon: "08" },
+  { id: "binge-score", label: "Binge Score", icon: "09" },
 ];
 
 export default function Sidebar() {
