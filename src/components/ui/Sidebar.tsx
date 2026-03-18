@@ -7,11 +7,11 @@ const sections = [
   { id: "overview", label: "Overview", icon: "01" },
   { id: "habits", label: "Listening Habits", icon: "02" },
   { id: "artist-journeys", label: "Artist Journeys", icon: "03" },
-  { id: "deep-cuts", label: "Deep Cuts", icon: "04" },
-  { id: "sessions", label: "Sessions", icon: "05" },
-  { id: "streaks", label: "Streaks", icon: "06" },
-  { id: "recommendations", label: "Recommendations", icon: "07" },
-  { id: "repeat-explore", label: "Repeat vs Explore", icon: "08" },
+  { id: "repeat-explore", label: "Repeat vs Explore", icon: "04" },
+  { id: "deep-cuts", label: "Deep Cuts", icon: "05" },
+  { id: "sessions", label: "Sessions", icon: "06" },
+  { id: "streaks", label: "Streaks", icon: "07" },
+  { id: "recommendations", label: "Recommendations", icon: "08" },
   { id: "binge-score", label: "Binge Score", icon: "09" },
 ];
 

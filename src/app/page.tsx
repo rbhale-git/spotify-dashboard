@@ -18,6 +18,8 @@ export default function Home() {
       <div className="section-divider" />
       <ArtistJourneysSection />
       <div className="section-divider" />
+      <RepeatExploreSection />
+      <div className="section-divider" />
       <DeepCutsSection />
       <div className="section-divider" />
       <SessionsSection />
@@ -25,8 +27,6 @@ export default function Home() {
       <StreaksSection />
       <div className="section-divider" />
       <RecommendationsSection />
-      <div className="section-divider" />
-      <RepeatExploreSection />
       <div className="section-divider" />
       <BingeScoreSection />
     </>
