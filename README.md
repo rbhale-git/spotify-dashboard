@@ -1,16 +1,20 @@
 # Spotify Listening Analytics Dashboard
 
-A personal analytics dashboard visualizing 8 years of Spotify Extended Streaming History (Sep 2018 - Mar 2026). Pre-processed with Python, rendered as a static Next.js site.
+A personal analytics dashboard visualizing 8 years of Spotify Extended Streaming History (Sep 2018 - Mar 2026). Pre-processed with Python, rendered as a static Next.js site with a cinematic dark theme.
 
-**130,426 streams | 7+ years | 5 interactive sections**
+**130,426 streams | 7+ years | 9 interactive sections**
 
 ## Sections
 
-- **Overview** — Total streams, hours, unique tracks/artists, monthly volume timeline, platform breakdown
-- **Listening Habits** — Hour-of-day x day-of-week heatmap, seasonal listening patterns by year, hourly distribution
-- **Deep Cuts** — Artist loyalty scores, one-hit wonders, most replayed tracks, hidden gems, diversity index (Shannon entropy)
-- **Sessions** — Skip rate trends, session length distribution, shuffle rate, start/end reason breakdown
-- **Recommendations** — Genre clusters via co-listening analysis, artist suggestions, genre timeline with **6-month period selector** (17 periods from 2018 H2 to 2026 H1)
+1. **Overview** — Hero stats, monthly volume timeline, platform breakdown
+2. **Listening Habits** — Hour x day heatmap, seasonal patterns by year, hourly distribution
+3. **Artist Journeys** — Pick any artist and trace their timeline: discovery date, peak month, recent activity
+4. **Repeat vs Explore** — Monthly ratio of new discoveries vs repeat listens, new tracks discovered over time
+5. **Deep Cuts** — Favorite artists by year, loyalty scores, one-hit wonders, most replayed, hidden gems, diversity index
+6. **Sessions** — Skip rate trends, session length distribution, shuffle rate, start/end reason breakdown
+7. **Streaks** — Current/longest listening streaks, GitHub-style calendar heatmap, top streak history
+8. **Recommendations** — Genre clusters via co-listening analysis, artist suggestions with **6-month period selector** (17 periods)
+9. **Binge Score** — Longest consecutive same-artist binges, top binge artists
 
 ## Tech Stack
 
@@ -18,8 +22,9 @@ A personal analytics dashboard visualizing 8 years of Spotify Extended Streaming
 |-------|------|
 | Data Processing | Python 3, pandas, scikit-learn, scipy |
 | Frontend | Next.js 16, React 19, TypeScript |
-| Charts | Recharts, custom SVG (heatmap) |
+| Charts | Recharts, custom SVG (heatmaps, calendar) |
 | Styling | Tailwind CSS 4, Google Fonts (Syne + Outfit) |
+| Design | Glassmorphic cards, noise grain texture, ambient glow effects |
 | Output | Static HTML export (no server required) |
 
 ## Architecture
@@ -27,7 +32,7 @@ A personal analytics dashboard visualizing 8 years of Spotify Extended Streaming
 ```
 Spotify Extended Streaming History (105MB, 9 JSON files)
   -> scripts/process.py (pandas pipeline)
-    -> data/*.json (6 compact summary files, ~200KB total)
+    -> data/*.json (7 summary files, ~650KB total)
       -> Next.js static build
         -> out/ (static HTML/CSS/JS)
 ```
@@ -40,8 +45,9 @@ Spotify Extended Streaming History (105MB, 9 JSON files)
 | `overview.py` | Hero stats, monthly volume, platform breakdown |
 | `habits.py` | Heatmap (7x24), seasonal overlay, hourly distribution |
 | `sessions.py` | Session detection (30-min gap), skip analysis, reason breakdown |
-| `deep_cuts.py` | Loyalty scores, one-hit wonders, hidden gems, diversity entropy |
+| `deep_cuts.py` | Loyalty scores, one-hit wonders, hidden gems, diversity entropy, top artists by year |
 | `recommendations.py` | Co-listening clustering (Ward/TF-IDF), artist suggestions per 6-month period |
+| `insights.py` | Listening streaks, artist journeys, repeat/explore ratio, binge detection |
 
 ## Setup
 
@@ -67,14 +73,13 @@ Place your Spotify data files (`Streaming_History_Audio_*.json`) in a directory,
 
 ```bash
 cd scripts
-# Default path: C:\Users\ronak\Spotify Extended Streaming History
 python process.py
 
 # Or specify a custom path:
 SPOTIFY_DATA_DIR="/path/to/your/data" python process.py
 ```
 
-This generates 6 JSON files in `data/`.
+This generates 7 JSON files in `data/`.
 
 ### Build & Serve
 
@@ -95,19 +100,21 @@ spotify-dashboard/
     overview.py             # Hero stats, monthly volume
     habits.py               # Heatmap, seasonal, hourly
     sessions.py             # Session detection, skip analysis
-    deep_cuts.py            # Loyalty, one-hits, gems, diversity
+    deep_cuts.py            # Loyalty, one-hits, gems, diversity, top artists by year
     recommendations.py      # Genre clustering + period-based suggestions
+    insights.py             # Streaks, artist journeys, repeat/explore, binges
     test_processing.py      # 29 tests for all modules
-  data/                     # Pre-processed JSON (gitignored)
+  data/                     # Pre-processed JSON
   src/
     app/
-      layout.tsx            # Root layout with sidebar
-      page.tsx              # Main page assembling all sections
-      globals.css           # Tailwind v4 theme + glass card styles
+      layout.tsx            # Root layout with sidebar + ambient effects
+      page.tsx              # Main page assembling all 9 sections
+      globals.css           # Tailwind v4 theme, glass cards, animations
+      icon.svg              # Spotify-style favicon
     components/
       ui/                   # Sidebar, StatCard, SectionHeader, ScrollableList
-      charts/               # 11 chart components (Recharts + custom SVG)
-      sections/             # 5 section components composing charts
+      charts/               # 15 chart components (Recharts + custom SVG)
+      sections/             # 9 section components composing charts
     lib/
       data.ts               # Typed static JSON imports
 ```
