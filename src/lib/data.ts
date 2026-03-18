@@ -73,12 +73,51 @@ export interface RecommendationsData {
   data: Record<string, PeriodRecommendation>;
 }
 
+export interface InsightsData {
+  streaks: {
+    current_streak: number;
+    longest_streak: { start: string; end: string; days: number };
+    top_streaks: { start: string; end: string; days: number }[];
+    total_active_days: number;
+    total_possible_days: number;
+    active_pct: number;
+    calendar: { date: string; plays: number; hours: number }[];
+  };
+  artist_journeys: {
+    artists: string[];
+    data: Record<string, {
+      timeline: { month: string; plays: number; hours: number }[];
+      discovery: string;
+      peak_month: string;
+      peak_plays: number;
+      total_plays: number;
+      recent_plays: number;
+    }>;
+  };
+  skip_autopsy: {
+    most_skipped_artists: { artist: string; skip_rate: number; skips: number; total_plays: number }[];
+    never_skipped_artists: { artist: string; total_plays: number }[];
+    most_skipped_tracks: { track: string; artist: string; skip_rate: number; skips: number; total_plays: number }[];
+    never_skipped_tracks: { track: string; artist: string; total_plays: number }[];
+  };
+  repeat_explore: {
+    monthly: { month: string; total: number; new_plays: number; repeat_plays: number; new_pct: number; repeat_pct: number; new_tracks_discovered: number }[];
+    total_unique_tracks: number;
+  };
+  binges: {
+    top_binges: { artist: string; track_count: number; unique_tracks: number; hours: number; date: string }[];
+    total_binge_sessions: number;
+    top_binge_artists: { artist: string; binge_count: number }[];
+  };
+}
+
 import metadataJson from "../../data/metadata.json";
 import overviewJson from "../../data/overview.json";
 import habitsJson from "../../data/habits.json";
 import deepCutsJson from "../../data/deep-cuts.json";
 import sessionsJson from "../../data/sessions.json";
 import recommendationsJson from "../../data/recommendations.json";
+import insightsJson from "../../data/insights.json";
 
 export const metadata = metadataJson as Metadata;
 export const overview = overviewJson as OverviewData;
@@ -86,3 +125,4 @@ export const habits = habitsJson as HabitsData;
 export const deepCuts = deepCutsJson as DeepCutsData;
 export const sessions = sessionsJson as SessionsData;
 export const recommendations = recommendationsJson as RecommendationsData;
+export const insights = insightsJson as InsightsData;
